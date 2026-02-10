@@ -1,0 +1,114 @@
+{
+  "exercises": [
+    {
+      "id": "elec-001",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "El motor trifásico no arranca",
+      "contexto": "Motor trifásico de 400V conectado a la red mediante un circuito de maniobra con pulsadores Marcha/Paro, contactor principal y relé térmico de protección. El sistema ha estado funcionando correctamente durante meses.",
+      "problema": "Al pulsar el pulsador de Marcha, el contactor no enclava y el motor no gira. No se escucha ningún ruido del contactor.",
+      "datos_tecnicos": {
+        "Tensión de alimentación": "400V trifásica verificada",
+        "Pulsador de paro": "NC (normalmente cerrado)",
+        "Relé térmico": "Contacto auxiliar NC",
+        "Estado visual": "LED térmico encendido en rojo"
+      },
+      "opciones": [
+        "Fallo en la bobina del contactor",
+        "Relé térmico disparado",
+        "Fase perdida en el circuito de potencia",
+        "Pulsador de marcha defectuoso"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El relé térmico está disparado (LED rojo encendido). Cuando un relé térmico se dispara por sobrecarga, su contacto auxiliar NC se abre, interrumpiendo el circuito de mando de la bobina del contactor. Esto impide que la bobina se energice al pulsar marcha. Solución: Verificar la causa del disparo (sobrecarga, desbalance de fases), corregirla y resetear el relé térmico presionando el botón de rearme."
+    },
+    {
+      "id": "elec-002",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Fusible se funde repetidamente",
+      "contexto": "Instalación industrial con circuito de iluminación de 230V. El circuito está protegido con fusibles de 10A. Recientemente se han instalado nuevas luminarias LED.",
+      "problema": "El fusible del circuito se funde inmediatamente al conectarlo, incluso sin carga aparente. Ya se han reemplazado 3 fusibles.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V monofásica",
+        "Fusible": "10A tipo gG",
+        "Carga instalada": "8 luminarias LED (5W cada una)",
+        "Instalación": "Cable 1.5mm² Cu"
+      },
+      "opciones": [
+        "Fusible de capacidad insuficiente",
+        "Cortocircuito en el cableado",
+        "Luminarias LED defectuosas",
+        "Sobrecarga en el circuito"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Existe un cortocircuito en el cableado que provoca un pico de corriente instantáneo que funde el fusible inmediatamente. La carga total (40W) es mínima para un fusible de 10A, descartando sobrecarga. El hecho de que se funda sin carga confirma el cortocircuito. Inspeccionar visualmente el cableado buscando aislamiento dañado, empalmes mal realizados o contacto entre conductores. Utilizar un multímetro en modo resistencia (circuito desenergizado) para localizar el cortocircuito."
+    },
+    {
+      "id": "man-001",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Arranque estrella-triángulo defectuoso",
+      "contexto": "Motor trifásico de 15kW con arranque estrella-triángulo automático temporizado. El sistema incluye tres contactores (KM1-línea, KM2-estrella, KM3-triángulo) y un temporizador programable.",
+      "problema": "El motor arranca en estrella correctamente, pero al intentar conmutar a triángulo después de 5 segundos, se escucha un golpe fuerte y salta la protección térmica.",
+      "datos_tecnicos": {
+        "Motor": "15kW 400V 50Hz",
+        "Temporizador": "5 segundos programado",
+        "Secuencia observada": "KM1 y KM2 activan → Espera 5s → KM2 desactiva + KM3 activa",
+        "Síntoma": "Corriente excesiva en conmutación"
+      },
+      "opciones": [
+        "Temporizador mal ajustado",
+        "Falta tiempo de pausa entre estrella y triángulo",
+        "Contactor KM3 defectuoso",
+        "Motor con rotor bloqueado"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Falta un tiempo de pausa entre la desconexión de estrella y la conexión de triángulo. Si KM2 (estrella) y KM3 (triángulo) están activos simultáneamente aunque sea por milisegundos, se produce un cortocircuito entre fases que genera el golpe y la sobrecorriente. Solución: Programar un retardo de 50-100ms entre la desactivación de KM2 y la activación de KM3. Este tiempo permite que los contactos de KM2 se abran completamente antes de cerrar KM3. Verificar también el enclavamiento eléctrico entre ambos contactores."
+    },
+    {
+      "id": "man-002",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Motor con corriente desbalanceada",
+      "contexto": "Motor trifásico de 7.5kW funcionando en una bomba de refrigeración. El sistema lleva operando 3 años sin problemas. Recientemente se ha notado que el motor se calienta excesivamente.",
+      "problema": "Al medir las corrientes de las tres fases con pinza amperimétrica, se observan valores de: L1=14A, L2=14.5A, L3=9A. El motor vibra y emite un zumbido anormal.",
+      "datos_tecnicos": {
+        "Motor": "7.5kW 400V 50Hz",
+        "Corriente nominal": "14A",
+        "Tensiones medidas": "L1-L2=400V, L2-L3=398V, L3-L1=402V",
+        "Medición en bornes motor": "Fase L3 con corriente baja"
+      },
+      "opciones": [
+        "Motor con devanado cortado en fase L3",
+        "Condensador de arranque defectuoso",
+        "Sobrecarga mecánica en la bomba",
+        "Fusible de L3 deteriorado aumentando resistencia"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El motor tiene un devanado cortado o con alta resistencia en la fase L3. Las tensiones entre fases son correctas (trifásica equilibrada), pero la corriente en L3 es significativamente menor (9A vs 14-14.5A), lo que indica alta impedancia en ese devanado. Los síntomas de vibración y zumbido confirman funcionamiento desequilibrado. El motor está funcionando prácticamente como bifásico, generando calentamiento excesivo. Solución: Realizar prueba de resistencia de aislamiento (megger) y medición de resistencia óhmica de cada devanado. Si se confirma, rebobinar o reemplazar motor. NO continuar operando en estas condiciones."
+    },
+    {
+      "id": "elec-003",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Disparo aleatorio de diferencial",
+      "contexto": "Instalación industrial con interruptor diferencial de 300mA tipo A protegiendo un cuadro secundario. El cuadro alimenta equipos de soldadura, compresores y máquinas CNC.",
+      "problema": "El diferencial se dispara aleatoriamente, especialmente cuando arranca el compresor o se utiliza la soldadora. No hay patrón claro y a veces funciona sin problemas durante horas.",
+      "datos_tecnicos": {
+        "Diferencial": "4P 63A 300mA tipo A",
+        "Cargas": "Soldadora inverter 5kW, compresor 3kW, CNC 2kW",
+        "Observación": "Disparo más frecuente en arranques",
+        "Medición": "Corriente de fuga base 180mA sin cargas críticas"
+      },
+      "opciones": [
+        "Diferencial defectuoso o envejecido",
+        "Corrientes de fuga capacitivas en equipos electrónicos",
+        "Falta de conexión de tierra en algún equipo",
+        "Sobrecarga en el circuito"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Las corrientes de fuga capacitivas generadas por variadores de frecuencia, equipos de soldadura inverter y CNC se suman y pueden superar el umbral del diferencial (300mA), especialmente en arranques cuando hay picos. La corriente base de 180mA ya es alta (60% del umbral). Los equipos electrónicos modernos generan corrientes de alta frecuencia que fluyen a tierra por las capacidades parásitas de los filtros EMI. Solución: 1) Instalar un diferencial tipo B (sensible a corrientes DC y AC) en lugar del tipo A, 2) Dividir el cuadro en varios diferenciales para distribuir las corrientes de fuga, 3) Usar diferenciales de mayor sensibilidad (500mA) si la normativa lo permite en zona industrial, 4) Verificar y mejorar las conexiones de tierra y equipotencialidad."
+    }
+  ]
+}

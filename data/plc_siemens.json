@@ -1,0 +1,120 @@
+{
+  "exercises": [
+    {
+      "id": "plc-001",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Salida Q0.0 no se activa en PLC S7-1200",
+      "contexto": "PLC Siemens S7-1200 CPU 1214C DC/DC/DC programado en TIA Portal V17. El programa controla una válvula solenoide mediante la salida Q0.0. La lógica se ha verificado y funciona correctamente en simulación.",
+      "problema": "En modo ONLINE, la variable asociada a Q0.0 muestra valor TRUE en la tabla de observación, pero físicamente la salida no activa (LED apagado). El solenoide no energiza. Otras salidas del PLC funcionan correctamente.",
+      "datos_tecnicos": {
+        "PLC": "S7-1200 CPU 1214C DC/DC/DC",
+        "TIA Portal": "V17",
+        "Estado CPU": "RUN sin errores",
+        "Observación Online": "Q0.0 = TRUE en tabla",
+        "Verificación": "Cableado y solenoide correctos (probados con fuente externa)"
+      },
+      "opciones": [
+        "Salida Q0.0 forzada a FALSE en tabla de forzado",
+        "CPU en modo STOP (no detectado)",
+        "Protección electrónica de salida activada por cortocircuito",
+        "Programa con lógica incorrecta en ciclo de scan"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "La protección electrónica de salida está activada debido a un cortocircuito o sobrecarga previa. Las salidas digitales del S7-1200 tienen protección electrónica individual que desactiva la salida si detecta cortocircuito o corriente excesiva (>2A por grupo de salidas). Esta protección permanece activa incluso después de eliminar el cortocircuito, hasta que se resetea la CPU. El LED de la salida permanece apagado aunque el programa active internamente la variable. Diagnóstico: 1) En TIA Portal, ir a 'Online & Diagnostics' → pestaña 'Diagnostics' → 'Hardware diagnostics', verificar estado de las salidas, 2) Buscar evento 'Output disabled' en el buffer de diagnóstico. Solución: 1) Verificar que no hay cortocircuito en el cableado de Q0.0, 2) Pasar CPU a STOP y luego a RUN (o power cycle) para resetear la protección, 3) Si persiste, verificar corriente del solenoide y posible fallo interno en el módulo de salidas. IMPORTANTE: No forzar en tabla, resolver la causa raíz."
+    },
+    {
+      "id": "plc-002",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Entrada digital no detecta señal",
+      "contexto": "PLC S7-1200 con sensor inductivo PNP conectado a entrada I0.5. El sensor está correctamente alimentado a 24VDC y detecta la pieza (LED del sensor encendido cuando hay metal cerca).",
+      "problema": "La entrada I0.5 permanece siempre en FALSE en el programa, incluso cuando el sensor detecta. El LED de la entrada en el PLC nunca se enciende.",
+      "datos_tecnicos": {
+        "Sensor": "Inductivo PNP M18 Sn=8mm",
+        "Alimentación sensor": "24VDC verificada",
+        "Cable": "3 hilos (marrón +24V, azul 0V, negro señal)",
+        "Conexión PLC": "I0.5 (entrada 24VDC)",
+        "LED sensor": "Enciende correctamente al detectar"
+      },
+      "opciones": [
+        "Sensor configurado como NPN en lugar de PNP",
+        "Falta conexión del cable de señal (negro) a I0.5",
+        "PLC configurado para entradas tipo NPN (sink) en lugar de PNP (source)",
+        "Entrada I0.5 quemada por sobretensión"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Falta conectar el cable de señal del sensor (cable negro) a la entrada I0.5 del PLC. Es un error común: se conecta correctamente la alimentación del sensor (+24V y 0V) pero se olvida conectar el cable de salida del sensor a la entrada del PLC. Verificación: Con multímetro en voltaje DC, medir entre el cable negro del sensor y el común (0V/M) del PLC: debe marcar ~24V cuando el sensor detecta y ~0V cuando no detecta (para sensores PNP). Si el sensor funciona (LED enciende) pero la entrada del PLC no reacciona, revisar físicamente la conexión del terminal. En S7-1200, las entradas digitales son tipo 'source' (PNP) por defecto, esperando +24V en la entrada. Solución: Conectar cable negro del sensor al borne I0.5 del PLC. Verificar también que el común del sensor (cable azul) esté conectado al mismo 0V/M que el común de las entradas del PLC."
+    },
+    {
+      "id": "plc-003",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Comunicación PROFINET intermitente",
+      "contexto": "Red PROFINET con CPU S7-1500 como controlador IO y 5 dispositivos remotos (ET200SP). La red funciona correctamente durante horas, pero aleatoriamente uno o varios dispositivos entran en estado 'STOP' con LED BF (Bus Fault) parpadeando.",
+      "problema": "Pérdida intermitente de comunicación PROFINET. En TIA Portal se observan errores 'Timeout' en la topología. Los dispositivos se recuperan solos después de 30-60 segundos. El problema es más frecuente cuando arranca maquinaria pesada en la planta.",
+      "datos_tecnicos": {
+        "Red": "PROFINET IRT, 100Mbps full-duplex",
+        "Topología": "Línea con 5 ET200SP",
+        "Switch": "Industrial no gestionado",
+        "Cable": "Cat5e, máx 80m por tramo",
+        "Watchdog": "100ms configurado",
+        "Observación": "Correlación con arranque de motores grandes"
+      },
+      "opciones": [
+        "Cable Ethernet con conectores RJ45 flojos o mal crimpados",
+        "Interferencias electromagnéticas (EMI) por cables de potencia",
+        "Switch industrial saturado por tráfico",
+        "Configuración de watchdog demasiado estricta"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Interferencias electromagnéticas (EMI) afectando la comunicación PROFINET. La correlación con arranques de motores grandes es clave: los arrancadores y variadores generan transitorios de alta frecuencia que se acoplan por radiación o conducción al cable Ethernet. Aunque PROFINET usa Ethernet, es sensible a EMI si no se siguen las reglas de instalación. Problemas típicos: 1) Cable Ethernet común (no industrial) sin apantallamiento, 2) Cable Ethernet paralelo a cables de potencia sin separación mínima (30cm en tendido diferente, 10cm en bandeja compartimentada), 3) Falta de continuidad del apantallamiento en conectores, 4) Tierra de referencia flotante o con diferencias de potencial. Solución: 1) Verificar uso de cable PROFINET tipo C (apantallado S/FTP Cat5e o superior), 2) Asegurar separación física cables datos/potencia, 3) Conectar apantallamiento del cable a carcasa metálica de dispositivos con prensa-estopas EMC, 4) Verificar equipotencialidad y tierra única para todos los dispositivos PROFINET, 5) Instalar filtros EMI en variadores si procede, 6) Si persiste, cambiar a fibra óptica en tramos críticos. El watchdog de 100ms es correcto para PROFINET IRT."
+    },
+    {
+      "id": "plc-004",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Timer TON no temporiza correctamente",
+      "contexto": "Programa en TIA Portal con un temporizador TON (Timer On-Delay) para retardar la activación de una salida 5 segundos después de pulsar un botón. El programa está en lenguaje SCL (Structured Control Language).",
+      "problema": "El temporizador se activa inmediatamente sin esperar los 5 segundos programados. La salida asociada energiza en cuanto se pulsa el botón de entrada.",
+      "datos_tecnicos": {
+        "Temporizador": "TON (IEC Timer On-Delay)",
+        "Tiempo programado": "T#5s",
+        "Lenguaje": "SCL",
+        "Bloque": "FC1 llamado desde OB1",
+        "Observación": "Variable ET (Elapsed Time) muestra siempre T#0ms"
+      },
+      "opciones": [
+        "El tiempo debe programarse en milisegundos (5000ms) no en segundos",
+        "El TON usa instancia local sin memoria (TEMP) que se resetea cada ciclo",
+        "Falta llamar al temporizador dentro de un FB con memoria estática",
+        "El PLC está en modo STOP intermitente"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El temporizador TON está declarado en memoria temporal (TEMP) del FC, perdiendo su estado en cada ciclo de scan. Los temporizadores IEC (TON, TOF, TP) requieren memoria persistente (STATIC en FB o DB instancia) para mantener su estado interno entre ciclos de scan. Al declararlo en TEMP de un FC: 1) En cada scan se crea una nueva instancia, 2) El temporizador se resetea, 3) Nunca acumula tiempo, ET permanece en 0ms, 4) La salida Q se activa según IN sin temporización. Solución correcta: 1) OPCIÓN A: Convertir FC1 a FB (Function Block) y declarar el TON en la sección STATIC. Crear un DB de instancia asociado. 2) OPCIÓN B: Declarar un DB global separado y usar un TON_DB del tipo TON almacenado allí. 3) OPCIÓN C (más limpia): Usar un FB dedicado para la temporización con lógica completa. Código SCL correcto en FB: STATIC myTimer : TON; END_VAR // ... myTimer(IN:=StartButton, PT:=T#5S); Output := myTimer.Q; NOTA: Este es un error muy común al migrar lógica de S7-300/400 (donde S5T timers eran globales) a S7-1200/1500 con IEC timers."
+    },
+    {
+      "id": "plc-005",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "OB de alarma cíclica causa fallo de watchdog",
+      "contexto": "Aplicación compleja en S7-1500 con múltiples OBs: OB1 (Main), OB35 (alarma cíclica 100ms) para control de movimiento, y varios FBs para gestión de recetas. El sistema funciona bien en pruebas pero falla en producción bajo carga.",
+      "problema": "Intermitentemente, el PLC entra en STOP con evento 'Cycle time exceeded' (tiempo de ciclo excedido). El diagnóstico indica que OB35 consume hasta 180ms, superando su tiempo de ciclo configurado (100ms). Esto provoca watchdog timeout.",
+      "datos_tecnicos": {
+        "CPU": "S7-1515-2 PN",
+        "OB35": "Alarma cíclica cada 100ms",
+        "Tiempo ejecución OB35": "Hasta 180ms observado",
+        "Tiempo ciclo OB1": "40-60ms (normal)",
+        "Contenido OB35": "Control PID + comunicación Modbus + gestión alarmas"
+      },
+      "opciones": [
+        "OB35 tiene demasiada lógica, debe distribuirse entre varios OBs",
+        "Conflicto de prioridad: OB35 (prioridad 14) interrumpe frecuentemente OB1",
+        "Llamadas bloqueantes en OB35 (espera respuesta Modbus) impiden retorno",
+        "CPU subdimensionada para la aplicación"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "El OB35 contiene llamadas bloqueantes (blocking calls) que esperan respuesta de comunicación Modbus, impidiendo que el OB retorne a tiempo. Las alarmas cíclicas (OB3x) deben ejecutarse y retornar dentro de su tiempo de ciclo configurado. Si el código contiene: 1) Comunicaciones síncronas (Modbus RTU/TCP sin asincronía), 2) Esperas activas (WHILE/FOR loops con condiciones externas), 3) Procesamiento pesado de datos sin particionamiento, el OB puede no retornar a tiempo. Cuando OB35 excede 100ms, el sistema operativo genera 'Cycle time exceeded' y pone la CPU en STOP por seguridad. Bajo carga de producción, las respuestas Modbus pueden retrasarse (esclavo ocupado, errores de comunicación), bloqueando OB35. Solución: 1) Usar comunicación Modbus asíncrona: iniciar transacción en un scan, verificar completado en scans posteriores con máquina de estados, 2) Mover comunicación Modbus a OB1 (baja prioridad) y pasar solo resultados a OB35 vía variables globales, 3) Usar bloques Modbus nativos de Siemens que soportan operación no-bloqueante (MB_CLIENT, MB_SERVER), 4) Incrementar tiempo de ciclo de OB35 a 200ms si el control de movimiento lo permite, 5) Implementar particionamiento: dividir la lógica en fases ejecutadas en ciclos alternos. NUNCA usar esperas bloqueantes en OBs de alarma cíclica."
+    }
+  ]
+}

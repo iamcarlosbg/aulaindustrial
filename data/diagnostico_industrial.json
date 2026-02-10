@@ -1,0 +1,142 @@
+{
+  "exercises": [
+    {
+      "id": "diag-001",
+      "area": "Diagnóstico Industrial",
+      "nivel": "avanzado",
+      "titulo": "Cinta transportadora se detiene aleatoriamente",
+      "contexto": "Línea de producción con cinta transportadora controlada por PLC Siemens S7-1200. La cinta se utiliza para transportar cajas en una línea de empaquetado. Un sensor inductivo detecta la presencia de cajas para sincronizar operaciones downstream.",
+      "problema": "La cinta se detiene aleatoriamente sin que el PLC registre ningún fallo. Al revisar el programa en ONLINE, no hay errores. El operador indica que ocurre más frecuentemente cuando hay múltiples cajas en la cinta. La cinta reinicia sola después de 2-5 segundos.",
+      "datos_tecnicos": {
+        "Sensor": "Inductivo PNP M18 3 hilos Sn=8mm",
+        "Entrada PLC": "I1.2 (24VDC source)",
+        "Observación Online": "Señal I1.2 intermitente/parpadeante",
+        "Cable sensor": "Cable paralelo a cables de potencia del motor (400VAC)",
+        "Longitud cable": "15 metros"
+      },
+      "opciones": [
+        "Sensor inductivo defectuoso o al final de su vida útil",
+        "Ruido eléctrico inducido en cable del sensor por proximidad a potencia",
+        "Fallo en el programa del PLC con lógica incorrecta",
+        "Alimentación 24VDC del sensor con rizado excesivo"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Ruido eléctrico (EMI) acoplado en el cable del sensor por proximidad a cables de potencia. Los cables de potencia del motor (400VAC trifásico) generan campos electromagnéticos variables, especialmente durante arranque/frenado o con variador de frecuencia. Este campo se induce en el cable del sensor, generando tensiones parásitas que: 1) Causan falsas conmutaciones del sensor (entrada I1.2 parpadea), 2) El PLC interpreta pérdida de señal y ejecuta paro de seguridad, 3) El problema aumenta con más cajas porque el motor trabaja con más carga (mayor corriente → mayor campo EMI). La señal intermitente en la tabla de observación Online confirma interferencia. Solución: 1) INMEDIATA: Separar físicamente el cable del sensor de los cables de potencia (mínimo 30cm o en bandeja separada), 2) Usar cable apantallado para el sensor y conectar malla a tierra en un solo punto (preferible lado PLC), 3) Instalar filtros ferrita en cable del sensor cerca del PLC, 4) Verificar equipotencialidad: sensor, PLC y motor deben compartir la misma referencia de tierra, 5) Si el motor usa variador: instalar cable apantallado motor-variador y verificar filtros EMI del variador, 6) Como ÚLTIMA opción: implementar filtrado software en PLC con retardo de confirmación de señal (20-50ms). La separación de circuitos de señal y potencia es un principio fundamental en instalaciones industriales."
+    },
+    {
+      "id": "diag-002",
+      "area": "Diagnóstico Industrial",
+      "nivel": "intermedio",
+      "titulo": "Variador de frecuencia con fallos intermitentes",
+      "contexto": "Ventilador industrial de extracción controlado por variador de frecuencia Siemens G120. El variador controla un motor de 15kW. El sistema está en operación desde hace 2 años sin problemas.",
+      "problema": "El variador muestra alerta 'A0501 - Sobretensión' y se detiene. Ocurre solo cuando el ventilador está funcionando a alta velocidad y se da la orden de paro. El variador reinicia correctamente después del error.",
+      "datos_tecnicos": {
+        "Variador": "Siemens G120 15kW",
+        "Motor": "15kW 1450rpm 400V",
+        "Aplicación": "Ventilador centrífugo alta inercia",
+        "Configuración": "Rampa desaceleración 3 segundos",
+        "Bus DC": "Tensión sube a 820VDC en paro (nominal 650VDC)"
+      },
+      "opciones": [
+        "Variador defectuoso con problema en rectificador",
+        "Frenado regenerativo: energía devuelta por inercia del ventilador",
+        "Sobretensión en la red eléctrica de alimentación",
+        "Motor con rotor desequilibrado generando sobrecorriente"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Frenado regenerativo: la alta inercia del ventilador devuelve energía al bus DC del variador durante la desaceleración, elevando la tensión por encima del límite. Cuando un motor es desacelerado más rápido que su deceleración natural, actúa como generador: la energía cinética rotacional se convierte en energía eléctrica que fluye hacia el bus DC del variador. El rectificador de entrada (diodos) no permite que esta energía retorne a la red, causando que el condensador del bus DC se cargue excesivamente (820VDC vs 650VDC nominal). Los ventiladores centrífugos tienen alta inercia (momento de inercia J elevado), agravando el problema. El variador detecta sobretensión (umbral ~810VDC) y se protege parando. Soluciones (de menor a mayor coste): 1) INCREMENTAR rampa de desaceleración de 3s a 8-10s para que el motor frene más lentamente (solución simple y efectiva si el proceso lo permite), 2) Activar función DCB (Dynamic Braking) si el G120 lo soporta: disipa energía en resistencia interna del variador (solo disponible en algunos modelos), 3) Instalar resistencia de frenado externa + chopper de frenado (módulo BOP) para disipar energía regenerada, 4) Sustituir por variador regenerativo (entrada activa AFE) que devuelve energía a la red. La opción 1 es la más económica y suficiente en el 80% de casos."
+    },
+    {
+      "id": "diag-003",
+      "area": "Diagnóstico Industrial",
+      "nivel": "básico",
+      "titulo": "Presostato no conmuta correctamente",
+      "contexto": "Sistema neumático de una máquina empaquetadora. Compresor de aire controlado por presostato diferencial. El presostato debe arrancar el compresor cuando la presión baja de 6 bar y pararlo cuando alcanza 8 bar.",
+      "problema": "El compresor arranca y para correctamente, pero los ciclos son muy cortos (arranca cada 30 segundos). El manómetro muestra que la presión oscila entre 5.5 y 6.2 bar, nunca alcanza los 8 bar programados.",
+      "datos_tecnicos": {
+        "Presostato": "Diferencial 6-8 bar",
+        "Compresor": "5.5kW pistón 300L",
+        "Observación": "Válvula de descarga abierta constantemente",
+        "Presión oscila": "5.5 - 6.2 bar (no llega a 8 bar)",
+        "Consumo aire": "Normal según proceso"
+      },
+      "opciones": [
+        "Presostato descalibrado con histéresis incorrecta",
+        "Fuga importante en el circuito neumático",
+        "Válvula antirretorno defectuosa permitiendo retorno de aire",
+        "Compresor con válvulas internas desgastadas (bajo caudal)"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Válvula antirretorno (check valve) del compresor defectuosa o atascada en posición abierta. La válvula antirretorno está ubicada entre el compresor y el depósito/calderín, su función es: 1) Permitir flujo de aire comprimido del compresor al depósito, 2) Impedir retorno de aire del depósito al compresor cuando este para. Si la válvula está defectuosa (junta deteriorada, resorte roto, suciedad): al parar el compresor, el aire del depósito retorna hacia el cabezal del compresor y escapa por la válvula de descarga (que está diseñada para descargar presión residual del cabezal). Esto explica: 1) Presión máxima nunca alcanza 8 bar (se pierde constantemente), 2) Válvula de descarga abierta constantemente (está evacuando el aire que retorna), 3) Ciclos muy cortos porque la presión cae rápidamente, 4) El presostato funciona bien (dispara a 6 bar correctamente). Diagnóstico confirmatorio: Escuchar aire saliendo por válvula de descarga cuando el compresor está parado. Solución: Desmontar y limpiar/reemplazar la válvula antirretorno. Es un componente de desgaste habitual en compresores de pistón. IMPORTANTE: No confundir con fuga general del circuito - en ese caso la presión subiría lentamente hasta 8 bar aunque hubiera fugas."
+    },
+    {
+      "id": "diag-004",
+      "area": "Diagnóstico Industrial",
+      "nivel": "avanzado",
+      "titulo": "Robot industrial con pérdida de precisión",
+      "contexto": "Robot industrial de 6 ejes utilizado en soldadura. El robot ha trabajado correctamente durante 5 años. Recientemente, se observan desviaciones en los puntos de soldadura, especialmente en movimientos a alta velocidad o con carga.",
+      "problema": "El robot falla sistemáticamente los puntos de soldadura en +/- 2mm. La desviación aumenta con la velocidad y la carga. No hay alarmas de encoders ni fallos reportados. El teach pendant no muestra errores.",
+      "datos_tecnicos": {
+        "Robot": "6 ejes, carga útil 20kg",
+        "Desviación observada": "±2mm en TCP (Tool Center Point)",
+        "Condición": "Empeora con velocidad y carga",
+        "Encoders": "Sin alarmas, pulsos correctos",
+        "Lubricación": "Última revisión hace 6 meses"
+      },
+      "opciones": [
+        "Desgaste de rodamientos en ejes causando holgura mecánica",
+        "Encoders descalibrados requiriendo mastering",
+        "Controlador con parámetros de PID mal ajustados",
+        "TCP (Tool Center Point) mal configurado en el teach pendant"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Desgaste de rodamientos y holguras mecánicas en las articulaciones del robot. Después de años de operación, los rodamientos de los ejes acumulan desgaste, creando juego mecánico (backlash). Las holguras permiten desplazamiento del brazo bajo carga inercial sin que los encoders lo detecten. Características diagnósticas clave: 1) Desviación aumenta con velocidad (mayor inercia, mayor deflexión), 2) Aumenta con carga (mayor momento flector en articulaciones), 3) Encoders correctos pero no reflejan posición real del TCP (miden posición del eje motor, no del efector final), 4) Patrón progresivo (empeora gradualmente, no súbito). El robot está en posición correcta según encoders, pero físicamente desviado por holguras. Diagnóstico confirmatorio: 1) Test de rigidez: aplicar fuerza lateral en TCP y medir deflexión, 2) Backlash test: mover eje en ambas direcciones y medir histéresis, 3) Inspección visual/táctil de rodamientos (juego radial/axial). Solución: 1) Reemplazo de rodamientos en ejes afectados (típicamente ejes 1, 2, 3 por mayor carga), 2) Re-mastering completo después del reemplazo para calibrar encoders, 3) Verificación de reductoras (armónicas/planetarias) por desgaste, 4) Establecer programa de mantenimiento predictivo con medición periódica de precisión. PREVENCIÓN: Seguir plan de lubricación estricto y limitar velocidades/cargas según especificaciones del fabricante."
+    },
+    {
+      "id": "diag-005",
+      "area": "Diagnóstico Industrial",
+      "nivel": "intermedio",
+      "titulo": "Nivel de tanque con lecturas erráticas",
+      "contexto": "Tanque de agua de proceso con sensor de nivel ultrasónico. El sensor transmite señal 4-20mA al PLC para control de bomba dosificadora. El sistema mide nivel entre 0-3 metros.",
+      "problema": "La lectura del nivel en el SCADA muestra variaciones bruscas entre 0.5m y 2.8m en pocos segundos, aunque visualmente el nivel del tanque está estable alrededor de 1.5m. La bomba dosificadora arranca y para erráticamente.",
+      "datos_tecnicos": {
+        "Sensor": "Ultrasónico 4-20mA, rango 0-3m",
+        "Señal 4-20mA": "Oscila entre 8mA y 18mA (verificado con multímetro)",
+        "Cable": "Apantallado 2x0.75mm², 25 metros",
+        "Observación": "Superficie del agua con espuma/turbulencia",
+        "Alimentación": "24VDC estabilizada"
+      },
+      "opciones": [
+        "Cable de señal 4-20mA con resistencia elevada por corrosión",
+        "Interferencias electromagnéticas en el cable de señal",
+        "Espuma en superficie del agua interfiere con el eco ultrasónico",
+        "Sensor ultrasónico al final de su vida útil"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "La espuma y turbulencia en la superficie del agua interfieren con la medición ultrasónica. Los sensores ultrasónicos emiten pulsos de sonido (40-200kHz) y miden el tiempo de retorno del eco. La espuma presenta problemas críticos: 1) Absorbe las ondas ultrasónicas en lugar de reflejarlas (superficie no rígida), 2) Crea múltiples interfaces aire/líquido que generan ecos parásitos, 3) Su altura variable sobre el agua real causa lecturas fluctuantes, 4) Las burbujas dispersan el haz ultrasónico. La turbulencia agrava el problema al crear superficie irregular que dispersa el eco en múltiples direcciones. La señal 4-20mA oscila porque el sensor intenta seguir una superficie que aparece y desaparece continuamente. El sistema puede interpretar: eco de espuma (nivel alto falso), pérdida de eco (fallo), eco del agua bajo espuma (correcto), alternando rápidamente. Soluciones (de mejor a peor): 1) CAMBIAR a sensor radar de 26GHz (las microondas penetran espuma y miden líquido real), 2) Cambiar a sensor de presión diferencial sumergido (no afectado por espuma), 3) Instalar tubo tranquilizador (stilling well) alrededor del sensor para aislar de turbulencia, 4) Añadir agente antiespumante al proceso si es compatible, 5) Implementar filtrado pesado en PLC (media móvil 30-60 segundos) - solución temporal no recomendada. Los sensores ultrasónicos NO son adecuados para aplicaciones con espuma, vapores o polvo en suspensión."
+    },
+    {
+      "id": "diag-006",
+      "area": "Diagnóstico Industrial",
+      "nivel": "avanzado",
+      "titulo": "Bus de campo con errores CRC intermitentes",
+      "contexto": "Red Modbus RTU RS-485 con 12 dispositivos esclavos (variadores, medidores de energía, módulos I/O remotos) conectados en topología bus. El sistema lleva 3 años funcionando sin problemas. Recientemente se añadieron 2 variadores nuevos.",
+      "problema": "El maestro (PLC) reporta errores CRC (Cyclic Redundancy Check) intermitentes en las comunicaciones. Los errores son aleatorios, afectando a diferentes esclavos sin patrón claro. La tasa de error aumentó tras añadir los variadores nuevos.",
+      "datos_tecnicos": {
+        "Red": "Modbus RTU RS-485, 19200 baud, 8N1",
+        "Topología": "Bus con 12 esclavos",
+        "Longitud total": "Aprox. 180 metros",
+        "Resistencias terminación": "No verificadas tras nueva instalación",
+        "Nuevo": "2 variadores añadidos en extremo del bus"
+      },
+      "opciones": [
+        "Baudrate demasiado alto para la longitud del bus",
+        "Falta de resistencias de terminación adecuadas en extremos del bus",
+        "Conflicto de direcciones Modbus entre dispositivos",
+        "Cable RS-485 de baja calidad sin par trenzado"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Falta de resistencias de terminación correctas en los extremos del bus RS-485. Las redes RS-485 requieren resistencias de terminación (120Ω) en AMBOS extremos físicos del bus para: 1) Igualar impedancia característica de la línea (evitar reflexiones), 2) Absorber señales al final de línea, 3) Prevenir reflexiones que distorsionan la señal en tránsito. Sin terminaciones adecuadas, las señales se reflejan en los extremos creando ecos que: 1) Interfieren con bits subsiguientes, 2) Causan errores de framing y CRC, 3) El problema empeora con mayor longitud de bus (180m es significativo), 4) También empeora con más dispositivos (cargan el bus). Los dos variadores nuevos se añadieron probablemente en el extremo, cambiando el punto de terminación físico sin actualizar las resistencias. Diagnóstico confirmatorio: 1) Verificar con multímetro resistencia entre D+/D- en ambos extremos del bus (desconectado): debe medir ~60Ω si hay dos 120Ω en paralelo, 2) Inspeccionar visualmente si los dispositivos extremos tienen jumper/switch de terminación activado, 3) Con osciloscopio: medir forma de onda en D+/D- buscando overshoots, ringing o reflexiones. Solución: 1) Activar resistencias de terminación (120Ω) SOLO en los dos dispositivos de los extremos físicos del bus (maestro + último esclavo), 2) Desactivar terminaciones en todos los dispositivos intermedios, 3) Si los dispositivos no tienen terminación integrada, instalar resistencia externa de 120Ω 0.25W entre D+/D- en cada extremo, 4) Verificar polarización del bus (bias resistors 560Ω a +5V y a GND si hay pérdida de carrier). Regla de oro: Exactamente 2 terminaciones, una en cada extremo físico."
+    }
+  ]
+}
