@@ -1,0 +1,3304 @@
+{
+  "exercises": [
+    {
+      "id": "plc-bás-001",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "PLC no arranca LED SF rojo - Caso 1",
+      "contexto": "Instalación en zona envasado con bomba centrífuga de 3kW alimentado a 48V DC. El equipo lleva operativo 58 meses sin incidencias previas.",
+      "problema": "PLC no arranca LED SF rojo. El fallo se detectó hace 14 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "2829 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Fuente insuficiente",
+        "Módulo mal insertado",
+        "Error hardware",
+        "Cortocircuito salida"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Error hardware. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-002",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Entrada digital no detecta - Caso 2",
+      "contexto": "Instalación en zona envasado con elevador de 11kW alimentado a 48V DC. El equipo lleva operativo 52 meses sin incidencias previas.",
+      "problema": "Entrada digital no detecta. El fallo se detectó hace 11 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "1635 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Configuración errónea",
+        "Cable roto",
+        "Tensión incorrecta",
+        "Sensor defectuoso"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-003",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Salida digital no activa - Caso 3",
+      "contexto": "Instalación en estación bombeo con cinta transportadora de 3kW alimentado a 400V 3F. El equipo lleva operativo 54 meses sin incidencias previas.",
+      "problema": "Salida digital no activa. El fallo se detectó hace 25 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "7131 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Programa incorrecto",
+        "Cortocircuito carga",
+        "Fusible fundido",
+        "Salida deshabilitada"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Fusible fundido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-004",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Comunicación HMI perdida - Caso 4",
+      "contexto": "Instalación en zona envasado con bomba centrífuga de 11kW alimentado a 24V DC. El equipo lleva operativo 48 meses sin incidencias previas.",
+      "problema": "Comunicación HMI perdida. El fallo se detectó hace 28 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "6267 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Cable desconectado",
+        "IP duplicada",
+        "Firewall bloqueando",
+        "Puerto incorrecto"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cable desconectado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-005",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Programa no se descarga - Caso 5",
+      "contexto": "Instalación en planta producción con compresor tornillo de 5.5kW alimentado a 230V AC. El equipo lleva operativo 47 meses sin incidencias previas.",
+      "problema": "Programa no se descarga. El fallo se detectó hace 14 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "1729 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Contraseña incorrecta",
+        "Versión incompatible",
+        "PLC en RUN",
+        "Cable malo"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: PLC en RUN. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-006",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "CPU en STOP inesperado - Caso 6",
+      "contexto": "Instalación en planta producción con elevador de 11kW alimentado a 230V AC. El equipo lleva operativo 14 meses sin incidencias previas.",
+      "problema": "CPU en STOP inesperado. El fallo se detectó hace 1 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "2224 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Watchdog timeout",
+        "Módulo error",
+        "Fallo alimentación",
+        "Error programa"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Error programa. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-007",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "PLC no arranca LED SF rojo - Caso 7",
+      "contexto": "Instalación en planta producción con prensa hidráulica de 11kW alimentado a 400V 3F. El equipo lleva operativo 22 meses sin incidencias previas.",
+      "problema": "PLC no arranca LED SF rojo. El fallo se detectó hace 26 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "5424 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Error hardware",
+        "Cortocircuito salida",
+        "Fuente insuficiente",
+        "Módulo mal insertado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Error hardware. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-008",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Entrada digital no detecta - Caso 8",
+      "contexto": "Instalación en estación bombeo con compresor tornillo de 15kW alimentado a 110V AC. El equipo lleva operativo 25 meses sin incidencias previas.",
+      "problema": "Entrada digital no detecta. El fallo se detectó hace 19 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "4484 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Cable roto",
+        "Sensor defectuoso",
+        "Tensión incorrecta",
+        "Configuración errónea"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-009",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Salida digital no activa - Caso 9",
+      "contexto": "Instalación en sala máquinas con elevador de 15kW alimentado a 48V DC. El equipo lleva operativo 9 meses sin incidencias previas.",
+      "problema": "Salida digital no activa. El fallo se detectó hace 8 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "2280 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Cortocircuito carga",
+        "Programa incorrecto",
+        "Fusible fundido",
+        "Salida deshabilitada"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Fusible fundido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-010",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Comunicación HMI perdida - Caso 10",
+      "contexto": "Instalación en almacén con elevador de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 13 meses sin incidencias previas.",
+      "problema": "Comunicación HMI perdida. El fallo se detectó hace 9 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "2093 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Firewall bloqueando",
+        "Puerto incorrecto",
+        "Cable desconectado",
+        "IP duplicada"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Cable desconectado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-011",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Programa no se descarga - Caso 11",
+      "contexto": "Instalación en estación bombeo con bomba centrífuga de 11kW alimentado a 230V AC. El equipo lleva operativo 60 meses sin incidencias previas.",
+      "problema": "Programa no se descarga. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "5756 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Cable malo",
+        "Contraseña incorrecta",
+        "PLC en RUN",
+        "Versión incompatible"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: PLC en RUN. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-012",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "CPU en STOP inesperado - Caso 12",
+      "contexto": "Instalación en planta producción con mezcladora de 11kW alimentado a 24V DC. El equipo lleva operativo 47 meses sin incidencias previas.",
+      "problema": "CPU en STOP inesperado. El fallo se detectó hace 22 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "6820 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Watchdog timeout",
+        "Error programa",
+        "Módulo error",
+        "Fallo alimentación"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Error programa. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-013",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "PLC no arranca LED SF rojo - Caso 13",
+      "contexto": "Instalación en área logística con agitador de 1.5kW alimentado a 110V AC. El equipo lleva operativo 36 meses sin incidencias previas.",
+      "problema": "PLC no arranca LED SF rojo. El fallo se detectó hace 27 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7307 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Módulo mal insertado",
+        "Cortocircuito salida",
+        "Fuente insuficiente",
+        "Error hardware"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Error hardware. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-014",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Entrada digital no detecta - Caso 14",
+      "contexto": "Instalación en almacén con ventilador extracción de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 54 meses sin incidencias previas.",
+      "problema": "Entrada digital no detecta. El fallo se detectó hace 18 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "6176 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Configuración errónea",
+        "Tensión incorrecta",
+        "Cable roto",
+        "Sensor defectuoso"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-015",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Salida digital no activa - Caso 15",
+      "contexto": "Instalación en estación bombeo con elevador de 3kW alimentado a 230V AC. El equipo lleva operativo 18 meses sin incidencias previas.",
+      "problema": "Salida digital no activa. El fallo se detectó hace 29 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "3625 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Programa incorrecto",
+        "Fusible fundido",
+        "Cortocircuito carga",
+        "Salida deshabilitada"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Fusible fundido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-016",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Comunicación HMI perdida - Caso 16",
+      "contexto": "Instalación en zona envasado con compresor tornillo de 1.5kW alimentado a 110V AC. El equipo lleva operativo 43 meses sin incidencias previas.",
+      "problema": "Comunicación HMI perdida. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "2960 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Puerto incorrecto",
+        "Cable desconectado",
+        "Firewall bloqueando",
+        "IP duplicada"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cable desconectado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-017",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Programa no se descarga - Caso 17",
+      "contexto": "Instalación en estación bombeo con prensa hidráulica de 11kW alimentado a 24V DC. El equipo lleva operativo 40 meses sin incidencias previas.",
+      "problema": "Programa no se descarga. El fallo se detectó hace 27 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "7656 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "PLC en RUN",
+        "Versión incompatible",
+        "Cable malo",
+        "Contraseña incorrecta"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: PLC en RUN. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-018",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "CPU en STOP inesperado - Caso 18",
+      "contexto": "Instalación en sala máquinas con prensa hidráulica de 3kW alimentado a 24V DC. El equipo lleva operativo 27 meses sin incidencias previas.",
+      "problema": "CPU en STOP inesperado. El fallo se detectó hace 2 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "6861 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Módulo error",
+        "Watchdog timeout",
+        "Error programa",
+        "Fallo alimentación"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Error programa. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-019",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "PLC no arranca LED SF rojo - Caso 19",
+      "contexto": "Instalación en sala máquinas con elevador de 1.5kW alimentado a 230V AC. El equipo lleva operativo 29 meses sin incidencias previas.",
+      "problema": "PLC no arranca LED SF rojo. El fallo se detectó hace 30 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "2775 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Módulo mal insertado",
+        "Fuente insuficiente",
+        "Error hardware",
+        "Cortocircuito salida"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Error hardware. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-020",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Entrada digital no detecta - Caso 20",
+      "contexto": "Instalación en sala máquinas con cinta transportadora de 11kW alimentado a 230V AC. El equipo lleva operativo 50 meses sin incidencias previas.",
+      "problema": "Entrada digital no detecta. El fallo se detectó hace 6 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "3065 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Tensión incorrecta",
+        "Cable roto",
+        "Sensor defectuoso",
+        "Configuración errónea"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-021",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Salida digital no activa - Caso 21",
+      "contexto": "Instalación en almacén con prensa hidráulica de 0.75kW alimentado a 400V 3F. El equipo lleva operativo 25 meses sin incidencias previas.",
+      "problema": "Salida digital no activa. El fallo se detectó hace 2 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "4956 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Fusible fundido",
+        "Programa incorrecto",
+        "Salida deshabilitada",
+        "Cortocircuito carga"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Fusible fundido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-022",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Comunicación HMI perdida - Caso 22",
+      "contexto": "Instalación en área logística con prensa hidráulica de 1.5kW alimentado a 24V DC. El equipo lleva operativo 51 meses sin incidencias previas.",
+      "problema": "Comunicación HMI perdida. El fallo se detectó hace 16 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "2731 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Puerto incorrecto",
+        "Firewall bloqueando",
+        "IP duplicada",
+        "Cable desconectado"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cable desconectado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-023",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Programa no se descarga - Caso 23",
+      "contexto": "Instalación en área logística con compresor tornillo de 0.75kW alimentado a 230V AC. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Programa no se descarga. El fallo se detectó hace 4 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "3126 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "PLC en RUN",
+        "Versión incompatible",
+        "Cable malo",
+        "Contraseña incorrecta"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: PLC en RUN. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-024",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "CPU en STOP inesperado - Caso 24",
+      "contexto": "Instalación en línea montaje con bomba centrífuga de 3kW alimentado a 230V AC. El equipo lleva operativo 9 meses sin incidencias previas.",
+      "problema": "CPU en STOP inesperado. El fallo se detectó hace 12 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "5539 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Módulo error",
+        "Fallo alimentación",
+        "Watchdog timeout",
+        "Error programa"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Error programa. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-025",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "PLC no arranca LED SF rojo - Caso 25",
+      "contexto": "Instalación en estación bombeo con ventilador extracción de 11kW alimentado a 24V DC. El equipo lleva operativo 30 meses sin incidencias previas.",
+      "problema": "PLC no arranca LED SF rojo. El fallo se detectó hace 7 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "3730 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Error hardware",
+        "Cortocircuito salida",
+        "Fuente insuficiente",
+        "Módulo mal insertado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Error hardware. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-026",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Entrada digital no detecta - Caso 26",
+      "contexto": "Instalación en línea montaje con agitador de 5.5kW alimentado a 110V AC. El equipo lleva operativo 59 meses sin incidencias previas.",
+      "problema": "Entrada digital no detecta. El fallo se detectó hace 13 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "4129 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Cable roto",
+        "Tensión incorrecta",
+        "Sensor defectuoso",
+        "Configuración errónea"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-027",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Salida digital no activa - Caso 27",
+      "contexto": "Instalación en área logística con cinta transportadora de 11kW alimentado a 400V 3F. El equipo lleva operativo 56 meses sin incidencias previas.",
+      "problema": "Salida digital no activa. El fallo se detectó hace 12 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "1010 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Salida deshabilitada",
+        "Programa incorrecto",
+        "Fusible fundido",
+        "Cortocircuito carga"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Fusible fundido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-028",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Comunicación HMI perdida - Caso 28",
+      "contexto": "Instalación en planta producción con elevador de 1.5kW alimentado a 110V AC. El equipo lleva operativo 37 meses sin incidencias previas.",
+      "problema": "Comunicación HMI perdida. El fallo se detectó hace 11 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "6105 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "IP duplicada",
+        "Cable desconectado",
+        "Firewall bloqueando",
+        "Puerto incorrecto"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cable desconectado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-029",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Programa no se descarga - Caso 29",
+      "contexto": "Instalación en área logística con compresor tornillo de 0.75kW alimentado a 24V DC. El equipo lleva operativo 16 meses sin incidencias previas.",
+      "problema": "Programa no se descarga. El fallo se detectó hace 23 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "7574 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Versión incompatible",
+        "Contraseña incorrecta",
+        "PLC en RUN",
+        "Cable malo"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: PLC en RUN. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-030",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "CPU en STOP inesperado - Caso 30",
+      "contexto": "Instalación en área logística con mezcladora de 0.75kW alimentado a 24V DC. El equipo lleva operativo 37 meses sin incidencias previas.",
+      "problema": "CPU en STOP inesperado. El fallo se detectó hace 10 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "7195 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Watchdog timeout",
+        "Error programa",
+        "Fallo alimentación",
+        "Módulo error"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Error programa. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-031",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "PLC no arranca LED SF rojo - Caso 31",
+      "contexto": "Instalación en línea montaje con prensa hidráulica de 15kW alimentado a 24V DC. El equipo lleva operativo 40 meses sin incidencias previas.",
+      "problema": "PLC no arranca LED SF rojo. El fallo se detectó hace 23 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "6108 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Error hardware",
+        "Fuente insuficiente",
+        "Módulo mal insertado",
+        "Cortocircuito salida"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Error hardware. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-032",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Entrada digital no detecta - Caso 32",
+      "contexto": "Instalación en estación bombeo con compresor tornillo de 11kW alimentado a 400V 3F. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Entrada digital no detecta. El fallo se detectó hace 1 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "1953 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Sensor defectuoso",
+        "Tensión incorrecta",
+        "Cable roto",
+        "Configuración errónea"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-033",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Salida digital no activa - Caso 33",
+      "contexto": "Instalación en sala máquinas con bomba centrífuga de 5.5kW alimentado a 48V DC. El equipo lleva operativo 59 meses sin incidencias previas.",
+      "problema": "Salida digital no activa. El fallo se detectó hace 3 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "6311 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Fusible fundido",
+        "Programa incorrecto",
+        "Salida deshabilitada",
+        "Cortocircuito carga"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Fusible fundido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-034",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Comunicación HMI perdida - Caso 34",
+      "contexto": "Instalación en línea montaje con cinta transportadora de 11kW alimentado a 24V DC. El equipo lleva operativo 54 meses sin incidencias previas.",
+      "problema": "Comunicación HMI perdida. El fallo se detectó hace 14 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "7684 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Puerto incorrecto",
+        "Firewall bloqueando",
+        "IP duplicada",
+        "Cable desconectado"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cable desconectado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-035",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Programa no se descarga - Caso 35",
+      "contexto": "Instalación en sala máquinas con cinta transportadora de 1.5kW alimentado a 48V DC. El equipo lleva operativo 22 meses sin incidencias previas.",
+      "problema": "Programa no se descarga. El fallo se detectó hace 23 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "5306 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "PLC en RUN",
+        "Contraseña incorrecta",
+        "Cable malo",
+        "Versión incompatible"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: PLC en RUN. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-036",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "CPU en STOP inesperado - Caso 36",
+      "contexto": "Instalación en sala máquinas con prensa hidráulica de 7.5kW alimentado a 24V DC. El equipo lleva operativo 23 meses sin incidencias previas.",
+      "problema": "CPU en STOP inesperado. El fallo se detectó hace 30 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "4500 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Watchdog timeout",
+        "Error programa",
+        "Fallo alimentación",
+        "Módulo error"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Error programa. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-037",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "PLC no arranca LED SF rojo - Caso 37",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 11kW alimentado a 110V AC. El equipo lleva operativo 49 meses sin incidencias previas.",
+      "problema": "PLC no arranca LED SF rojo. El fallo se detectó hace 3 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "8703 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Fuente insuficiente",
+        "Módulo mal insertado",
+        "Cortocircuito salida",
+        "Error hardware"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Error hardware. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-038",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Entrada digital no detecta - Caso 38",
+      "contexto": "Instalación en planta producción con elevador de 11kW alimentado a 24V DC. El equipo lleva operativo 51 meses sin incidencias previas.",
+      "problema": "Entrada digital no detecta. El fallo se detectó hace 13 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "1832 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Tensión incorrecta",
+        "Configuración errónea",
+        "Cable roto",
+        "Sensor defectuoso"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-039",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Salida digital no activa - Caso 39",
+      "contexto": "Instalación en zona envasado con ventilador extracción de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 12 meses sin incidencias previas.",
+      "problema": "Salida digital no activa. El fallo se detectó hace 20 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "3536 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Salida deshabilitada",
+        "Cortocircuito carga",
+        "Programa incorrecto",
+        "Fusible fundido"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Fusible fundido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-040",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Comunicación HMI perdida - Caso 40",
+      "contexto": "Instalación en sala máquinas con elevador de 15kW alimentado a 24V DC. El equipo lleva operativo 10 meses sin incidencias previas.",
+      "problema": "Comunicación HMI perdida. El fallo se detectó hace 21 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "7307 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Cable desconectado",
+        "IP duplicada",
+        "Firewall bloqueando",
+        "Puerto incorrecto"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cable desconectado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-041",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Programa no se descarga - Caso 41",
+      "contexto": "Instalación en almacén con mezcladora de 3kW alimentado a 48V DC. El equipo lleva operativo 35 meses sin incidencias previas.",
+      "problema": "Programa no se descarga. El fallo se detectó hace 11 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "5937 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Contraseña incorrecta",
+        "Cable malo",
+        "Versión incompatible",
+        "PLC en RUN"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: PLC en RUN. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-042",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "CPU en STOP inesperado - Caso 42",
+      "contexto": "Instalación en línea montaje con mezcladora de 11kW alimentado a 230V AC. El equipo lleva operativo 40 meses sin incidencias previas.",
+      "problema": "CPU en STOP inesperado. El fallo se detectó hace 14 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "3471 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Watchdog timeout",
+        "Módulo error",
+        "Error programa",
+        "Fallo alimentación"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Error programa. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-043",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "PLC no arranca LED SF rojo - Caso 43",
+      "contexto": "Instalación en sala máquinas con bomba centrífuga de 11kW alimentado a 48V DC. El equipo lleva operativo 14 meses sin incidencias previas.",
+      "problema": "PLC no arranca LED SF rojo. El fallo se detectó hace 7 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "2423 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Módulo mal insertado",
+        "Fuente insuficiente",
+        "Error hardware",
+        "Cortocircuito salida"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Error hardware. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-044",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Entrada digital no detecta - Caso 44",
+      "contexto": "Instalación en área logística con bomba centrífuga de 7.5kW alimentado a 24V DC. El equipo lleva operativo 48 meses sin incidencias previas.",
+      "problema": "Entrada digital no detecta. El fallo se detectó hace 19 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "4863 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Tensión incorrecta",
+        "Configuración errónea",
+        "Sensor defectuoso",
+        "Cable roto"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-045",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Salida digital no activa - Caso 45",
+      "contexto": "Instalación en área logística con agitador de 5.5kW alimentado a 230V AC. El equipo lleva operativo 53 meses sin incidencias previas.",
+      "problema": "Salida digital no activa. El fallo se detectó hace 25 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "7325 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Cortocircuito carga",
+        "Salida deshabilitada",
+        "Fusible fundido",
+        "Programa incorrecto"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Fusible fundido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-046",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Comunicación HMI perdida - Caso 46",
+      "contexto": "Instalación en sala máquinas con agitador de 0.75kW alimentado a 24V DC. El equipo lleva operativo 13 meses sin incidencias previas.",
+      "problema": "Comunicación HMI perdida. El fallo se detectó hace 4 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "6545 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Firewall bloqueando",
+        "Puerto incorrecto",
+        "Cable desconectado",
+        "IP duplicada"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Cable desconectado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-047",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Programa no se descarga - Caso 47",
+      "contexto": "Instalación en área logística con cinta transportadora de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 32 meses sin incidencias previas.",
+      "problema": "Programa no se descarga. El fallo se detectó hace 14 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "2956 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Cable malo",
+        "PLC en RUN",
+        "Contraseña incorrecta",
+        "Versión incompatible"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: PLC en RUN. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-048",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "CPU en STOP inesperado - Caso 48",
+      "contexto": "Instalación en almacén con compresor tornillo de 11kW alimentado a 110V AC. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "CPU en STOP inesperado. El fallo se detectó hace 21 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "7774 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Fallo alimentación",
+        "Módulo error",
+        "Watchdog timeout",
+        "Error programa"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Error programa. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-049",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "PLC no arranca LED SF rojo - Caso 49",
+      "contexto": "Instalación en línea montaje con bomba centrífuga de 1.5kW alimentado a 48V DC. El equipo lleva operativo 14 meses sin incidencias previas.",
+      "problema": "PLC no arranca LED SF rojo. El fallo se detectó hace 10 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "6160 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Módulo mal insertado",
+        "Fuente insuficiente",
+        "Cortocircuito salida",
+        "Error hardware"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Error hardware. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-bás-050",
+      "area": "PLC Siemens",
+      "nivel": "básico",
+      "titulo": "Entrada digital no detecta - Caso 50",
+      "contexto": "Instalación en zona envasado con compresor tornillo de 5.5kW alimentado a 110V AC. El equipo lleva operativo 11 meses sin incidencias previas.",
+      "problema": "Entrada digital no detecta. El fallo se detectó hace 30 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "4859 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Cable roto",
+        "Sensor defectuoso",
+        "Tensión incorrecta",
+        "Configuración errónea"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-001",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Entrada analógica errática - Caso 1",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 0.75kW alimentado a 24V DC. El equipo lleva operativo 18 meses sin incidencias previas.",
+      "problema": "Entrada analógica errática. El fallo se detectó hace 20 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "8652 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Señal 4-20mA interrumpida",
+        "Rango incorrecto",
+        "Interferencias",
+        "Masa flotante"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Señal 4-20mA interrumpida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-002",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "FB regulación inestable - Caso 2",
+      "contexto": "Instalación en sala máquinas con elevador de 15kW alimentado a 400V 3F. El equipo lleva operativo 43 meses sin incidencias previas.",
+      "problema": "FB regulación inestable. El fallo se detectó hace 28 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "7550 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Zona muerta pequeña",
+        "Frecuencia baja",
+        "Ganancia proporcional alta",
+        "Tiempo integral corto"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Ganancia proporcional alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-003",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Contador HSC no cuenta - Caso 3",
+      "contexto": "Instalación en almacén con elevador de 0.75kW alimentado a 400V 3F. El equipo lleva operativo 60 meses sin incidencias previas.",
+      "problema": "Contador HSC no cuenta. El fallo se detectó hace 12 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "7268 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Modo incorrecto",
+        "Nivel tensión bajo",
+        "Frecuencia excesiva",
+        "Reset no liberado"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Frecuencia excesiva. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-004",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "PROFINET no detecta dispositivo - Caso 4",
+      "contexto": "Instalación en almacén con cinta transportadora de 11kW alimentado a 110V AC. El equipo lleva operativo 30 meses sin incidencias previas.",
+      "problema": "PROFINET no detecta dispositivo. El fallo se detectó hace 3 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "8946 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Nombre erróneo",
+        "Topología incorrecta",
+        "Cable industrial requerido",
+        "Firmware viejo"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Topología incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-005",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Alarma watchdog OB - Caso 5",
+      "contexto": "Instalación en área logística con compresor tornillo de 5.5kW alimentado a 24V DC. El equipo lleva operativo 52 meses sin incidencias previas.",
+      "problema": "Alarma watchdog OB. El fallo se detectó hace 11 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "6800 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Prioridad incorrecta",
+        "Tiempo ciclo excedido",
+        "Bucle infinito",
+        "Recursos insuficientes"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Tiempo ciclo excedido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-006",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Entrada analógica errática - Caso 6",
+      "contexto": "Instalación en estación bombeo con prensa hidráulica de 0.75kW alimentado a 48V DC. El equipo lleva operativo 60 meses sin incidencias previas.",
+      "problema": "Entrada analógica errática. El fallo se detectó hace 6 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "8486 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Masa flotante",
+        "Señal 4-20mA interrumpida",
+        "Interferencias",
+        "Rango incorrecto"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Señal 4-20mA interrumpida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-007",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "FB regulación inestable - Caso 7",
+      "contexto": "Instalación en sala máquinas con elevador de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 45 meses sin incidencias previas.",
+      "problema": "FB regulación inestable. El fallo se detectó hace 9 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "2353 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Frecuencia baja",
+        "Zona muerta pequeña",
+        "Tiempo integral corto",
+        "Ganancia proporcional alta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Ganancia proporcional alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-008",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Contador HSC no cuenta - Caso 8",
+      "contexto": "Instalación en área logística con mezcladora de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Contador HSC no cuenta. El fallo se detectó hace 5 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "4510 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Reset no liberado",
+        "Frecuencia excesiva",
+        "Modo incorrecto",
+        "Nivel tensión bajo"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Frecuencia excesiva. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-009",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "PROFINET no detecta dispositivo - Caso 9",
+      "contexto": "Instalación en área logística con bomba centrífuga de 3kW alimentado a 230V AC. El equipo lleva operativo 53 meses sin incidencias previas.",
+      "problema": "PROFINET no detecta dispositivo. El fallo se detectó hace 14 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "8617 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Cable industrial requerido",
+        "Topología incorrecta",
+        "Nombre erróneo",
+        "Firmware viejo"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Topología incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-010",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Alarma watchdog OB - Caso 10",
+      "contexto": "Instalación en sala máquinas con ventilador extracción de 5.5kW alimentado a 48V DC. El equipo lleva operativo 17 meses sin incidencias previas.",
+      "problema": "Alarma watchdog OB. El fallo se detectó hace 25 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "7325 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Tiempo ciclo excedido",
+        "Recursos insuficientes",
+        "Prioridad incorrecta",
+        "Bucle infinito"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Tiempo ciclo excedido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-011",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Entrada analógica errática - Caso 11",
+      "contexto": "Instalación en sala máquinas con mezcladora de 7.5kW alimentado a 48V DC. El equipo lleva operativo 32 meses sin incidencias previas.",
+      "problema": "Entrada analógica errática. El fallo se detectó hace 13 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "1184 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Señal 4-20mA interrumpida",
+        "Rango incorrecto",
+        "Masa flotante",
+        "Interferencias"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Señal 4-20mA interrumpida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-012",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "FB regulación inestable - Caso 12",
+      "contexto": "Instalación en zona envasado con cinta transportadora de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 24 meses sin incidencias previas.",
+      "problema": "FB regulación inestable. El fallo se detectó hace 30 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "2787 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Ganancia proporcional alta",
+        "Tiempo integral corto",
+        "Zona muerta pequeña",
+        "Frecuencia baja"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Ganancia proporcional alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-013",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Contador HSC no cuenta - Caso 13",
+      "contexto": "Instalación en área logística con mezcladora de 15kW alimentado a 230V AC. El equipo lleva operativo 26 meses sin incidencias previas.",
+      "problema": "Contador HSC no cuenta. El fallo se detectó hace 6 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "8436 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Modo incorrecto",
+        "Frecuencia excesiva",
+        "Nivel tensión bajo",
+        "Reset no liberado"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Frecuencia excesiva. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-014",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "PROFINET no detecta dispositivo - Caso 14",
+      "contexto": "Instalación en área logística con mezcladora de 11kW alimentado a 48V DC. El equipo lleva operativo 37 meses sin incidencias previas.",
+      "problema": "PROFINET no detecta dispositivo. El fallo se detectó hace 9 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "8008 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Firmware viejo",
+        "Nombre erróneo",
+        "Cable industrial requerido",
+        "Topología incorrecta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Topología incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-015",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Alarma watchdog OB - Caso 15",
+      "contexto": "Instalación en área logística con compresor tornillo de 3kW alimentado a 24V DC. El equipo lleva operativo 28 meses sin incidencias previas.",
+      "problema": "Alarma watchdog OB. El fallo se detectó hace 20 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "8933 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Prioridad incorrecta",
+        "Bucle infinito",
+        "Tiempo ciclo excedido",
+        "Recursos insuficientes"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Tiempo ciclo excedido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-016",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Entrada analógica errática - Caso 16",
+      "contexto": "Instalación en estación bombeo con prensa hidráulica de 3kW alimentado a 110V AC. El equipo lleva operativo 30 meses sin incidencias previas.",
+      "problema": "Entrada analógica errática. El fallo se detectó hace 12 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "4482 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Interferencias",
+        "Masa flotante",
+        "Señal 4-20mA interrumpida",
+        "Rango incorrecto"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Señal 4-20mA interrumpida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-017",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "FB regulación inestable - Caso 17",
+      "contexto": "Instalación en estación bombeo con agitador de 5.5kW alimentado a 230V AC. El equipo lleva operativo 54 meses sin incidencias previas.",
+      "problema": "FB regulación inestable. El fallo se detectó hace 30 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "7399 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Zona muerta pequeña",
+        "Ganancia proporcional alta",
+        "Tiempo integral corto",
+        "Frecuencia baja"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Ganancia proporcional alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-018",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Contador HSC no cuenta - Caso 18",
+      "contexto": "Instalación en sala máquinas con cinta transportadora de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Contador HSC no cuenta. El fallo se detectó hace 25 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7173 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Nivel tensión bajo",
+        "Frecuencia excesiva",
+        "Modo incorrecto",
+        "Reset no liberado"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Frecuencia excesiva. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-019",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "PROFINET no detecta dispositivo - Caso 19",
+      "contexto": "Instalación en estación bombeo con elevador de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 31 meses sin incidencias previas.",
+      "problema": "PROFINET no detecta dispositivo. El fallo se detectó hace 20 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "2748 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Nombre erróneo",
+        "Cable industrial requerido",
+        "Topología incorrecta",
+        "Firmware viejo"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Topología incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-020",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Alarma watchdog OB - Caso 20",
+      "contexto": "Instalación en zona envasado con agitador de 3kW alimentado a 48V DC. El equipo lleva operativo 36 meses sin incidencias previas.",
+      "problema": "Alarma watchdog OB. El fallo se detectó hace 8 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "6755 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Prioridad incorrecta",
+        "Tiempo ciclo excedido",
+        "Bucle infinito",
+        "Recursos insuficientes"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Tiempo ciclo excedido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-021",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Entrada analógica errática - Caso 21",
+      "contexto": "Instalación en planta producción con bomba centrífuga de 11kW alimentado a 400V 3F. El equipo lleva operativo 34 meses sin incidencias previas.",
+      "problema": "Entrada analógica errática. El fallo se detectó hace 3 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "8440 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Rango incorrecto",
+        "Señal 4-20mA interrumpida",
+        "Masa flotante",
+        "Interferencias"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Señal 4-20mA interrumpida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-022",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "FB regulación inestable - Caso 22",
+      "contexto": "Instalación en sala máquinas con elevador de 15kW alimentado a 400V 3F. El equipo lleva operativo 35 meses sin incidencias previas.",
+      "problema": "FB regulación inestable. El fallo se detectó hace 5 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "6608 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Zona muerta pequeña",
+        "Ganancia proporcional alta",
+        "Frecuencia baja",
+        "Tiempo integral corto"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Ganancia proporcional alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-023",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Contador HSC no cuenta - Caso 23",
+      "contexto": "Instalación en sala máquinas con mezcladora de 5.5kW alimentado a 230V AC. El equipo lleva operativo 52 meses sin incidencias previas.",
+      "problema": "Contador HSC no cuenta. El fallo se detectó hace 8 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "2783 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Modo incorrecto",
+        "Reset no liberado",
+        "Frecuencia excesiva",
+        "Nivel tensión bajo"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Frecuencia excesiva. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-024",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "PROFINET no detecta dispositivo - Caso 24",
+      "contexto": "Instalación en línea montaje con elevador de 0.75kW alimentado a 24V DC. El equipo lleva operativo 59 meses sin incidencias previas.",
+      "problema": "PROFINET no detecta dispositivo. El fallo se detectó hace 23 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "1516 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Nombre erróneo",
+        "Topología incorrecta",
+        "Cable industrial requerido",
+        "Firmware viejo"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Topología incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-025",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Alarma watchdog OB - Caso 25",
+      "contexto": "Instalación en planta producción con agitador de 11kW alimentado a 24V DC. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Alarma watchdog OB. El fallo se detectó hace 7 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "4414 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Bucle infinito",
+        "Recursos insuficientes",
+        "Tiempo ciclo excedido",
+        "Prioridad incorrecta"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Tiempo ciclo excedido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-026",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Entrada analógica errática - Caso 26",
+      "contexto": "Instalación en área logística con compresor tornillo de 0.75kW alimentado a 48V DC. El equipo lleva operativo 28 meses sin incidencias previas.",
+      "problema": "Entrada analógica errática. El fallo se detectó hace 12 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "5253 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Rango incorrecto",
+        "Interferencias",
+        "Masa flotante",
+        "Señal 4-20mA interrumpida"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Señal 4-20mA interrumpida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-027",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "FB regulación inestable - Caso 27",
+      "contexto": "Instalación en almacén con agitador de 0.75kW alimentado a 48V DC. El equipo lleva operativo 17 meses sin incidencias previas.",
+      "problema": "FB regulación inestable. El fallo se detectó hace 4 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "5078 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Tiempo integral corto",
+        "Ganancia proporcional alta",
+        "Zona muerta pequeña",
+        "Frecuencia baja"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Ganancia proporcional alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-028",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Contador HSC no cuenta - Caso 28",
+      "contexto": "Instalación en estación bombeo con mezcladora de 11kW alimentado a 24V DC. El equipo lleva operativo 39 meses sin incidencias previas.",
+      "problema": "Contador HSC no cuenta. El fallo se detectó hace 28 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "7176 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Nivel tensión bajo",
+        "Modo incorrecto",
+        "Frecuencia excesiva",
+        "Reset no liberado"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Frecuencia excesiva. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-029",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "PROFINET no detecta dispositivo - Caso 29",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 15kW alimentado a 110V AC. El equipo lleva operativo 52 meses sin incidencias previas.",
+      "problema": "PROFINET no detecta dispositivo. El fallo se detectó hace 22 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "2584 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Topología incorrecta",
+        "Nombre erróneo",
+        "Firmware viejo",
+        "Cable industrial requerido"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Topología incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-030",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Alarma watchdog OB - Caso 30",
+      "contexto": "Instalación en zona envasado con agitador de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 53 meses sin incidencias previas.",
+      "problema": "Alarma watchdog OB. El fallo se detectó hace 27 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "2219 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Tiempo ciclo excedido",
+        "Bucle infinito",
+        "Recursos insuficientes",
+        "Prioridad incorrecta"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Tiempo ciclo excedido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-031",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Entrada analógica errática - Caso 31",
+      "contexto": "Instalación en estación bombeo con compresor tornillo de 3kW alimentado a 24V DC. El equipo lleva operativo 40 meses sin incidencias previas.",
+      "problema": "Entrada analógica errática. El fallo se detectó hace 6 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "6060 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Rango incorrecto",
+        "Masa flotante",
+        "Interferencias",
+        "Señal 4-20mA interrumpida"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Señal 4-20mA interrumpida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-032",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "FB regulación inestable - Caso 32",
+      "contexto": "Instalación en zona envasado con elevador de 15kW alimentado a 400V 3F. El equipo lleva operativo 40 meses sin incidencias previas.",
+      "problema": "FB regulación inestable. El fallo se detectó hace 27 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "7159 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Frecuencia baja",
+        "Tiempo integral corto",
+        "Zona muerta pequeña",
+        "Ganancia proporcional alta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Ganancia proporcional alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-033",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Contador HSC no cuenta - Caso 33",
+      "contexto": "Instalación en área logística con compresor tornillo de 11kW alimentado a 48V DC. El equipo lleva operativo 34 meses sin incidencias previas.",
+      "problema": "Contador HSC no cuenta. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "6133 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Modo incorrecto",
+        "Reset no liberado",
+        "Nivel tensión bajo",
+        "Frecuencia excesiva"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Frecuencia excesiva. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-034",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "PROFINET no detecta dispositivo - Caso 34",
+      "contexto": "Instalación en sala máquinas con mezcladora de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 34 meses sin incidencias previas.",
+      "problema": "PROFINET no detecta dispositivo. El fallo se detectó hace 12 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "4887 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Topología incorrecta",
+        "Firmware viejo",
+        "Cable industrial requerido",
+        "Nombre erróneo"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Topología incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-035",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Alarma watchdog OB - Caso 35",
+      "contexto": "Instalación en zona envasado con bomba centrífuga de 3kW alimentado a 110V AC. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Alarma watchdog OB. El fallo se detectó hace 12 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "1669 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Recursos insuficientes",
+        "Prioridad incorrecta",
+        "Bucle infinito",
+        "Tiempo ciclo excedido"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Tiempo ciclo excedido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-036",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Entrada analógica errática - Caso 36",
+      "contexto": "Instalación en línea montaje con prensa hidráulica de 0.75kW alimentado a 48V DC. El equipo lleva operativo 11 meses sin incidencias previas.",
+      "problema": "Entrada analógica errática. El fallo se detectó hace 1 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "7991 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Interferencias",
+        "Señal 4-20mA interrumpida",
+        "Masa flotante",
+        "Rango incorrecto"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Señal 4-20mA interrumpida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-037",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "FB regulación inestable - Caso 37",
+      "contexto": "Instalación en línea montaje con mezcladora de 3kW alimentado a 400V 3F. El equipo lleva operativo 12 meses sin incidencias previas.",
+      "problema": "FB regulación inestable. El fallo se detectó hace 18 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "5147 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Tiempo integral corto",
+        "Zona muerta pequeña",
+        "Ganancia proporcional alta",
+        "Frecuencia baja"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Ganancia proporcional alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-038",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Contador HSC no cuenta - Caso 38",
+      "contexto": "Instalación en estación bombeo con prensa hidráulica de 0.75kW alimentado a 24V DC. El equipo lleva operativo 40 meses sin incidencias previas.",
+      "problema": "Contador HSC no cuenta. El fallo se detectó hace 12 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "2819 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Frecuencia excesiva",
+        "Nivel tensión bajo",
+        "Reset no liberado",
+        "Modo incorrecto"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Frecuencia excesiva. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-039",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "PROFINET no detecta dispositivo - Caso 39",
+      "contexto": "Instalación en planta producción con ventilador extracción de 0.75kW alimentado a 24V DC. El equipo lleva operativo 43 meses sin incidencias previas.",
+      "problema": "PROFINET no detecta dispositivo. El fallo se detectó hace 13 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "8008 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Topología incorrecta",
+        "Nombre erróneo",
+        "Cable industrial requerido",
+        "Firmware viejo"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Topología incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-040",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Alarma watchdog OB - Caso 40",
+      "contexto": "Instalación en área logística con cinta transportadora de 11kW alimentado a 110V AC. El equipo lleva operativo 19 meses sin incidencias previas.",
+      "problema": "Alarma watchdog OB. El fallo se detectó hace 6 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "4669 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Bucle infinito",
+        "Prioridad incorrecta",
+        "Tiempo ciclo excedido",
+        "Recursos insuficientes"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Tiempo ciclo excedido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-041",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Entrada analógica errática - Caso 41",
+      "contexto": "Instalación en sala máquinas con agitador de 3kW alimentado a 110V AC. El equipo lleva operativo 7 meses sin incidencias previas.",
+      "problema": "Entrada analógica errática. El fallo se detectó hace 19 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "8874 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Masa flotante",
+        "Rango incorrecto",
+        "Señal 4-20mA interrumpida",
+        "Interferencias"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Señal 4-20mA interrumpida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-042",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "FB regulación inestable - Caso 42",
+      "contexto": "Instalación en almacén con agitador de 0.75kW alimentado a 400V 3F. El equipo lleva operativo 25 meses sin incidencias previas.",
+      "problema": "FB regulación inestable. El fallo se detectó hace 23 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "1720 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Ganancia proporcional alta",
+        "Zona muerta pequeña",
+        "Frecuencia baja",
+        "Tiempo integral corto"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Ganancia proporcional alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-043",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Contador HSC no cuenta - Caso 43",
+      "contexto": "Instalación en línea montaje con agitador de 7.5kW alimentado a 24V DC. El equipo lleva operativo 46 meses sin incidencias previas.",
+      "problema": "Contador HSC no cuenta. El fallo se detectó hace 22 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "7449 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Nivel tensión bajo",
+        "Reset no liberado",
+        "Modo incorrecto",
+        "Frecuencia excesiva"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Frecuencia excesiva. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-044",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "PROFINET no detecta dispositivo - Caso 44",
+      "contexto": "Instalación en planta producción con cinta transportadora de 15kW alimentado a 110V AC. El equipo lleva operativo 17 meses sin incidencias previas.",
+      "problema": "PROFINET no detecta dispositivo. El fallo se detectó hace 8 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "2474 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Cable industrial requerido",
+        "Topología incorrecta",
+        "Firmware viejo",
+        "Nombre erróneo"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Topología incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-045",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Alarma watchdog OB - Caso 45",
+      "contexto": "Instalación en sala máquinas con mezcladora de 5.5kW alimentado a 110V AC. El equipo lleva operativo 23 meses sin incidencias previas.",
+      "problema": "Alarma watchdog OB. El fallo se detectó hace 23 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "5433 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Recursos insuficientes",
+        "Prioridad incorrecta",
+        "Tiempo ciclo excedido",
+        "Bucle infinito"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Tiempo ciclo excedido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-046",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Entrada analógica errática - Caso 46",
+      "contexto": "Instalación en línea montaje con mezcladora de 3kW alimentado a 48V DC. El equipo lleva operativo 10 meses sin incidencias previas.",
+      "problema": "Entrada analógica errática. El fallo se detectó hace 19 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "6881 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Rango incorrecto",
+        "Masa flotante",
+        "Señal 4-20mA interrumpida",
+        "Interferencias"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Señal 4-20mA interrumpida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-047",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "FB regulación inestable - Caso 47",
+      "contexto": "Instalación en almacén con cinta transportadora de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 20 meses sin incidencias previas.",
+      "problema": "FB regulación inestable. El fallo se detectó hace 21 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "6830 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Tiempo integral corto",
+        "Zona muerta pequeña",
+        "Frecuencia baja",
+        "Ganancia proporcional alta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Ganancia proporcional alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-048",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Contador HSC no cuenta - Caso 48",
+      "contexto": "Instalación en sala máquinas con ventilador extracción de 11kW alimentado a 110V AC. El equipo lleva operativo 45 meses sin incidencias previas.",
+      "problema": "Contador HSC no cuenta. El fallo se detectó hace 9 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "3489 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Frecuencia excesiva",
+        "Modo incorrecto",
+        "Nivel tensión bajo",
+        "Reset no liberado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Frecuencia excesiva. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-049",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "PROFINET no detecta dispositivo - Caso 49",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 3kW alimentado a 110V AC. El equipo lleva operativo 53 meses sin incidencias previas.",
+      "problema": "PROFINET no detecta dispositivo. El fallo se detectó hace 22 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "4403 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Nombre erróneo",
+        "Topología incorrecta",
+        "Cable industrial requerido",
+        "Firmware viejo"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Topología incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-int-050",
+      "area": "PLC Siemens",
+      "nivel": "intermedio",
+      "titulo": "Alarma watchdog OB - Caso 50",
+      "contexto": "Instalación en línea montaje con agitador de 3kW alimentado a 24V DC. El equipo lleva operativo 23 meses sin incidencias previas.",
+      "problema": "Alarma watchdog OB. El fallo se detectó hace 1 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "2957 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Prioridad incorrecta",
+        "Tiempo ciclo excedido",
+        "Recursos insuficientes",
+        "Bucle infinito"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Tiempo ciclo excedido. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-001",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Sincronización Motion Control errónea - Caso 1",
+      "contexto": "Instalación en almacén con prensa hidráulica de 3kW alimentado a 48V DC. El equipo lleva operativo 45 meses sin incidencias previas.",
+      "problema": "Sincronización Motion Control errónea. El fallo se detectó hace 1 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "5077 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Eje maestro inestable",
+        "Offset encoder",
+        "Reloj no ajustado",
+        "Cam mal configurada"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Reloj no ajustado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-002",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Safety PLC fallo F-Device - Caso 2",
+      "contexto": "Instalación en sala máquinas con bomba centrífuga de 1.5kW alimentado a 110V AC. El equipo lleva operativo 55 meses sin incidencias previas.",
+      "problema": "Safety PLC fallo F-Device. El fallo se detectó hace 30 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7795 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Módulo F sin parametrizar",
+        "Test fallido",
+        "Dirección F duplicada",
+        "Contraseña incorrecta"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Módulo F sin parametrizar. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-003",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Optimización ciclo necesaria - Caso 3",
+      "contexto": "Instalación en almacén con prensa hidráulica de 11kW alimentado a 230V AC. El equipo lleva operativo 24 meses sin incidencias previas.",
+      "problema": "Optimización ciclo necesaria. El fallo se detectó hace 28 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "6775 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Código no optimizado",
+        "Base datos grande",
+        "Interrupciones excesivas",
+        "Muchos SFC/SFB"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Muchos SFC/SFB. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-004",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Diagnóstico S7 error - Caso 4",
+      "contexto": "Instalación en almacén con prensa hidráulica de 0.75kW alimentado a 24V DC. El equipo lleva operativo 50 meses sin incidencias previas.",
+      "problema": "Diagnóstico S7 error. El fallo se detectó hace 1 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "6134 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Módulo defectuoso",
+        "Backplane con ruido",
+        "Tensión 24V fluctuante",
+        "Temperatura excesiva"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Módulo defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-005",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Redundancia H no sincroniza - Caso 5",
+      "contexto": "Instalación en área logística con mezcladora de 11kW alimentado a 400V 3F. El equipo lleva operativo 16 meses sin incidencias previas.",
+      "problema": "Redundancia H no sincroniza. El fallo se detectó hace 27 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "7918 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Versiones diferentes",
+        "Modo incorrecto",
+        "Update asíncrono",
+        "Fibra óptica dañada"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Fibra óptica dañada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-006",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Sincronización Motion Control errónea - Caso 6",
+      "contexto": "Instalación en sala máquinas con ventilador extracción de 1.5kW alimentado a 24V DC. El equipo lleva operativo 51 meses sin incidencias previas.",
+      "problema": "Sincronización Motion Control errónea. El fallo se detectó hace 8 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7588 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Cam mal configurada",
+        "Eje maestro inestable",
+        "Reloj no ajustado",
+        "Offset encoder"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Reloj no ajustado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-007",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Safety PLC fallo F-Device - Caso 7",
+      "contexto": "Instalación en sala máquinas con ventilador extracción de 15kW alimentado a 400V 3F. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Safety PLC fallo F-Device. El fallo se detectó hace 27 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "5613 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Test fallido",
+        "Módulo F sin parametrizar",
+        "Contraseña incorrecta",
+        "Dirección F duplicada"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Módulo F sin parametrizar. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-008",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Optimización ciclo necesaria - Caso 8",
+      "contexto": "Instalación en sala máquinas con bomba centrífuga de 3kW alimentado a 400V 3F. El equipo lleva operativo 59 meses sin incidencias previas.",
+      "problema": "Optimización ciclo necesaria. El fallo se detectó hace 28 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "7400 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Código no optimizado",
+        "Base datos grande",
+        "Interrupciones excesivas",
+        "Muchos SFC/SFB"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Muchos SFC/SFB. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-009",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Diagnóstico S7 error - Caso 9",
+      "contexto": "Instalación en almacén con mezcladora de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 50 meses sin incidencias previas.",
+      "problema": "Diagnóstico S7 error. El fallo se detectó hace 25 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "8250 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Backplane con ruido",
+        "Módulo defectuoso",
+        "Tensión 24V fluctuante",
+        "Temperatura excesiva"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Módulo defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-010",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Redundancia H no sincroniza - Caso 10",
+      "contexto": "Instalación en sala máquinas con prensa hidráulica de 15kW alimentado a 110V AC. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Redundancia H no sincroniza. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "2931 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Versiones diferentes",
+        "Fibra óptica dañada",
+        "Modo incorrecto",
+        "Update asíncrono"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Fibra óptica dañada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-011",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Sincronización Motion Control errónea - Caso 11",
+      "contexto": "Instalación en área logística con bomba centrífuga de 15kW alimentado a 48V DC. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Sincronización Motion Control errónea. El fallo se detectó hace 21 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "1952 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Offset encoder",
+        "Eje maestro inestable",
+        "Reloj no ajustado",
+        "Cam mal configurada"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Reloj no ajustado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-012",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Safety PLC fallo F-Device - Caso 12",
+      "contexto": "Instalación en zona envasado con cinta transportadora de 11kW alimentado a 110V AC. El equipo lleva operativo 15 meses sin incidencias previas.",
+      "problema": "Safety PLC fallo F-Device. El fallo se detectó hace 14 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "2422 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Módulo F sin parametrizar",
+        "Test fallido",
+        "Contraseña incorrecta",
+        "Dirección F duplicada"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Módulo F sin parametrizar. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-013",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Optimización ciclo necesaria - Caso 13",
+      "contexto": "Instalación en zona envasado con agitador de 15kW alimentado a 400V 3F. El equipo lleva operativo 60 meses sin incidencias previas.",
+      "problema": "Optimización ciclo necesaria. El fallo se detectó hace 10 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "7879 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Muchos SFC/SFB",
+        "Código no optimizado",
+        "Interrupciones excesivas",
+        "Base datos grande"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Muchos SFC/SFB. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-014",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Diagnóstico S7 error - Caso 14",
+      "contexto": "Instalación en línea montaje con mezcladora de 7.5kW alimentado a 48V DC. El equipo lleva operativo 40 meses sin incidencias previas.",
+      "problema": "Diagnóstico S7 error. El fallo se detectó hace 10 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "6582 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Temperatura excesiva",
+        "Tensión 24V fluctuante",
+        "Módulo defectuoso",
+        "Backplane con ruido"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Módulo defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-015",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Redundancia H no sincroniza - Caso 15",
+      "contexto": "Instalación en línea montaje con mezcladora de 3kW alimentado a 110V AC. El equipo lleva operativo 57 meses sin incidencias previas.",
+      "problema": "Redundancia H no sincroniza. El fallo se detectó hace 20 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "1143 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Fibra óptica dañada",
+        "Modo incorrecto",
+        "Update asíncrono",
+        "Versiones diferentes"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Fibra óptica dañada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-016",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Sincronización Motion Control errónea - Caso 16",
+      "contexto": "Instalación en almacén con cinta transportadora de 11kW alimentado a 110V AC. El equipo lleva operativo 55 meses sin incidencias previas.",
+      "problema": "Sincronización Motion Control errónea. El fallo se detectó hace 12 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "1074 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Offset encoder",
+        "Reloj no ajustado",
+        "Cam mal configurada",
+        "Eje maestro inestable"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Reloj no ajustado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-017",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Safety PLC fallo F-Device - Caso 17",
+      "contexto": "Instalación en estación bombeo con bomba centrífuga de 15kW alimentado a 24V DC. El equipo lleva operativo 37 meses sin incidencias previas.",
+      "problema": "Safety PLC fallo F-Device. El fallo se detectó hace 20 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "3758 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Módulo F sin parametrizar",
+        "Test fallido",
+        "Contraseña incorrecta",
+        "Dirección F duplicada"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Módulo F sin parametrizar. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-018",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Optimización ciclo necesaria - Caso 18",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 12 meses sin incidencias previas.",
+      "problema": "Optimización ciclo necesaria. El fallo se detectó hace 9 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "5795 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Muchos SFC/SFB",
+        "Base datos grande",
+        "Interrupciones excesivas",
+        "Código no optimizado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Muchos SFC/SFB. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-019",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Diagnóstico S7 error - Caso 19",
+      "contexto": "Instalación en zona envasado con mezcladora de 15kW alimentado a 400V 3F. El equipo lleva operativo 38 meses sin incidencias previas.",
+      "problema": "Diagnóstico S7 error. El fallo se detectó hace 18 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "8990 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Módulo defectuoso",
+        "Backplane con ruido",
+        "Tensión 24V fluctuante",
+        "Temperatura excesiva"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Módulo defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-020",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Redundancia H no sincroniza - Caso 20",
+      "contexto": "Instalación en almacén con mezcladora de 3kW alimentado a 48V DC. El equipo lleva operativo 33 meses sin incidencias previas.",
+      "problema": "Redundancia H no sincroniza. El fallo se detectó hace 19 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "3460 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Modo incorrecto",
+        "Versiones diferentes",
+        "Fibra óptica dañada",
+        "Update asíncrono"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Fibra óptica dañada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-021",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Sincronización Motion Control errónea - Caso 21",
+      "contexto": "Instalación en almacén con agitador de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 40 meses sin incidencias previas.",
+      "problema": "Sincronización Motion Control errónea. El fallo se detectó hace 24 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "7206 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Offset encoder",
+        "Cam mal configurada",
+        "Reloj no ajustado",
+        "Eje maestro inestable"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Reloj no ajustado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-022",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Safety PLC fallo F-Device - Caso 22",
+      "contexto": "Instalación en estación bombeo con mezcladora de 5.5kW alimentado a 24V DC. El equipo lleva operativo 13 meses sin incidencias previas.",
+      "problema": "Safety PLC fallo F-Device. El fallo se detectó hace 2 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "2350 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Contraseña incorrecta",
+        "Test fallido",
+        "Módulo F sin parametrizar",
+        "Dirección F duplicada"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Módulo F sin parametrizar. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-023",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Optimización ciclo necesaria - Caso 23",
+      "contexto": "Instalación en línea montaje con cinta transportadora de 7.5kW alimentado a 24V DC. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Optimización ciclo necesaria. El fallo se detectó hace 24 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "1072 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Interrupciones excesivas",
+        "Muchos SFC/SFB",
+        "Código no optimizado",
+        "Base datos grande"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Muchos SFC/SFB. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-024",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Diagnóstico S7 error - Caso 24",
+      "contexto": "Instalación en zona envasado con cinta transportadora de 1.5kW alimentado a 48V DC. El equipo lleva operativo 34 meses sin incidencias previas.",
+      "problema": "Diagnóstico S7 error. El fallo se detectó hace 3 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7315 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Backplane con ruido",
+        "Temperatura excesiva",
+        "Tensión 24V fluctuante",
+        "Módulo defectuoso"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Módulo defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-025",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Redundancia H no sincroniza - Caso 25",
+      "contexto": "Instalación en estación bombeo con elevador de 7.5kW alimentado a 230V AC. El equipo lleva operativo 47 meses sin incidencias previas.",
+      "problema": "Redundancia H no sincroniza. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "1411 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Modo incorrecto",
+        "Update asíncrono",
+        "Fibra óptica dañada",
+        "Versiones diferentes"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Fibra óptica dañada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-026",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Sincronización Motion Control errónea - Caso 26",
+      "contexto": "Instalación en zona envasado con elevador de 11kW alimentado a 230V AC. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Sincronización Motion Control errónea. El fallo se detectó hace 20 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "6003 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Reloj no ajustado",
+        "Offset encoder",
+        "Cam mal configurada",
+        "Eje maestro inestable"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Reloj no ajustado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-027",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Safety PLC fallo F-Device - Caso 27",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 3kW alimentado a 400V 3F. El equipo lleva operativo 54 meses sin incidencias previas.",
+      "problema": "Safety PLC fallo F-Device. El fallo se detectó hace 26 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "2224 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Contraseña incorrecta",
+        "Test fallido",
+        "Dirección F duplicada",
+        "Módulo F sin parametrizar"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Módulo F sin parametrizar. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-028",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Optimización ciclo necesaria - Caso 28",
+      "contexto": "Instalación en zona envasado con compresor tornillo de 3kW alimentado a 400V 3F. El equipo lleva operativo 48 meses sin incidencias previas.",
+      "problema": "Optimización ciclo necesaria. El fallo se detectó hace 23 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "4035 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Código no optimizado",
+        "Interrupciones excesivas",
+        "Muchos SFC/SFB",
+        "Base datos grande"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Muchos SFC/SFB. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-029",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Diagnóstico S7 error - Caso 29",
+      "contexto": "Instalación en almacén con prensa hidráulica de 11kW alimentado a 24V DC. El equipo lleva operativo 27 meses sin incidencias previas.",
+      "problema": "Diagnóstico S7 error. El fallo se detectó hace 26 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "2825 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Tensión 24V fluctuante",
+        "Módulo defectuoso",
+        "Temperatura excesiva",
+        "Backplane con ruido"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Módulo defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-030",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Redundancia H no sincroniza - Caso 30",
+      "contexto": "Instalación en línea montaje con prensa hidráulica de 1.5kW alimentado a 230V AC. El equipo lleva operativo 58 meses sin incidencias previas.",
+      "problema": "Redundancia H no sincroniza. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "4630 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Update asíncrono",
+        "Versiones diferentes",
+        "Fibra óptica dañada",
+        "Modo incorrecto"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Fibra óptica dañada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-031",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Sincronización Motion Control errónea - Caso 31",
+      "contexto": "Instalación en línea montaje con compresor tornillo de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 7 meses sin incidencias previas.",
+      "problema": "Sincronización Motion Control errónea. El fallo se detectó hace 29 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "3718 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Reloj no ajustado",
+        "Eje maestro inestable",
+        "Cam mal configurada",
+        "Offset encoder"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Reloj no ajustado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-032",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Safety PLC fallo F-Device - Caso 32",
+      "contexto": "Instalación en área logística con compresor tornillo de 5.5kW alimentado a 110V AC. El equipo lleva operativo 37 meses sin incidencias previas.",
+      "problema": "Safety PLC fallo F-Device. El fallo se detectó hace 6 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "3178 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Test fallido",
+        "Módulo F sin parametrizar",
+        "Contraseña incorrecta",
+        "Dirección F duplicada"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Módulo F sin parametrizar. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-033",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Optimización ciclo necesaria - Caso 33",
+      "contexto": "Instalación en zona envasado con bomba centrífuga de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 56 meses sin incidencias previas.",
+      "problema": "Optimización ciclo necesaria. El fallo se detectó hace 2 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "2467 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Muchos SFC/SFB",
+        "Interrupciones excesivas",
+        "Código no optimizado",
+        "Base datos grande"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Muchos SFC/SFB. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-034",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Diagnóstico S7 error - Caso 34",
+      "contexto": "Instalación en zona envasado con bomba centrífuga de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 17 meses sin incidencias previas.",
+      "problema": "Diagnóstico S7 error. El fallo se detectó hace 8 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "1307 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Temperatura excesiva",
+        "Módulo defectuoso",
+        "Tensión 24V fluctuante",
+        "Backplane con ruido"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Módulo defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-035",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Redundancia H no sincroniza - Caso 35",
+      "contexto": "Instalación en área logística con prensa hidráulica de 1.5kW alimentado a 48V DC. El equipo lleva operativo 48 meses sin incidencias previas.",
+      "problema": "Redundancia H no sincroniza. El fallo se detectó hace 19 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "3464 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Update asíncrono",
+        "Fibra óptica dañada",
+        "Modo incorrecto",
+        "Versiones diferentes"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Fibra óptica dañada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-036",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Sincronización Motion Control errónea - Caso 36",
+      "contexto": "Instalación en zona envasado con mezcladora de 0.75kW alimentado a 110V AC. El equipo lleva operativo 18 meses sin incidencias previas.",
+      "problema": "Sincronización Motion Control errónea. El fallo se detectó hace 27 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "7879 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Reloj no ajustado",
+        "Cam mal configurada",
+        "Offset encoder",
+        "Eje maestro inestable"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Reloj no ajustado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-037",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Safety PLC fallo F-Device - Caso 37",
+      "contexto": "Instalación en almacén con compresor tornillo de 0.75kW alimentado a 48V DC. El equipo lleva operativo 8 meses sin incidencias previas.",
+      "problema": "Safety PLC fallo F-Device. El fallo se detectó hace 5 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "4946 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Módulo F sin parametrizar",
+        "Dirección F duplicada",
+        "Contraseña incorrecta",
+        "Test fallido"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Módulo F sin parametrizar. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-038",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Optimización ciclo necesaria - Caso 38",
+      "contexto": "Instalación en almacén con compresor tornillo de 1.5kW alimentado a 110V AC. El equipo lleva operativo 21 meses sin incidencias previas.",
+      "problema": "Optimización ciclo necesaria. El fallo se detectó hace 13 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "4096 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Muchos SFC/SFB",
+        "Interrupciones excesivas",
+        "Base datos grande",
+        "Código no optimizado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Muchos SFC/SFB. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-039",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Diagnóstico S7 error - Caso 39",
+      "contexto": "Instalación en zona envasado con mezcladora de 15kW alimentado a 230V AC. El equipo lleva operativo 48 meses sin incidencias previas.",
+      "problema": "Diagnóstico S7 error. El fallo se detectó hace 19 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "4530 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Temperatura excesiva",
+        "Tensión 24V fluctuante",
+        "Módulo defectuoso",
+        "Backplane con ruido"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Módulo defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-040",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Redundancia H no sincroniza - Caso 40",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 1.5kW alimentado a 48V DC. El equipo lleva operativo 50 meses sin incidencias previas.",
+      "problema": "Redundancia H no sincroniza. El fallo se detectó hace 23 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "2786 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Fibra óptica dañada",
+        "Modo incorrecto",
+        "Update asíncrono",
+        "Versiones diferentes"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Fibra óptica dañada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-041",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Sincronización Motion Control errónea - Caso 41",
+      "contexto": "Instalación en sala máquinas con agitador de 15kW alimentado a 48V DC. El equipo lleva operativo 21 meses sin incidencias previas.",
+      "problema": "Sincronización Motion Control errónea. El fallo se detectó hace 19 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "2962 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Cam mal configurada",
+        "Reloj no ajustado",
+        "Offset encoder",
+        "Eje maestro inestable"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Reloj no ajustado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-042",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Safety PLC fallo F-Device - Caso 42",
+      "contexto": "Instalación en zona envasado con agitador de 11kW alimentado a 24V DC. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Safety PLC fallo F-Device. El fallo se detectó hace 15 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "5037 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Contraseña incorrecta",
+        "Dirección F duplicada",
+        "Test fallido",
+        "Módulo F sin parametrizar"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Módulo F sin parametrizar. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-043",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Optimización ciclo necesaria - Caso 43",
+      "contexto": "Instalación en línea montaje con elevador de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 41 meses sin incidencias previas.",
+      "problema": "Optimización ciclo necesaria. El fallo se detectó hace 6 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "6232 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Muchos SFC/SFB",
+        "Interrupciones excesivas",
+        "Base datos grande",
+        "Código no optimizado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Muchos SFC/SFB. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-044",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Diagnóstico S7 error - Caso 44",
+      "contexto": "Instalación en planta producción con compresor tornillo de 11kW alimentado a 24V DC. El equipo lleva operativo 11 meses sin incidencias previas.",
+      "problema": "Diagnóstico S7 error. El fallo se detectó hace 24 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "3070 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Backplane con ruido",
+        "Tensión 24V fluctuante",
+        "Módulo defectuoso",
+        "Temperatura excesiva"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Módulo defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-045",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Redundancia H no sincroniza - Caso 45",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 15kW alimentado a 230V AC. El equipo lleva operativo 54 meses sin incidencias previas.",
+      "problema": "Redundancia H no sincroniza. El fallo se detectó hace 19 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "8784 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Modo incorrecto",
+        "Versiones diferentes",
+        "Update asíncrono",
+        "Fibra óptica dañada"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Fibra óptica dañada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-046",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Sincronización Motion Control errónea - Caso 46",
+      "contexto": "Instalación en almacén con agitador de 11kW alimentado a 230V AC. El equipo lleva operativo 56 meses sin incidencias previas.",
+      "problema": "Sincronización Motion Control errónea. El fallo se detectó hace 8 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "3547 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Offset encoder",
+        "Cam mal configurada",
+        "Eje maestro inestable",
+        "Reloj no ajustado"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Reloj no ajustado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-047",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Safety PLC fallo F-Device - Caso 47",
+      "contexto": "Instalación en estación bombeo con mezcladora de 5.5kW alimentado a 48V DC. El equipo lleva operativo 57 meses sin incidencias previas.",
+      "problema": "Safety PLC fallo F-Device. El fallo se detectó hace 30 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "7503 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Test fallido",
+        "Dirección F duplicada",
+        "Contraseña incorrecta",
+        "Módulo F sin parametrizar"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Módulo F sin parametrizar. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-048",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Optimización ciclo necesaria - Caso 48",
+      "contexto": "Instalación en zona envasado con mezcladora de 15kW alimentado a 400V 3F. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Optimización ciclo necesaria. El fallo se detectó hace 22 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "3309 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Interrupciones excesivas",
+        "Muchos SFC/SFB",
+        "Código no optimizado",
+        "Base datos grande"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Muchos SFC/SFB. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-049",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Diagnóstico S7 error - Caso 49",
+      "contexto": "Instalación en sala máquinas con mezcladora de 5.5kW alimentado a 230V AC. El equipo lleva operativo 27 meses sin incidencias previas.",
+      "problema": "Diagnóstico S7 error. El fallo se detectó hace 9 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "1654 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Tensión 24V fluctuante",
+        "Temperatura excesiva",
+        "Backplane con ruido",
+        "Módulo defectuoso"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Módulo defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "plc-ava-050",
+      "area": "PLC Siemens",
+      "nivel": "avanzado",
+      "titulo": "Redundancia H no sincroniza - Caso 50",
+      "contexto": "Instalación en almacén con mezcladora de 1.5kW alimentado a 230V AC. El equipo lleva operativo 38 meses sin incidencias previas.",
+      "problema": "Redundancia H no sincroniza. El fallo se detectó hace 7 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "1757 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Update asíncrono",
+        "Versiones diferentes",
+        "Fibra óptica dañada",
+        "Modo incorrecto"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Fibra óptica dañada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    }
+  ]
+}
