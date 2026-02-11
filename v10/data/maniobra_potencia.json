@@ -1,0 +1,3304 @@
+{
+  "exercises": [
+    {
+      "id": "man-bás-001",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Arrancador estrella-triángulo no conmuta - Caso 1",
+      "contexto": "Instalación en sala máquinas con cinta transportadora de 1.5kW alimentado a 24V DC. El equipo lleva operativo 48 meses sin incidencias previas.",
+      "problema": "Arrancador estrella-triángulo no conmuta. El fallo se detectó hace 29 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "2950 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Relé temporal averiado",
+        "Contactores bloqueados",
+        "Fase perdida",
+        "Cableado incorrecto"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Relé temporal averiado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-002",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Motor no invierte giro - Caso 2",
+      "contexto": "Instalación en línea montaje con cinta transportadora de 7.5kW alimentado a 230V AC. El equipo lleva operativo 8 meses sin incidencias previas.",
+      "problema": "Motor no invierte giro. El fallo se detectó hace 9 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "2418 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Fase cruzada",
+        "Contactores soldados",
+        "Pulsador roto",
+        "Enclavamiento activo"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Contactores soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-003",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Térmico dispara en arranque - Caso 3",
+      "contexto": "Instalación en línea montaje con compresor tornillo de 15kW alimentado a 400V 3F. El equipo lleva operativo 28 meses sin incidencias previas.",
+      "problema": "Térmico dispara en arranque. El fallo se detectó hace 13 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "8043 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Temperatura ambiente alta",
+        "Fallo ventilador",
+        "Ajuste bajo",
+        "Sobrecarga mecánica"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Ajuste bajo. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-004",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Pulsador marcha no responde - Caso 4",
+      "contexto": "Instalación en línea montaje con prensa hidráulica de 5.5kW alimentado a 24V DC. El equipo lleva operativo 21 meses sin incidencias previas.",
+      "problema": "Pulsador marcha no responde. El fallo se detectó hace 7 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "6769 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Bobina quemada",
+        "Contacto oxidado",
+        "Fusible control fundido",
+        "Cable roto"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-005",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Señalización no funciona - Caso 5",
+      "contexto": "Instalación en línea montaje con elevador de 5.5kW alimentado a 230V AC. El equipo lleva operativo 20 meses sin incidencias previas.",
+      "problema": "Señalización no funciona. El fallo se detectó hace 30 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "2341 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Portalmparas defectuoso",
+        "Cable interrumpido",
+        "Transformador averiado",
+        "Lámpara fundida"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Lámpara fundida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-006",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Relé auxiliar no conmuta - Caso 6",
+      "contexto": "Instalación en sala máquinas con elevador de 5.5kW alimentado a 230V AC. El equipo lleva operativo 25 meses sin incidencias previas.",
+      "problema": "Relé auxiliar no conmuta. El fallo se detectó hace 26 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "4962 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Resorte roto",
+        "Contactos soldados",
+        "Tensión incorrecta",
+        "Bobina abierta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Bobina abierta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-007",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Arrancador estrella-triángulo no conmuta - Caso 7",
+      "contexto": "Instalación en almacén con elevador de 3kW alimentado a 48V DC. El equipo lleva operativo 27 meses sin incidencias previas.",
+      "problema": "Arrancador estrella-triángulo no conmuta. El fallo se detectó hace 5 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "6905 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Contactores bloqueados",
+        "Relé temporal averiado",
+        "Cableado incorrecto",
+        "Fase perdida"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Relé temporal averiado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-008",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Motor no invierte giro - Caso 8",
+      "contexto": "Instalación en planta producción con bomba centrífuga de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 38 meses sin incidencias previas.",
+      "problema": "Motor no invierte giro. El fallo se detectó hace 7 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "6312 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Enclavamiento activo",
+        "Fase cruzada",
+        "Contactores soldados",
+        "Pulsador roto"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Contactores soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-009",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Térmico dispara en arranque - Caso 9",
+      "contexto": "Instalación en zona envasado con ventilador extracción de 7.5kW alimentado a 230V AC. El equipo lleva operativo 34 meses sin incidencias previas.",
+      "problema": "Térmico dispara en arranque. El fallo se detectó hace 23 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "2842 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Ajuste bajo",
+        "Sobrecarga mecánica",
+        "Temperatura ambiente alta",
+        "Fallo ventilador"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Ajuste bajo. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-010",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Pulsador marcha no responde - Caso 10",
+      "contexto": "Instalación en sala máquinas con mezcladora de 11kW alimentado a 400V 3F. El equipo lleva operativo 52 meses sin incidencias previas.",
+      "problema": "Pulsador marcha no responde. El fallo se detectó hace 19 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "1404 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Cable roto",
+        "Contacto oxidado",
+        "Fusible control fundido",
+        "Bobina quemada"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-011",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Señalización no funciona - Caso 11",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 11kW alimentado a 24V DC. El equipo lleva operativo 33 meses sin incidencias previas.",
+      "problema": "Señalización no funciona. El fallo se detectó hace 24 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "1793 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Cable interrumpido",
+        "Lámpara fundida",
+        "Portalmparas defectuoso",
+        "Transformador averiado"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Lámpara fundida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-012",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Relé auxiliar no conmuta - Caso 12",
+      "contexto": "Instalación en planta producción con cinta transportadora de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 18 meses sin incidencias previas.",
+      "problema": "Relé auxiliar no conmuta. El fallo se detectó hace 29 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "2676 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Tensión incorrecta",
+        "Contactos soldados",
+        "Bobina abierta",
+        "Resorte roto"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Bobina abierta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-013",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Arrancador estrella-triángulo no conmuta - Caso 13",
+      "contexto": "Instalación en zona envasado con elevador de 11kW alimentado a 230V AC. El equipo lleva operativo 14 meses sin incidencias previas.",
+      "problema": "Arrancador estrella-triángulo no conmuta. El fallo se detectó hace 15 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "2237 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Cableado incorrecto",
+        "Fase perdida",
+        "Relé temporal averiado",
+        "Contactores bloqueados"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Relé temporal averiado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-014",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Motor no invierte giro - Caso 14",
+      "contexto": "Instalación en sala máquinas con ventilador extracción de 7.5kW alimentado a 110V AC. El equipo lleva operativo 36 meses sin incidencias previas.",
+      "problema": "Motor no invierte giro. El fallo se detectó hace 15 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "6470 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Pulsador roto",
+        "Fase cruzada",
+        "Enclavamiento activo",
+        "Contactores soldados"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Contactores soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-015",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Térmico dispara en arranque - Caso 15",
+      "contexto": "Instalación en sala máquinas con compresor tornillo de 3kW alimentado a 110V AC. El equipo lleva operativo 49 meses sin incidencias previas.",
+      "problema": "Térmico dispara en arranque. El fallo se detectó hace 19 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "7861 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Fallo ventilador",
+        "Temperatura ambiente alta",
+        "Sobrecarga mecánica",
+        "Ajuste bajo"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Ajuste bajo. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-016",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Pulsador marcha no responde - Caso 16",
+      "contexto": "Instalación en estación bombeo con elevador de 3kW alimentado a 400V 3F. El equipo lleva operativo 59 meses sin incidencias previas.",
+      "problema": "Pulsador marcha no responde. El fallo se detectó hace 4 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "5826 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Cable roto",
+        "Fusible control fundido",
+        "Bobina quemada",
+        "Contacto oxidado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-017",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Señalización no funciona - Caso 17",
+      "contexto": "Instalación en línea montaje con elevador de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 34 meses sin incidencias previas.",
+      "problema": "Señalización no funciona. El fallo se detectó hace 3 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "1175 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Lámpara fundida",
+        "Cable interrumpido",
+        "Transformador averiado",
+        "Portalmparas defectuoso"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Lámpara fundida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-018",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Relé auxiliar no conmuta - Caso 18",
+      "contexto": "Instalación en línea montaje con mezcladora de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 50 meses sin incidencias previas.",
+      "problema": "Relé auxiliar no conmuta. El fallo se detectó hace 8 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "8109 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Contactos soldados",
+        "Resorte roto",
+        "Tensión incorrecta",
+        "Bobina abierta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Bobina abierta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-019",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Arrancador estrella-triángulo no conmuta - Caso 19",
+      "contexto": "Instalación en área logística con elevador de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 27 meses sin incidencias previas.",
+      "problema": "Arrancador estrella-triángulo no conmuta. El fallo se detectó hace 5 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "8710 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Fase perdida",
+        "Cableado incorrecto",
+        "Contactores bloqueados",
+        "Relé temporal averiado"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Relé temporal averiado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-020",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Motor no invierte giro - Caso 20",
+      "contexto": "Instalación en estación bombeo con compresor tornillo de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 35 meses sin incidencias previas.",
+      "problema": "Motor no invierte giro. El fallo se detectó hace 15 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "2773 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Enclavamiento activo",
+        "Fase cruzada",
+        "Contactores soldados",
+        "Pulsador roto"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Contactores soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-021",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Térmico dispara en arranque - Caso 21",
+      "contexto": "Instalación en área logística con ventilador extracción de 3kW alimentado a 110V AC. El equipo lleva operativo 39 meses sin incidencias previas.",
+      "problema": "Térmico dispara en arranque. El fallo se detectó hace 5 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "6167 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Temperatura ambiente alta",
+        "Ajuste bajo",
+        "Sobrecarga mecánica",
+        "Fallo ventilador"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Ajuste bajo. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-022",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Pulsador marcha no responde - Caso 22",
+      "contexto": "Instalación en planta producción con elevador de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 39 meses sin incidencias previas.",
+      "problema": "Pulsador marcha no responde. El fallo se detectó hace 1 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "6146 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Bobina quemada",
+        "Cable roto",
+        "Contacto oxidado",
+        "Fusible control fundido"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-023",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Señalización no funciona - Caso 23",
+      "contexto": "Instalación en planta producción con agitador de 7.5kW alimentado a 48V DC. El equipo lleva operativo 56 meses sin incidencias previas.",
+      "problema": "Señalización no funciona. El fallo se detectó hace 24 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "4217 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Lámpara fundida",
+        "Transformador averiado",
+        "Cable interrumpido",
+        "Portalmparas defectuoso"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Lámpara fundida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-024",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Relé auxiliar no conmuta - Caso 24",
+      "contexto": "Instalación en sala máquinas con mezcladora de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 38 meses sin incidencias previas.",
+      "problema": "Relé auxiliar no conmuta. El fallo se detectó hace 10 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7301 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Resorte roto",
+        "Contactos soldados",
+        "Tensión incorrecta",
+        "Bobina abierta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Bobina abierta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-025",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Arrancador estrella-triángulo no conmuta - Caso 25",
+      "contexto": "Instalación en sala máquinas con ventilador extracción de 3kW alimentado a 24V DC. El equipo lleva operativo 58 meses sin incidencias previas.",
+      "problema": "Arrancador estrella-triángulo no conmuta. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "5941 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Cableado incorrecto",
+        "Fase perdida",
+        "Relé temporal averiado",
+        "Contactores bloqueados"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Relé temporal averiado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-026",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Motor no invierte giro - Caso 26",
+      "contexto": "Instalación en zona envasado con cinta transportadora de 3kW alimentado a 48V DC. El equipo lleva operativo 38 meses sin incidencias previas.",
+      "problema": "Motor no invierte giro. El fallo se detectó hace 8 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "5878 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Enclavamiento activo",
+        "Contactores soldados",
+        "Fase cruzada",
+        "Pulsador roto"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Contactores soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-027",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Térmico dispara en arranque - Caso 27",
+      "contexto": "Instalación en línea montaje con mezcladora de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 15 meses sin incidencias previas.",
+      "problema": "Térmico dispara en arranque. El fallo se detectó hace 27 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "3631 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Fallo ventilador",
+        "Sobrecarga mecánica",
+        "Temperatura ambiente alta",
+        "Ajuste bajo"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Ajuste bajo. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-028",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Pulsador marcha no responde - Caso 28",
+      "contexto": "Instalación en línea montaje con agitador de 3kW alimentado a 48V DC. El equipo lleva operativo 33 meses sin incidencias previas.",
+      "problema": "Pulsador marcha no responde. El fallo se detectó hace 10 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "5590 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Bobina quemada",
+        "Cable roto",
+        "Contacto oxidado",
+        "Fusible control fundido"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-029",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Señalización no funciona - Caso 29",
+      "contexto": "Instalación en planta producción con compresor tornillo de 0.75kW alimentado a 230V AC. El equipo lleva operativo 43 meses sin incidencias previas.",
+      "problema": "Señalización no funciona. El fallo se detectó hace 27 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "8870 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Lámpara fundida",
+        "Cable interrumpido",
+        "Portalmparas defectuoso",
+        "Transformador averiado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Lámpara fundida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-030",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Relé auxiliar no conmuta - Caso 30",
+      "contexto": "Instalación en planta producción con elevador de 1.5kW alimentado a 24V DC. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Relé auxiliar no conmuta. El fallo se detectó hace 30 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "5400 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Tensión incorrecta",
+        "Contactos soldados",
+        "Bobina abierta",
+        "Resorte roto"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Bobina abierta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-031",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Arrancador estrella-triángulo no conmuta - Caso 31",
+      "contexto": "Instalación en planta producción con elevador de 15kW alimentado a 110V AC. El equipo lleva operativo 58 meses sin incidencias previas.",
+      "problema": "Arrancador estrella-triángulo no conmuta. El fallo se detectó hace 25 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "4071 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Fase perdida",
+        "Relé temporal averiado",
+        "Cableado incorrecto",
+        "Contactores bloqueados"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Relé temporal averiado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-032",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Motor no invierte giro - Caso 32",
+      "contexto": "Instalación en almacén con mezcladora de 0.75kW alimentado a 48V DC. El equipo lleva operativo 7 meses sin incidencias previas.",
+      "problema": "Motor no invierte giro. El fallo se detectó hace 7 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "1786 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Contactores soldados",
+        "Pulsador roto",
+        "Enclavamiento activo",
+        "Fase cruzada"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Contactores soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-033",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Térmico dispara en arranque - Caso 33",
+      "contexto": "Instalación en línea montaje con bomba centrífuga de 3kW alimentado a 48V DC. El equipo lleva operativo 48 meses sin incidencias previas.",
+      "problema": "Térmico dispara en arranque. El fallo se detectó hace 24 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "3569 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Ajuste bajo",
+        "Temperatura ambiente alta",
+        "Fallo ventilador",
+        "Sobrecarga mecánica"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Ajuste bajo. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-034",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Pulsador marcha no responde - Caso 34",
+      "contexto": "Instalación en línea montaje con cinta transportadora de 11kW alimentado a 110V AC. El equipo lleva operativo 41 meses sin incidencias previas.",
+      "problema": "Pulsador marcha no responde. El fallo se detectó hace 2 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "2712 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Fusible control fundido",
+        "Contacto oxidado",
+        "Bobina quemada",
+        "Cable roto"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-035",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Señalización no funciona - Caso 35",
+      "contexto": "Instalación en área logística con agitador de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 45 meses sin incidencias previas.",
+      "problema": "Señalización no funciona. El fallo se detectó hace 27 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "5320 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Portalmparas defectuoso",
+        "Lámpara fundida",
+        "Transformador averiado",
+        "Cable interrumpido"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Lámpara fundida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-036",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Relé auxiliar no conmuta - Caso 36",
+      "contexto": "Instalación en almacén con elevador de 11kW alimentado a 48V DC. El equipo lleva operativo 35 meses sin incidencias previas.",
+      "problema": "Relé auxiliar no conmuta. El fallo se detectó hace 20 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "8717 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Tensión incorrecta",
+        "Resorte roto",
+        "Bobina abierta",
+        "Contactos soldados"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Bobina abierta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-037",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Arrancador estrella-triángulo no conmuta - Caso 37",
+      "contexto": "Instalación en área logística con mezcladora de 1.5kW alimentado a 24V DC. El equipo lleva operativo 19 meses sin incidencias previas.",
+      "problema": "Arrancador estrella-triángulo no conmuta. El fallo se detectó hace 12 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "4947 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Relé temporal averiado",
+        "Contactores bloqueados",
+        "Fase perdida",
+        "Cableado incorrecto"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Relé temporal averiado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-038",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Motor no invierte giro - Caso 38",
+      "contexto": "Instalación en estación bombeo con mezcladora de 11kW alimentado a 110V AC. El equipo lleva operativo 21 meses sin incidencias previas.",
+      "problema": "Motor no invierte giro. El fallo se detectó hace 13 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "6027 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Contactores soldados",
+        "Pulsador roto",
+        "Enclavamiento activo",
+        "Fase cruzada"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Contactores soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-039",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Térmico dispara en arranque - Caso 39",
+      "contexto": "Instalación en línea montaje con prensa hidráulica de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 26 meses sin incidencias previas.",
+      "problema": "Térmico dispara en arranque. El fallo se detectó hace 28 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "1950 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Temperatura ambiente alta",
+        "Ajuste bajo",
+        "Sobrecarga mecánica",
+        "Fallo ventilador"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Ajuste bajo. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-040",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Pulsador marcha no responde - Caso 40",
+      "contexto": "Instalación en estación bombeo con compresor tornillo de 7.5kW alimentado a 230V AC. El equipo lleva operativo 34 meses sin incidencias previas.",
+      "problema": "Pulsador marcha no responde. El fallo se detectó hace 5 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "7060 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Fusible control fundido",
+        "Bobina quemada",
+        "Contacto oxidado",
+        "Cable roto"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-041",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Señalización no funciona - Caso 41",
+      "contexto": "Instalación en línea montaje con bomba centrífuga de 7.5kW alimentado a 48V DC. El equipo lleva operativo 56 meses sin incidencias previas.",
+      "problema": "Señalización no funciona. El fallo se detectó hace 25 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "6652 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Transformador averiado",
+        "Cable interrumpido",
+        "Portalmparas defectuoso",
+        "Lámpara fundida"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Lámpara fundida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-042",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Relé auxiliar no conmuta - Caso 42",
+      "contexto": "Instalación en planta producción con bomba centrífuga de 0.75kW alimentado a 400V 3F. El equipo lleva operativo 57 meses sin incidencias previas.",
+      "problema": "Relé auxiliar no conmuta. El fallo se detectó hace 25 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "2724 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Contactos soldados",
+        "Resorte roto",
+        "Tensión incorrecta",
+        "Bobina abierta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Bobina abierta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-043",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Arrancador estrella-triángulo no conmuta - Caso 43",
+      "contexto": "Instalación en planta producción con prensa hidráulica de 7.5kW alimentado a 48V DC. El equipo lleva operativo 26 meses sin incidencias previas.",
+      "problema": "Arrancador estrella-triángulo no conmuta. El fallo se detectó hace 22 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "7338 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Contactores bloqueados",
+        "Fase perdida",
+        "Cableado incorrecto",
+        "Relé temporal averiado"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Relé temporal averiado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-044",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Motor no invierte giro - Caso 44",
+      "contexto": "Instalación en planta producción con mezcladora de 15kW alimentado a 110V AC. El equipo lleva operativo 31 meses sin incidencias previas.",
+      "problema": "Motor no invierte giro. El fallo se detectó hace 5 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "5279 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Enclavamiento activo",
+        "Fase cruzada",
+        "Pulsador roto",
+        "Contactores soldados"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Contactores soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-045",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Térmico dispara en arranque - Caso 45",
+      "contexto": "Instalación en línea montaje con mezcladora de 7.5kW alimentado a 48V DC. El equipo lleva operativo 20 meses sin incidencias previas.",
+      "problema": "Térmico dispara en arranque. El fallo se detectó hace 9 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "5482 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Fallo ventilador",
+        "Sobrecarga mecánica",
+        "Ajuste bajo",
+        "Temperatura ambiente alta"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Ajuste bajo. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-046",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Pulsador marcha no responde - Caso 46",
+      "contexto": "Instalación en sala máquinas con compresor tornillo de 0.75kW alimentado a 110V AC. El equipo lleva operativo 39 meses sin incidencias previas.",
+      "problema": "Pulsador marcha no responde. El fallo se detectó hace 19 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "3815 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Contacto oxidado",
+        "Fusible control fundido",
+        "Bobina quemada",
+        "Cable roto"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cable roto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-047",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Señalización no funciona - Caso 47",
+      "contexto": "Instalación en planta producción con ventilador extracción de 0.75kW alimentado a 48V DC. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Señalización no funciona. El fallo se detectó hace 11 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "5324 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Lámpara fundida",
+        "Portalmparas defectuoso",
+        "Cable interrumpido",
+        "Transformador averiado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Lámpara fundida. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-048",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Relé auxiliar no conmuta - Caso 48",
+      "contexto": "Instalación en área logística con bomba centrífuga de 7.5kW alimentado a 110V AC. El equipo lleva operativo 30 meses sin incidencias previas.",
+      "problema": "Relé auxiliar no conmuta. El fallo se detectó hace 9 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "3793 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Resorte roto",
+        "Tensión incorrecta",
+        "Contactos soldados",
+        "Bobina abierta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Bobina abierta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-049",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Arrancador estrella-triángulo no conmuta - Caso 49",
+      "contexto": "Instalación en zona envasado con agitador de 7.5kW alimentado a 48V DC. El equipo lleva operativo 33 meses sin incidencias previas.",
+      "problema": "Arrancador estrella-triángulo no conmuta. El fallo se detectó hace 2 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "4628 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Relé temporal averiado",
+        "Fase perdida",
+        "Contactores bloqueados",
+        "Cableado incorrecto"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Relé temporal averiado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-bás-050",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Motor no invierte giro - Caso 50",
+      "contexto": "Instalación en almacén con bomba centrífuga de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 51 meses sin incidencias previas.",
+      "problema": "Motor no invierte giro. El fallo se detectó hace 11 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "4021 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Pulsador roto",
+        "Fase cruzada",
+        "Contactores soldados",
+        "Enclavamiento activo"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Contactores soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-001",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Variador en fallo - Caso 1",
+      "contexto": "Instalación en estación bombeo con elevador de 11kW alimentado a 24V DC. El equipo lleva operativo 31 meses sin incidencias previas.",
+      "problema": "Variador en fallo. El fallo se detectó hace 11 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "1388 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Sobrecorriente",
+        "Sobretensión DC bus",
+        "Sensor temperatura",
+        "Fallo ventilador"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Sobrecorriente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-002",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Soft-starter no limita corriente - Caso 2",
+      "contexto": "Instalación en zona envasado con compresor tornillo de 5.5kW alimentado a 230V AC. El equipo lleva operativo 45 meses sin incidencias previas.",
+      "problema": "Soft-starter no limita corriente. El fallo se detectó hace 4 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "3224 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Sensor averiado",
+        "Tiristores cortocircuito",
+        "Fallo tarjeta",
+        "Rampa mal configurada"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Tiristores cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-003",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Arranque suave con sacudidas - Caso 3",
+      "contexto": "Instalación en zona envasado con compresor tornillo de 3kW alimentado a 230V AC. El equipo lleva operativo 38 meses sin incidencias previas.",
+      "problema": "Arranque suave con sacudidas. El fallo se detectó hace 18 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "4279 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Realimentación incorrecta",
+        "Carga excesiva",
+        "Tiristor defectuoso",
+        "Parámetros incorrectos"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Parámetros incorrectos. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-004",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Frenado DC no funciona - Caso 4",
+      "contexto": "Instalación en estación bombeo con agitador de 0.75kW alimentado a 400V 3F. El equipo lleva operativo 51 meses sin incidencias previas.",
+      "problema": "Frenado DC no funciona. El fallo se detectó hace 20 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "6203 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Tiempo insuficiente",
+        "Tensión DC baja",
+        "Contactor no cierra",
+        "Resistencia quemada"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Resistencia quemada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-005",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Protección sobrecarga actúa - Caso 5",
+      "contexto": "Instalación en almacén con mezcladora de 15kW alimentado a 400V 3F. El equipo lleva operativo 18 meses sin incidencias previas.",
+      "problema": "Protección sobrecarga actúa. El fallo se detectó hace 1 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "3515 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Corriente mal ajustada",
+        "Sobrecarga real",
+        "Desequilibrio fases",
+        "Clase térmica incorrecta"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Corriente mal ajustada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-006",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Variador en fallo - Caso 6",
+      "contexto": "Instalación en sala máquinas con agitador de 15kW alimentado a 48V DC. El equipo lleva operativo 10 meses sin incidencias previas.",
+      "problema": "Variador en fallo. El fallo se detectó hace 4 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "3011 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Sobrecorriente",
+        "Sobretensión DC bus",
+        "Fallo ventilador",
+        "Sensor temperatura"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Sobrecorriente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-007",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Soft-starter no limita corriente - Caso 7",
+      "contexto": "Instalación en área logística con compresor tornillo de 3kW alimentado a 230V AC. El equipo lleva operativo 8 meses sin incidencias previas.",
+      "problema": "Soft-starter no limita corriente. El fallo se detectó hace 10 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "7976 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Tiristores cortocircuito",
+        "Rampa mal configurada",
+        "Sensor averiado",
+        "Fallo tarjeta"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Tiristores cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-008",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Arranque suave con sacudidas - Caso 8",
+      "contexto": "Instalación en almacén con ventilador extracción de 5.5kW alimentado a 48V DC. El equipo lleva operativo 31 meses sin incidencias previas.",
+      "problema": "Arranque suave con sacudidas. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "5854 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Tiristor defectuoso",
+        "Realimentación incorrecta",
+        "Parámetros incorrectos",
+        "Carga excesiva"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Parámetros incorrectos. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-009",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Frenado DC no funciona - Caso 9",
+      "contexto": "Instalación en planta producción con compresor tornillo de 15kW alimentado a 230V AC. El equipo lleva operativo 10 meses sin incidencias previas.",
+      "problema": "Frenado DC no funciona. El fallo se detectó hace 17 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "3047 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Resistencia quemada",
+        "Contactor no cierra",
+        "Tensión DC baja",
+        "Tiempo insuficiente"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Resistencia quemada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-010",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Protección sobrecarga actúa - Caso 10",
+      "contexto": "Instalación en estación bombeo con agitador de 3kW alimentado a 400V 3F. El equipo lleva operativo 25 meses sin incidencias previas.",
+      "problema": "Protección sobrecarga actúa. El fallo se detectó hace 9 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "6941 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Desequilibrio fases",
+        "Corriente mal ajustada",
+        "Clase térmica incorrecta",
+        "Sobrecarga real"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Corriente mal ajustada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-011",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Variador en fallo - Caso 11",
+      "contexto": "Instalación en zona envasado con elevador de 1.5kW alimentado a 48V DC. El equipo lleva operativo 14 meses sin incidencias previas.",
+      "problema": "Variador en fallo. El fallo se detectó hace 20 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "4288 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Sobretensión DC bus",
+        "Sensor temperatura",
+        "Fallo ventilador",
+        "Sobrecorriente"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Sobrecorriente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-012",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Soft-starter no limita corriente - Caso 12",
+      "contexto": "Instalación en zona envasado con elevador de 15kW alimentado a 24V DC. El equipo lleva operativo 27 meses sin incidencias previas.",
+      "problema": "Soft-starter no limita corriente. El fallo se detectó hace 16 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "5921 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Tiristores cortocircuito",
+        "Fallo tarjeta",
+        "Sensor averiado",
+        "Rampa mal configurada"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Tiristores cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-013",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Arranque suave con sacudidas - Caso 13",
+      "contexto": "Instalación en almacén con prensa hidráulica de 0.75kW alimentado a 48V DC. El equipo lleva operativo 20 meses sin incidencias previas.",
+      "problema": "Arranque suave con sacudidas. El fallo se detectó hace 9 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "1013 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Parámetros incorrectos",
+        "Tiristor defectuoso",
+        "Realimentación incorrecta",
+        "Carga excesiva"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Parámetros incorrectos. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-014",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Frenado DC no funciona - Caso 14",
+      "contexto": "Instalación en área logística con prensa hidráulica de 1.5kW alimentado a 48V DC. El equipo lleva operativo 58 meses sin incidencias previas.",
+      "problema": "Frenado DC no funciona. El fallo se detectó hace 27 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "8460 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Contactor no cierra",
+        "Tensión DC baja",
+        "Resistencia quemada",
+        "Tiempo insuficiente"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Resistencia quemada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-015",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Protección sobrecarga actúa - Caso 15",
+      "contexto": "Instalación en área logística con ventilador extracción de 3kW alimentado a 24V DC. El equipo lleva operativo 22 meses sin incidencias previas.",
+      "problema": "Protección sobrecarga actúa. El fallo se detectó hace 25 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "5017 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Corriente mal ajustada",
+        "Clase térmica incorrecta",
+        "Sobrecarga real",
+        "Desequilibrio fases"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Corriente mal ajustada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-016",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Variador en fallo - Caso 16",
+      "contexto": "Instalación en almacén con compresor tornillo de 3kW alimentado a 48V DC. El equipo lleva operativo 43 meses sin incidencias previas.",
+      "problema": "Variador en fallo. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "4895 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Sobrecorriente",
+        "Sobretensión DC bus",
+        "Fallo ventilador",
+        "Sensor temperatura"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Sobrecorriente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-017",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Soft-starter no limita corriente - Caso 17",
+      "contexto": "Instalación en estación bombeo con elevador de 0.75kW alimentado a 48V DC. El equipo lleva operativo 59 meses sin incidencias previas.",
+      "problema": "Soft-starter no limita corriente. El fallo se detectó hace 27 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "1605 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Fallo tarjeta",
+        "Sensor averiado",
+        "Tiristores cortocircuito",
+        "Rampa mal configurada"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Tiristores cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-018",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Arranque suave con sacudidas - Caso 18",
+      "contexto": "Instalación en estación bombeo con cinta transportadora de 15kW alimentado a 48V DC. El equipo lleva operativo 16 meses sin incidencias previas.",
+      "problema": "Arranque suave con sacudidas. El fallo se detectó hace 22 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "6849 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Carga excesiva",
+        "Parámetros incorrectos",
+        "Tiristor defectuoso",
+        "Realimentación incorrecta"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Parámetros incorrectos. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-019",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Frenado DC no funciona - Caso 19",
+      "contexto": "Instalación en estación bombeo con agitador de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Frenado DC no funciona. El fallo se detectó hace 24 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "7165 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Tensión DC baja",
+        "Contactor no cierra",
+        "Resistencia quemada",
+        "Tiempo insuficiente"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Resistencia quemada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-020",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Protección sobrecarga actúa - Caso 20",
+      "contexto": "Instalación en área logística con elevador de 15kW alimentado a 24V DC. El equipo lleva operativo 15 meses sin incidencias previas.",
+      "problema": "Protección sobrecarga actúa. El fallo se detectó hace 15 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "3187 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Clase térmica incorrecta",
+        "Sobrecarga real",
+        "Corriente mal ajustada",
+        "Desequilibrio fases"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Corriente mal ajustada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-021",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Variador en fallo - Caso 21",
+      "contexto": "Instalación en estación bombeo con elevador de 15kW alimentado a 24V DC. El equipo lleva operativo 17 meses sin incidencias previas.",
+      "problema": "Variador en fallo. El fallo se detectó hace 2 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "3786 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Sensor temperatura",
+        "Fallo ventilador",
+        "Sobretensión DC bus",
+        "Sobrecorriente"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Sobrecorriente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-022",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Soft-starter no limita corriente - Caso 22",
+      "contexto": "Instalación en zona envasado con agitador de 7.5kW alimentado a 110V AC. El equipo lleva operativo 29 meses sin incidencias previas.",
+      "problema": "Soft-starter no limita corriente. El fallo se detectó hace 8 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "8452 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Sensor averiado",
+        "Fallo tarjeta",
+        "Tiristores cortocircuito",
+        "Rampa mal configurada"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Tiristores cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-023",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Arranque suave con sacudidas - Caso 23",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 7.5kW alimentado a 230V AC. El equipo lleva operativo 41 meses sin incidencias previas.",
+      "problema": "Arranque suave con sacudidas. El fallo se detectó hace 14 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "6711 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Realimentación incorrecta",
+        "Carga excesiva",
+        "Parámetros incorrectos",
+        "Tiristor defectuoso"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Parámetros incorrectos. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-024",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Frenado DC no funciona - Caso 24",
+      "contexto": "Instalación en almacén con agitador de 5.5kW alimentado a 24V DC. El equipo lleva operativo 19 meses sin incidencias previas.",
+      "problema": "Frenado DC no funciona. El fallo se detectó hace 15 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "3879 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Tiempo insuficiente",
+        "Contactor no cierra",
+        "Tensión DC baja",
+        "Resistencia quemada"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Resistencia quemada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-025",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Protección sobrecarga actúa - Caso 25",
+      "contexto": "Instalación en estación bombeo con elevador de 11kW alimentado a 230V AC. El equipo lleva operativo 37 meses sin incidencias previas.",
+      "problema": "Protección sobrecarga actúa. El fallo se detectó hace 18 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "3442 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Sobrecarga real",
+        "Corriente mal ajustada",
+        "Clase térmica incorrecta",
+        "Desequilibrio fases"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Corriente mal ajustada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-026",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Variador en fallo - Caso 26",
+      "contexto": "Instalación en línea montaje con compresor tornillo de 3kW alimentado a 400V 3F. El equipo lleva operativo 58 meses sin incidencias previas.",
+      "problema": "Variador en fallo. El fallo se detectó hace 10 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "4671 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Sobrecorriente",
+        "Sobretensión DC bus",
+        "Fallo ventilador",
+        "Sensor temperatura"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Sobrecorriente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-027",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Soft-starter no limita corriente - Caso 27",
+      "contexto": "Instalación en estación bombeo con prensa hidráulica de 7.5kW alimentado a 110V AC. El equipo lleva operativo 45 meses sin incidencias previas.",
+      "problema": "Soft-starter no limita corriente. El fallo se detectó hace 19 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "3259 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Fallo tarjeta",
+        "Sensor averiado",
+        "Rampa mal configurada",
+        "Tiristores cortocircuito"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Tiristores cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-028",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Arranque suave con sacudidas - Caso 28",
+      "contexto": "Instalación en área logística con compresor tornillo de 7.5kW alimentado a 230V AC. El equipo lleva operativo 7 meses sin incidencias previas.",
+      "problema": "Arranque suave con sacudidas. El fallo se detectó hace 16 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "8703 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Carga excesiva",
+        "Realimentación incorrecta",
+        "Parámetros incorrectos",
+        "Tiristor defectuoso"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Parámetros incorrectos. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-029",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Frenado DC no funciona - Caso 29",
+      "contexto": "Instalación en área logística con prensa hidráulica de 5.5kW alimentado a 110V AC. El equipo lleva operativo 33 meses sin incidencias previas.",
+      "problema": "Frenado DC no funciona. El fallo se detectó hace 26 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "3971 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Resistencia quemada",
+        "Tensión DC baja",
+        "Tiempo insuficiente",
+        "Contactor no cierra"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Resistencia quemada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-030",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Protección sobrecarga actúa - Caso 30",
+      "contexto": "Instalación en sala máquinas con prensa hidráulica de 15kW alimentado a 24V DC. El equipo lleva operativo 30 meses sin incidencias previas.",
+      "problema": "Protección sobrecarga actúa. El fallo se detectó hace 20 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "6976 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Corriente mal ajustada",
+        "Clase térmica incorrecta",
+        "Desequilibrio fases",
+        "Sobrecarga real"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Corriente mal ajustada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-031",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Variador en fallo - Caso 31",
+      "contexto": "Instalación en área logística con mezcladora de 15kW alimentado a 110V AC. El equipo lleva operativo 47 meses sin incidencias previas.",
+      "problema": "Variador en fallo. El fallo se detectó hace 23 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "6731 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Sensor temperatura",
+        "Fallo ventilador",
+        "Sobrecorriente",
+        "Sobretensión DC bus"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Sobrecorriente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-032",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Soft-starter no limita corriente - Caso 32",
+      "contexto": "Instalación en área logística con cinta transportadora de 0.75kW alimentado a 24V DC. El equipo lleva operativo 30 meses sin incidencias previas.",
+      "problema": "Soft-starter no limita corriente. El fallo se detectó hace 1 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "2630 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Rampa mal configurada",
+        "Tiristores cortocircuito",
+        "Sensor averiado",
+        "Fallo tarjeta"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Tiristores cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-033",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Arranque suave con sacudidas - Caso 33",
+      "contexto": "Instalación en sala máquinas con prensa hidráulica de 11kW alimentado a 48V DC. El equipo lleva operativo 57 meses sin incidencias previas.",
+      "problema": "Arranque suave con sacudidas. El fallo se detectó hace 19 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "4087 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Parámetros incorrectos",
+        "Tiristor defectuoso",
+        "Realimentación incorrecta",
+        "Carga excesiva"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Parámetros incorrectos. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-034",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Frenado DC no funciona - Caso 34",
+      "contexto": "Instalación en área logística con cinta transportadora de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 36 meses sin incidencias previas.",
+      "problema": "Frenado DC no funciona. El fallo se detectó hace 29 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "6126 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Tensión DC baja",
+        "Resistencia quemada",
+        "Contactor no cierra",
+        "Tiempo insuficiente"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Resistencia quemada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-035",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Protección sobrecarga actúa - Caso 35",
+      "contexto": "Instalación en estación bombeo con mezcladora de 0.75kW alimentado a 24V DC. El equipo lleva operativo 35 meses sin incidencias previas.",
+      "problema": "Protección sobrecarga actúa. El fallo se detectó hace 4 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "8870 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Desequilibrio fases",
+        "Corriente mal ajustada",
+        "Sobrecarga real",
+        "Clase térmica incorrecta"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Corriente mal ajustada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-036",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Variador en fallo - Caso 36",
+      "contexto": "Instalación en almacén con ventilador extracción de 0.75kW alimentado a 230V AC. El equipo lleva operativo 48 meses sin incidencias previas.",
+      "problema": "Variador en fallo. El fallo se detectó hace 22 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "1854 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Sensor temperatura",
+        "Sobretensión DC bus",
+        "Sobrecorriente",
+        "Fallo ventilador"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Sobrecorriente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-037",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Soft-starter no limita corriente - Caso 37",
+      "contexto": "Instalación en almacén con bomba centrífuga de 7.5kW alimentado a 24V DC. El equipo lleva operativo 56 meses sin incidencias previas.",
+      "problema": "Soft-starter no limita corriente. El fallo se detectó hace 9 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "2560 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Sensor averiado",
+        "Tiristores cortocircuito",
+        "Rampa mal configurada",
+        "Fallo tarjeta"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Tiristores cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-038",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Arranque suave con sacudidas - Caso 38",
+      "contexto": "Instalación en zona envasado con compresor tornillo de 15kW alimentado a 24V DC. El equipo lleva operativo 24 meses sin incidencias previas.",
+      "problema": "Arranque suave con sacudidas. El fallo se detectó hace 28 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "4501 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Parámetros incorrectos",
+        "Carga excesiva",
+        "Realimentación incorrecta",
+        "Tiristor defectuoso"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Parámetros incorrectos. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-039",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Frenado DC no funciona - Caso 39",
+      "contexto": "Instalación en almacén con bomba centrífuga de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 57 meses sin incidencias previas.",
+      "problema": "Frenado DC no funciona. El fallo se detectó hace 27 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "5035 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Tiempo insuficiente",
+        "Tensión DC baja",
+        "Contactor no cierra",
+        "Resistencia quemada"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Resistencia quemada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-040",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Protección sobrecarga actúa - Caso 40",
+      "contexto": "Instalación en zona envasado con mezcladora de 0.75kW alimentado a 24V DC. El equipo lleva operativo 37 meses sin incidencias previas.",
+      "problema": "Protección sobrecarga actúa. El fallo se detectó hace 30 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "1223 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Desequilibrio fases",
+        "Sobrecarga real",
+        "Clase térmica incorrecta",
+        "Corriente mal ajustada"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Corriente mal ajustada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-041",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Variador en fallo - Caso 41",
+      "contexto": "Instalación en estación bombeo con mezcladora de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 14 meses sin incidencias previas.",
+      "problema": "Variador en fallo. El fallo se detectó hace 10 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "2871 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Sensor temperatura",
+        "Sobretensión DC bus",
+        "Sobrecorriente",
+        "Fallo ventilador"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Sobrecorriente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-042",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Soft-starter no limita corriente - Caso 42",
+      "contexto": "Instalación en planta producción con mezcladora de 11kW alimentado a 48V DC. El equipo lleva operativo 26 meses sin incidencias previas.",
+      "problema": "Soft-starter no limita corriente. El fallo se detectó hace 21 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "7665 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Fallo tarjeta",
+        "Tiristores cortocircuito",
+        "Sensor averiado",
+        "Rampa mal configurada"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Tiristores cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-043",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Arranque suave con sacudidas - Caso 43",
+      "contexto": "Instalación en almacén con mezcladora de 0.75kW alimentado a 24V DC. El equipo lleva operativo 38 meses sin incidencias previas.",
+      "problema": "Arranque suave con sacudidas. El fallo se detectó hace 19 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "3113 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Realimentación incorrecta",
+        "Tiristor defectuoso",
+        "Parámetros incorrectos",
+        "Carga excesiva"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Parámetros incorrectos. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-044",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Frenado DC no funciona - Caso 44",
+      "contexto": "Instalación en zona envasado con agitador de 1.5kW alimentado a 48V DC. El equipo lleva operativo 39 meses sin incidencias previas.",
+      "problema": "Frenado DC no funciona. El fallo se detectó hace 30 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "8711 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Tiempo insuficiente",
+        "Tensión DC baja",
+        "Resistencia quemada",
+        "Contactor no cierra"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Resistencia quemada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-045",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Protección sobrecarga actúa - Caso 45",
+      "contexto": "Instalación en almacén con ventilador extracción de 1.5kW alimentado a 48V DC. El equipo lleva operativo 18 meses sin incidencias previas.",
+      "problema": "Protección sobrecarga actúa. El fallo se detectó hace 8 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7417 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Clase térmica incorrecta",
+        "Desequilibrio fases",
+        "Sobrecarga real",
+        "Corriente mal ajustada"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Corriente mal ajustada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-046",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Variador en fallo - Caso 46",
+      "contexto": "Instalación en línea montaje con compresor tornillo de 0.75kW alimentado a 110V AC. El equipo lleva operativo 26 meses sin incidencias previas.",
+      "problema": "Variador en fallo. El fallo se detectó hace 29 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "3215 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Sobrecorriente",
+        "Fallo ventilador",
+        "Sobretensión DC bus",
+        "Sensor temperatura"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Sobrecorriente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-047",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Soft-starter no limita corriente - Caso 47",
+      "contexto": "Instalación en zona envasado con elevador de 15kW alimentado a 110V AC. El equipo lleva operativo 18 meses sin incidencias previas.",
+      "problema": "Soft-starter no limita corriente. El fallo se detectó hace 24 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "2617 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Sensor averiado",
+        "Fallo tarjeta",
+        "Tiristores cortocircuito",
+        "Rampa mal configurada"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Tiristores cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-048",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Arranque suave con sacudidas - Caso 48",
+      "contexto": "Instalación en almacén con prensa hidráulica de 15kW alimentado a 230V AC. El equipo lleva operativo 13 meses sin incidencias previas.",
+      "problema": "Arranque suave con sacudidas. El fallo se detectó hace 13 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "7789 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Realimentación incorrecta",
+        "Parámetros incorrectos",
+        "Carga excesiva",
+        "Tiristor defectuoso"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Parámetros incorrectos. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-049",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Frenado DC no funciona - Caso 49",
+      "contexto": "Instalación en línea montaje con prensa hidráulica de 15kW alimentado a 48V DC. El equipo lleva operativo 27 meses sin incidencias previas.",
+      "problema": "Frenado DC no funciona. El fallo se detectó hace 27 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "4506 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Contactor no cierra",
+        "Tiempo insuficiente",
+        "Tensión DC baja",
+        "Resistencia quemada"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Resistencia quemada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-int-050",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Protección sobrecarga actúa - Caso 50",
+      "contexto": "Instalación en planta producción con elevador de 11kW alimentado a 110V AC. El equipo lleva operativo 43 meses sin incidencias previas.",
+      "problema": "Protección sobrecarga actúa. El fallo se detectó hace 6 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "2063 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Corriente mal ajustada",
+        "Clase térmica incorrecta",
+        "Sobrecarga real",
+        "Desequilibrio fases"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Corriente mal ajustada. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-001",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Control vectorial pierde par - Caso 1",
+      "contexto": "Instalación en línea montaje con elevador de 5.5kW alimentado a 230V AC. El equipo lleva operativo 41 meses sin incidencias previas.",
+      "problema": "Control vectorial pierde par. El fallo se detectó hace 6 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "5496 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Autoajuste incorrecto",
+        "Offset corriente",
+        "Parámetros motor erróneos",
+        "Encoder desconectado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Autoajuste incorrecto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-002",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Regeneración causa fallo - Caso 2",
+      "contexto": "Instalación en sala máquinas con cinta transportadora de 15kW alimentado a 24V DC. El equipo lleva operativo 21 meses sin incidencias previas.",
+      "problema": "Regeneración causa fallo. El fallo se detectó hace 30 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "8348 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Bus DC sobretensión",
+        "Energía excesiva",
+        "Resistencia ausente",
+        "Chopper no activo"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Resistencia ausente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-003",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Oscilación lazo cerrado - Caso 3",
+      "contexto": "Instalación en estación bombeo con agitador de 7.5kW alimentado a 230V AC. El equipo lleva operativo 38 meses sin incidencias previas.",
+      "problema": "Oscilación lazo cerrado. El fallo se detectó hace 1 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "1380 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Ganancia PID alta",
+        "Realimentación ruidosa",
+        "Frecuencia resonante",
+        "Tiempo integral bajo"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Ganancia PID alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-004",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Comunicación PROFIBUS interrumpida - Caso 4",
+      "contexto": "Instalación en zona envasado con ventilador extracción de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 12 meses sin incidencias previas.",
+      "problema": "Comunicación PROFIBUS interrumpida. El fallo se detectó hace 14 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "8549 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Baudios erróneos",
+        "Terminación incorrecta",
+        "Cable dañado",
+        "Dirección duplicada"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Terminación incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-005",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Motor síncrono no arranca - Caso 5",
+      "contexto": "Instalación en zona envasado con compresor tornillo de 3kW alimentado a 400V 3F. El equipo lleva operativo 31 meses sin incidencias previas.",
+      "problema": "Motor síncrono no arranca. El fallo se detectó hace 7 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "4815 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Secuencia fases incorrecta",
+        "Carga excesiva",
+        "Sincronización fallida",
+        "Corriente excitación baja"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Secuencia fases incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-006",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Control vectorial pierde par - Caso 6",
+      "contexto": "Instalación en línea montaje con cinta transportadora de 0.75kW alimentado a 24V DC. El equipo lleva operativo 25 meses sin incidencias previas.",
+      "problema": "Control vectorial pierde par. El fallo se detectó hace 4 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "6583 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Parámetros motor erróneos",
+        "Autoajuste incorrecto",
+        "Encoder desconectado",
+        "Offset corriente"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Autoajuste incorrecto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-007",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Regeneración causa fallo - Caso 7",
+      "contexto": "Instalación en sala máquinas con cinta transportadora de 11kW alimentado a 24V DC. El equipo lleva operativo 59 meses sin incidencias previas.",
+      "problema": "Regeneración causa fallo. El fallo se detectó hace 16 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "1635 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Energía excesiva",
+        "Bus DC sobretensión",
+        "Resistencia ausente",
+        "Chopper no activo"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Resistencia ausente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-008",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Oscilación lazo cerrado - Caso 8",
+      "contexto": "Instalación en sala máquinas con prensa hidráulica de 15kW alimentado a 48V DC. El equipo lleva operativo 34 meses sin incidencias previas.",
+      "problema": "Oscilación lazo cerrado. El fallo se detectó hace 15 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "4510 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Realimentación ruidosa",
+        "Ganancia PID alta",
+        "Tiempo integral bajo",
+        "Frecuencia resonante"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Ganancia PID alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-009",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Comunicación PROFIBUS interrumpida - Caso 9",
+      "contexto": "Instalación en planta producción con ventilador extracción de 15kW alimentado a 400V 3F. El equipo lleva operativo 17 meses sin incidencias previas.",
+      "problema": "Comunicación PROFIBUS interrumpida. El fallo se detectó hace 9 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "6056 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Terminación incorrecta",
+        "Dirección duplicada",
+        "Baudios erróneos",
+        "Cable dañado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Terminación incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-010",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Motor síncrono no arranca - Caso 10",
+      "contexto": "Instalación en planta producción con mezcladora de 7.5kW alimentado a 230V AC. El equipo lleva operativo 48 meses sin incidencias previas.",
+      "problema": "Motor síncrono no arranca. El fallo se detectó hace 7 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "8925 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Carga excesiva",
+        "Secuencia fases incorrecta",
+        "Sincronización fallida",
+        "Corriente excitación baja"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Secuencia fases incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-011",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Control vectorial pierde par - Caso 11",
+      "contexto": "Instalación en estación bombeo con prensa hidráulica de 1.5kW alimentado a 110V AC. El equipo lleva operativo 9 meses sin incidencias previas.",
+      "problema": "Control vectorial pierde par. El fallo se detectó hace 12 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "8576 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Autoajuste incorrecto",
+        "Encoder desconectado",
+        "Offset corriente",
+        "Parámetros motor erróneos"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Autoajuste incorrecto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-012",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Regeneración causa fallo - Caso 12",
+      "contexto": "Instalación en almacén con mezcladora de 5.5kW alimentado a 230V AC. El equipo lleva operativo 6 meses sin incidencias previas.",
+      "problema": "Regeneración causa fallo. El fallo se detectó hace 2 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "2606 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Bus DC sobretensión",
+        "Chopper no activo",
+        "Energía excesiva",
+        "Resistencia ausente"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Resistencia ausente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-013",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Oscilación lazo cerrado - Caso 13",
+      "contexto": "Instalación en almacén con agitador de 5.5kW alimentado a 48V DC. El equipo lleva operativo 35 meses sin incidencias previas.",
+      "problema": "Oscilación lazo cerrado. El fallo se detectó hace 15 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "4304 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Ganancia PID alta",
+        "Realimentación ruidosa",
+        "Tiempo integral bajo",
+        "Frecuencia resonante"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Ganancia PID alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-014",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Comunicación PROFIBUS interrumpida - Caso 14",
+      "contexto": "Instalación en estación bombeo con agitador de 11kW alimentado a 400V 3F. El equipo lleva operativo 25 meses sin incidencias previas.",
+      "problema": "Comunicación PROFIBUS interrumpida. El fallo se detectó hace 6 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "8542 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Baudios erróneos",
+        "Cable dañado",
+        "Dirección duplicada",
+        "Terminación incorrecta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Terminación incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-015",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Motor síncrono no arranca - Caso 15",
+      "contexto": "Instalación en zona envasado con elevador de 3kW alimentado a 24V DC. El equipo lleva operativo 23 meses sin incidencias previas.",
+      "problema": "Motor síncrono no arranca. El fallo se detectó hace 1 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "3925 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Sincronización fallida",
+        "Secuencia fases incorrecta",
+        "Carga excesiva",
+        "Corriente excitación baja"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Secuencia fases incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-016",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Control vectorial pierde par - Caso 16",
+      "contexto": "Instalación en sala máquinas con elevador de 11kW alimentado a 48V DC. El equipo lleva operativo 11 meses sin incidencias previas.",
+      "problema": "Control vectorial pierde par. El fallo se detectó hace 12 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "6919 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Autoajuste incorrecto",
+        "Parámetros motor erróneos",
+        "Encoder desconectado",
+        "Offset corriente"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Autoajuste incorrecto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-017",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Regeneración causa fallo - Caso 17",
+      "contexto": "Instalación en sala máquinas con agitador de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Regeneración causa fallo. El fallo se detectó hace 26 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7041 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Resistencia ausente",
+        "Bus DC sobretensión",
+        "Energía excesiva",
+        "Chopper no activo"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Resistencia ausente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-018",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Oscilación lazo cerrado - Caso 18",
+      "contexto": "Instalación en estación bombeo con compresor tornillo de 3kW alimentado a 230V AC. El equipo lleva operativo 24 meses sin incidencias previas.",
+      "problema": "Oscilación lazo cerrado. El fallo se detectó hace 18 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "5470 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Ganancia PID alta",
+        "Realimentación ruidosa",
+        "Frecuencia resonante",
+        "Tiempo integral bajo"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Ganancia PID alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-019",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Comunicación PROFIBUS interrumpida - Caso 19",
+      "contexto": "Instalación en planta producción con ventilador extracción de 7.5kW alimentado a 24V DC. El equipo lleva operativo 9 meses sin incidencias previas.",
+      "problema": "Comunicación PROFIBUS interrumpida. El fallo se detectó hace 3 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "8333 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Terminación incorrecta",
+        "Dirección duplicada",
+        "Cable dañado",
+        "Baudios erróneos"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Terminación incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-020",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Motor síncrono no arranca - Caso 20",
+      "contexto": "Instalación en sala máquinas con bomba centrífuga de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 31 meses sin incidencias previas.",
+      "problema": "Motor síncrono no arranca. El fallo se detectó hace 19 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "3141 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Secuencia fases incorrecta",
+        "Corriente excitación baja",
+        "Carga excesiva",
+        "Sincronización fallida"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Secuencia fases incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-021",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Control vectorial pierde par - Caso 21",
+      "contexto": "Instalación en estación bombeo con compresor tornillo de 15kW alimentado a 230V AC. El equipo lleva operativo 15 meses sin incidencias previas.",
+      "problema": "Control vectorial pierde par. El fallo se detectó hace 30 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "5713 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Autoajuste incorrecto",
+        "Encoder desconectado",
+        "Parámetros motor erróneos",
+        "Offset corriente"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Autoajuste incorrecto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-022",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Regeneración causa fallo - Caso 22",
+      "contexto": "Instalación en planta producción con elevador de 15kW alimentado a 110V AC. El equipo lleva operativo 27 meses sin incidencias previas.",
+      "problema": "Regeneración causa fallo. El fallo se detectó hace 22 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "4189 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Energía excesiva",
+        "Chopper no activo",
+        "Resistencia ausente",
+        "Bus DC sobretensión"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Resistencia ausente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-023",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Oscilación lazo cerrado - Caso 23",
+      "contexto": "Instalación en planta producción con agitador de 0.75kW alimentado a 48V DC. El equipo lleva operativo 46 meses sin incidencias previas.",
+      "problema": "Oscilación lazo cerrado. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "5364 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Ganancia PID alta",
+        "Realimentación ruidosa",
+        "Tiempo integral bajo",
+        "Frecuencia resonante"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Ganancia PID alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-024",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Comunicación PROFIBUS interrumpida - Caso 24",
+      "contexto": "Instalación en planta producción con compresor tornillo de 7.5kW alimentado a 110V AC. El equipo lleva operativo 13 meses sin incidencias previas.",
+      "problema": "Comunicación PROFIBUS interrumpida. El fallo se detectó hace 10 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "4733 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Baudios erróneos",
+        "Cable dañado",
+        "Dirección duplicada",
+        "Terminación incorrecta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Terminación incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-025",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Motor síncrono no arranca - Caso 25",
+      "contexto": "Instalación en estación bombeo con mezcladora de 1.5kW alimentado a 48V DC. El equipo lleva operativo 36 meses sin incidencias previas.",
+      "problema": "Motor síncrono no arranca. El fallo se detectó hace 8 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7090 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Secuencia fases incorrecta",
+        "Sincronización fallida",
+        "Corriente excitación baja",
+        "Carga excesiva"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Secuencia fases incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-026",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Control vectorial pierde par - Caso 26",
+      "contexto": "Instalación en almacén con cinta transportadora de 1.5kW alimentado a 230V AC. El equipo lleva operativo 9 meses sin incidencias previas.",
+      "problema": "Control vectorial pierde par. El fallo se detectó hace 2 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "3787 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Autoajuste incorrecto",
+        "Parámetros motor erróneos",
+        "Offset corriente",
+        "Encoder desconectado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Autoajuste incorrecto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-027",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Regeneración causa fallo - Caso 27",
+      "contexto": "Instalación en almacén con compresor tornillo de 11kW alimentado a 24V DC. El equipo lleva operativo 19 meses sin incidencias previas.",
+      "problema": "Regeneración causa fallo. El fallo se detectó hace 2 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "2006 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Energía excesiva",
+        "Resistencia ausente",
+        "Bus DC sobretensión",
+        "Chopper no activo"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Resistencia ausente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-028",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Oscilación lazo cerrado - Caso 28",
+      "contexto": "Instalación en zona envasado con compresor tornillo de 7.5kW alimentado a 110V AC. El equipo lleva operativo 43 meses sin incidencias previas.",
+      "problema": "Oscilación lazo cerrado. El fallo se detectó hace 13 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "4813 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Ganancia PID alta",
+        "Realimentación ruidosa",
+        "Tiempo integral bajo",
+        "Frecuencia resonante"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Ganancia PID alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-029",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Comunicación PROFIBUS interrumpida - Caso 29",
+      "contexto": "Instalación en línea montaje con prensa hidráulica de 3kW alimentado a 230V AC. El equipo lleva operativo 59 meses sin incidencias previas.",
+      "problema": "Comunicación PROFIBUS interrumpida. El fallo se detectó hace 23 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "8702 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Baudios erróneos",
+        "Terminación incorrecta",
+        "Cable dañado",
+        "Dirección duplicada"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Terminación incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-030",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Motor síncrono no arranca - Caso 30",
+      "contexto": "Instalación en línea montaje con cinta transportadora de 0.75kW alimentado a 230V AC. El equipo lleva operativo 21 meses sin incidencias previas.",
+      "problema": "Motor síncrono no arranca. El fallo se detectó hace 23 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "1338 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Sincronización fallida",
+        "Corriente excitación baja",
+        "Carga excesiva",
+        "Secuencia fases incorrecta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Secuencia fases incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-031",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Control vectorial pierde par - Caso 31",
+      "contexto": "Instalación en área logística con ventilador extracción de 11kW alimentado a 230V AC. El equipo lleva operativo 20 meses sin incidencias previas.",
+      "problema": "Control vectorial pierde par. El fallo se detectó hace 28 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "8490 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Offset corriente",
+        "Autoajuste incorrecto",
+        "Parámetros motor erróneos",
+        "Encoder desconectado"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Autoajuste incorrecto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-032",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Regeneración causa fallo - Caso 32",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 3kW alimentado a 24V DC. El equipo lleva operativo 7 meses sin incidencias previas.",
+      "problema": "Regeneración causa fallo. El fallo se detectó hace 21 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "6605 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Energía excesiva",
+        "Resistencia ausente",
+        "Chopper no activo",
+        "Bus DC sobretensión"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Resistencia ausente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-033",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Oscilación lazo cerrado - Caso 33",
+      "contexto": "Instalación en área logística con ventilador extracción de 3kW alimentado a 400V 3F. El equipo lleva operativo 10 meses sin incidencias previas.",
+      "problema": "Oscilación lazo cerrado. El fallo se detectó hace 1 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "2332 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Realimentación ruidosa",
+        "Ganancia PID alta",
+        "Tiempo integral bajo",
+        "Frecuencia resonante"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Ganancia PID alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-034",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Comunicación PROFIBUS interrumpida - Caso 34",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 0.75kW alimentado a 400V 3F. El equipo lleva operativo 59 meses sin incidencias previas.",
+      "problema": "Comunicación PROFIBUS interrumpida. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "4237 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Dirección duplicada",
+        "Baudios erróneos",
+        "Cable dañado",
+        "Terminación incorrecta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Terminación incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-035",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Motor síncrono no arranca - Caso 35",
+      "contexto": "Instalación en planta producción con compresor tornillo de 0.75kW alimentado a 24V DC. El equipo lleva operativo 41 meses sin incidencias previas.",
+      "problema": "Motor síncrono no arranca. El fallo se detectó hace 9 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "1182 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Sincronización fallida",
+        "Secuencia fases incorrecta",
+        "Carga excesiva",
+        "Corriente excitación baja"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Secuencia fases incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-036",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Control vectorial pierde par - Caso 36",
+      "contexto": "Instalación en línea montaje con prensa hidráulica de 0.75kW alimentado a 230V AC. El equipo lleva operativo 50 meses sin incidencias previas.",
+      "problema": "Control vectorial pierde par. El fallo se detectó hace 6 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "6641 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Offset corriente",
+        "Encoder desconectado",
+        "Autoajuste incorrecto",
+        "Parámetros motor erróneos"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Autoajuste incorrecto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-037",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Regeneración causa fallo - Caso 37",
+      "contexto": "Instalación en almacén con ventilador extracción de 1.5kW alimentado a 24V DC. El equipo lleva operativo 43 meses sin incidencias previas.",
+      "problema": "Regeneración causa fallo. El fallo se detectó hace 28 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "8383 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Energía excesiva",
+        "Bus DC sobretensión",
+        "Resistencia ausente",
+        "Chopper no activo"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Resistencia ausente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-038",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Oscilación lazo cerrado - Caso 38",
+      "contexto": "Instalación en planta producción con compresor tornillo de 11kW alimentado a 110V AC. El equipo lleva operativo 47 meses sin incidencias previas.",
+      "problema": "Oscilación lazo cerrado. El fallo se detectó hace 28 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "2383 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Realimentación ruidosa",
+        "Frecuencia resonante",
+        "Ganancia PID alta",
+        "Tiempo integral bajo"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Ganancia PID alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-039",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Comunicación PROFIBUS interrumpida - Caso 39",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 1.5kW alimentado a 110V AC. El equipo lleva operativo 39 meses sin incidencias previas.",
+      "problema": "Comunicación PROFIBUS interrumpida. El fallo se detectó hace 5 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "6737 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Baudios erróneos",
+        "Terminación incorrecta",
+        "Dirección duplicada",
+        "Cable dañado"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Terminación incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-040",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Motor síncrono no arranca - Caso 40",
+      "contexto": "Instalación en estación bombeo con bomba centrífuga de 5.5kW alimentado a 230V AC. El equipo lleva operativo 34 meses sin incidencias previas.",
+      "problema": "Motor síncrono no arranca. El fallo se detectó hace 14 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "7654 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Corriente excitación baja",
+        "Carga excesiva",
+        "Sincronización fallida",
+        "Secuencia fases incorrecta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Secuencia fases incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-041",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Control vectorial pierde par - Caso 41",
+      "contexto": "Instalación en planta producción con cinta transportadora de 0.75kW alimentado a 400V 3F. El equipo lleva operativo 48 meses sin incidencias previas.",
+      "problema": "Control vectorial pierde par. El fallo se detectó hace 21 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "2903 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Parámetros motor erróneos",
+        "Encoder desconectado",
+        "Offset corriente",
+        "Autoajuste incorrecto"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Autoajuste incorrecto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-042",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Regeneración causa fallo - Caso 42",
+      "contexto": "Instalación en almacén con elevador de 11kW alimentado a 400V 3F. El equipo lleva operativo 50 meses sin incidencias previas.",
+      "problema": "Regeneración causa fallo. El fallo se detectó hace 18 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "2606 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Chopper no activo",
+        "Energía excesiva",
+        "Resistencia ausente",
+        "Bus DC sobretensión"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Resistencia ausente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-043",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Oscilación lazo cerrado - Caso 43",
+      "contexto": "Instalación en línea montaje con agitador de 5.5kW alimentado a 48V DC. El equipo lleva operativo 36 meses sin incidencias previas.",
+      "problema": "Oscilación lazo cerrado. El fallo se detectó hace 15 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "2477 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Realimentación ruidosa",
+        "Ganancia PID alta",
+        "Tiempo integral bajo",
+        "Frecuencia resonante"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Ganancia PID alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-044",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Comunicación PROFIBUS interrumpida - Caso 44",
+      "contexto": "Instalación en zona envasado con agitador de 1.5kW alimentado a 24V DC. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Comunicación PROFIBUS interrumpida. El fallo se detectó hace 2 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "3216 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Dirección duplicada",
+        "Terminación incorrecta",
+        "Baudios erróneos",
+        "Cable dañado"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Terminación incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-045",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Motor síncrono no arranca - Caso 45",
+      "contexto": "Instalación en estación bombeo con compresor tornillo de 0.75kW alimentado a 230V AC. El equipo lleva operativo 28 meses sin incidencias previas.",
+      "problema": "Motor síncrono no arranca. El fallo se detectó hace 10 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "6009 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Corriente excitación baja",
+        "Carga excesiva",
+        "Sincronización fallida",
+        "Secuencia fases incorrecta"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Secuencia fases incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-046",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Control vectorial pierde par - Caso 46",
+      "contexto": "Instalación en área logística con mezcladora de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 31 meses sin incidencias previas.",
+      "problema": "Control vectorial pierde par. El fallo se detectó hace 30 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "7447 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Encoder desconectado",
+        "Autoajuste incorrecto",
+        "Offset corriente",
+        "Parámetros motor erróneos"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Autoajuste incorrecto. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-047",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Regeneración causa fallo - Caso 47",
+      "contexto": "Instalación en planta producción con elevador de 15kW alimentado a 400V 3F. El equipo lleva operativo 37 meses sin incidencias previas.",
+      "problema": "Regeneración causa fallo. El fallo se detectó hace 25 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "3986 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Bus DC sobretensión",
+        "Resistencia ausente",
+        "Energía excesiva",
+        "Chopper no activo"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Resistencia ausente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-048",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Oscilación lazo cerrado - Caso 48",
+      "contexto": "Instalación en línea montaje con cinta transportadora de 3kW alimentado a 110V AC. El equipo lleva operativo 43 meses sin incidencias previas.",
+      "problema": "Oscilación lazo cerrado. El fallo se detectó hace 13 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "6948 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Ganancia PID alta",
+        "Realimentación ruidosa",
+        "Tiempo integral bajo",
+        "Frecuencia resonante"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Ganancia PID alta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-049",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Comunicación PROFIBUS interrumpida - Caso 49",
+      "contexto": "Instalación en línea montaje con agitador de 11kW alimentado a 48V DC. El equipo lleva operativo 33 meses sin incidencias previas.",
+      "problema": "Comunicación PROFIBUS interrumpida. El fallo se detectó hace 11 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "7794 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Baudios erróneos",
+        "Dirección duplicada",
+        "Terminación incorrecta",
+        "Cable dañado"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Terminación incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "man-ava-050",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Motor síncrono no arranca - Caso 50",
+      "contexto": "Instalación en planta producción con compresor tornillo de 5.5kW alimentado a 48V DC. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Motor síncrono no arranca. El fallo se detectó hace 22 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "2775 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Corriente excitación baja",
+        "Sincronización fallida",
+        "Secuencia fases incorrecta",
+        "Carga excesiva"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Secuencia fases incorrecta. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    }
+  ]
+}
