@@ -1,0 +1,3304 @@
+{
+  "exercises": [
+    {
+      "id": "elec-bás-001",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Fusible se funde al arrancar motor - Caso 1",
+      "contexto": "Instalación en sala máquinas con agitador de 3kW alimentado a 400V 3F. El equipo lleva operativo 57 meses sin incidencias previas.",
+      "problema": "Fusible se funde al arrancar motor. El fallo se detectó hace 21 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "5254 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Cortocircuito en bobinado",
+        "Fusible subdimensionado",
+        "Pico normal de arranque",
+        "Cable pelado en masa"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cortocircuito en bobinado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-002",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Motor no arranca pero zumba - Caso 2",
+      "contexto": "Instalación en línea montaje con prensa hidráulica de 0.75kW alimentado a 400V 3F. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Motor no arranca pero zumba. El fallo se detectó hace 21 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "1108 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Fase perdida",
+        "Rotor bloqueado",
+        "Freno mecánico activado",
+        "Condensador defectuoso"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Condensador defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-003",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Contactor vibra y hace ruido - Caso 3",
+      "contexto": "Instalación en área logística con bomba centrífuga de 1.5kW alimentado a 24V DC. El equipo lleva operativo 15 meses sin incidencias previas.",
+      "problema": "Contactor vibra y hace ruido. El fallo se detectó hace 25 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "5106 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Núcleo oxidado",
+        "Espira en cortocircuito",
+        "Tensión baja",
+        "Muelle débil"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Espira en cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-004",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Lámpara fluorescente parpadea - Caso 4",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 15kW alimentado a 110V AC. El equipo lleva operativo 14 meses sin incidencias previas.",
+      "problema": "Lámpara fluorescente parpadea. El fallo se detectó hace 29 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "1270 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Tensión inestable",
+        "Balasto defectuoso",
+        "Tubo fin de vida",
+        "Mal contacto"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Balasto defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-005",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Disyuntor diferencial salta - Caso 5",
+      "contexto": "Instalación en almacén con bomba centrífuga de 11kW alimentado a 48V DC. El equipo lleva operativo 36 meses sin incidencias previas.",
+      "problema": "Disyuntor diferencial salta. El fallo se detectó hace 8 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "5781 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Receptor defectuoso",
+        "Derivación a tierra",
+        "Cable deteriorado",
+        "Humedad en instalación"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Derivación a tierra. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-006",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Motor gira lento - Caso 6",
+      "contexto": "Instalación en almacén con elevador de 0.75kW alimentado a 48V DC. El equipo lleva operativo 27 meses sin incidencias previas.",
+      "problema": "Motor gira lento. El fallo se detectó hace 29 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "6238 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Rodamiento gripado",
+        "Condensador débil",
+        "Sobrecarga",
+        "Tensión baja"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-007",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Calentamiento excesivo cable - Caso 7",
+      "contexto": "Instalación en línea montaje con bomba centrífuga de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 55 meses sin incidencias previas.",
+      "problema": "Calentamiento excesivo cable. El fallo se detectó hace 23 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "5213 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Sobrecarga",
+        "Conexión floja",
+        "Sección insuficiente",
+        "Cable defectuoso"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Sección insuficiente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-008",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Interruptor no desconecta - Caso 8",
+      "contexto": "Instalación en línea montaje con agitador de 3kW alimentado a 48V DC. El equipo lleva operativo 60 meses sin incidencias previas.",
+      "problema": "Interruptor no desconecta. El fallo se detectó hace 6 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "2099 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Contactos soldados",
+        "Resorte roto",
+        "Mecanismo bloqueado",
+        "Arco eléctrico"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Contactos soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-009",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Fusible se funde al arrancar motor - Caso 9",
+      "contexto": "Instalación en zona envasado con elevador de 1.5kW alimentado a 110V AC. El equipo lleva operativo 52 meses sin incidencias previas.",
+      "problema": "Fusible se funde al arrancar motor. El fallo se detectó hace 4 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7128 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Pico normal de arranque",
+        "Cortocircuito en bobinado",
+        "Fusible subdimensionado",
+        "Cable pelado en masa"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cortocircuito en bobinado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-010",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Motor no arranca pero zumba - Caso 10",
+      "contexto": "Instalación en almacén con mezcladora de 11kW alimentado a 48V DC. El equipo lleva operativo 32 meses sin incidencias previas.",
+      "problema": "Motor no arranca pero zumba. El fallo se detectó hace 9 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "4321 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Condensador defectuoso",
+        "Freno mecánico activado",
+        "Fase perdida",
+        "Rotor bloqueado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Condensador defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-011",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Contactor vibra y hace ruido - Caso 11",
+      "contexto": "Instalación en área logística con prensa hidráulica de 3kW alimentado a 48V DC. El equipo lleva operativo 53 meses sin incidencias previas.",
+      "problema": "Contactor vibra y hace ruido. El fallo se detectó hace 23 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "1625 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Muelle débil",
+        "Tensión baja",
+        "Espira en cortocircuito",
+        "Núcleo oxidado"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Espira en cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-012",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Lámpara fluorescente parpadea - Caso 12",
+      "contexto": "Instalación en área logística con compresor tornillo de 3kW alimentado a 230V AC. El equipo lleva operativo 9 meses sin incidencias previas.",
+      "problema": "Lámpara fluorescente parpadea. El fallo se detectó hace 29 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "1431 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Tensión inestable",
+        "Tubo fin de vida",
+        "Balasto defectuoso",
+        "Mal contacto"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Balasto defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-013",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Disyuntor diferencial salta - Caso 13",
+      "contexto": "Instalación en área logística con ventilador extracción de 0.75kW alimentado a 230V AC. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Disyuntor diferencial salta. El fallo se detectó hace 15 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "2284 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Receptor defectuoso",
+        "Derivación a tierra",
+        "Humedad en instalación",
+        "Cable deteriorado"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Derivación a tierra. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-014",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Motor gira lento - Caso 14",
+      "contexto": "Instalación en almacén con ventilador extracción de 1.5kW alimentado a 48V DC. El equipo lleva operativo 33 meses sin incidencias previas.",
+      "problema": "Motor gira lento. El fallo se detectó hace 29 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "8077 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Condensador débil",
+        "Rodamiento gripado",
+        "Sobrecarga",
+        "Tensión baja"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-015",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Calentamiento excesivo cable - Caso 15",
+      "contexto": "Instalación en área logística con cinta transportadora de 11kW alimentado a 24V DC. El equipo lleva operativo 15 meses sin incidencias previas.",
+      "problema": "Calentamiento excesivo cable. El fallo se detectó hace 30 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "5716 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Conexión floja",
+        "Cable defectuoso",
+        "Sección insuficiente",
+        "Sobrecarga"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Sección insuficiente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-016",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Interruptor no desconecta - Caso 16",
+      "contexto": "Instalación en sala máquinas con compresor tornillo de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 32 meses sin incidencias previas.",
+      "problema": "Interruptor no desconecta. El fallo se detectó hace 3 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "4430 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Mecanismo bloqueado",
+        "Contactos soldados",
+        "Arco eléctrico",
+        "Resorte roto"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Contactos soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-017",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Fusible se funde al arrancar motor - Caso 17",
+      "contexto": "Instalación en zona envasado con agitador de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 22 meses sin incidencias previas.",
+      "problema": "Fusible se funde al arrancar motor. El fallo se detectó hace 27 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "3724 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Pico normal de arranque",
+        "Cable pelado en masa",
+        "Cortocircuito en bobinado",
+        "Fusible subdimensionado"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Cortocircuito en bobinado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-018",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Motor no arranca pero zumba - Caso 18",
+      "contexto": "Instalación en estación bombeo con compresor tornillo de 11kW alimentado a 230V AC. El equipo lleva operativo 9 meses sin incidencias previas.",
+      "problema": "Motor no arranca pero zumba. El fallo se detectó hace 22 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "5080 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Fase perdida",
+        "Condensador defectuoso",
+        "Freno mecánico activado",
+        "Rotor bloqueado"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Condensador defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-019",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Contactor vibra y hace ruido - Caso 19",
+      "contexto": "Instalación en planta producción con compresor tornillo de 0.75kW alimentado a 230V AC. El equipo lleva operativo 31 meses sin incidencias previas.",
+      "problema": "Contactor vibra y hace ruido. El fallo se detectó hace 16 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "7532 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Espira en cortocircuito",
+        "Núcleo oxidado",
+        "Muelle débil",
+        "Tensión baja"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Espira en cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-020",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Lámpara fluorescente parpadea - Caso 20",
+      "contexto": "Instalación en área logística con ventilador extracción de 3kW alimentado a 400V 3F. El equipo lleva operativo 37 meses sin incidencias previas.",
+      "problema": "Lámpara fluorescente parpadea. El fallo se detectó hace 11 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "3994 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Tubo fin de vida",
+        "Mal contacto",
+        "Tensión inestable",
+        "Balasto defectuoso"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Balasto defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-021",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Disyuntor diferencial salta - Caso 21",
+      "contexto": "Instalación en zona envasado con ventilador extracción de 11kW alimentado a 110V AC. El equipo lleva operativo 57 meses sin incidencias previas.",
+      "problema": "Disyuntor diferencial salta. El fallo se detectó hace 24 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "3242 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Derivación a tierra",
+        "Humedad en instalación",
+        "Cable deteriorado",
+        "Receptor defectuoso"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Derivación a tierra. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-022",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Motor gira lento - Caso 22",
+      "contexto": "Instalación en área logística con elevador de 5.5kW alimentado a 24V DC. El equipo lleva operativo 14 meses sin incidencias previas.",
+      "problema": "Motor gira lento. El fallo se detectó hace 4 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "1208 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Tensión baja",
+        "Condensador débil",
+        "Rodamiento gripado",
+        "Sobrecarga"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-023",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Calentamiento excesivo cable - Caso 23",
+      "contexto": "Instalación en sala máquinas con elevador de 5.5kW alimentado a 110V AC. El equipo lleva operativo 16 meses sin incidencias previas.",
+      "problema": "Calentamiento excesivo cable. El fallo se detectó hace 13 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "4318 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Conexión floja",
+        "Sección insuficiente",
+        "Cable defectuoso",
+        "Sobrecarga"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Sección insuficiente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-024",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Interruptor no desconecta - Caso 24",
+      "contexto": "Instalación en planta producción con elevador de 1.5kW alimentado a 230V AC. El equipo lleva operativo 23 meses sin incidencias previas.",
+      "problema": "Interruptor no desconecta. El fallo se detectó hace 6 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "8362 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Contactos soldados",
+        "Mecanismo bloqueado",
+        "Resorte roto",
+        "Arco eléctrico"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Contactos soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-025",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Fusible se funde al arrancar motor - Caso 25",
+      "contexto": "Instalación en sala máquinas con prensa hidráulica de 7.5kW alimentado a 230V AC. El equipo lleva operativo 21 meses sin incidencias previas.",
+      "problema": "Fusible se funde al arrancar motor. El fallo se detectó hace 16 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "3448 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Fusible subdimensionado",
+        "Pico normal de arranque",
+        "Cortocircuito en bobinado",
+        "Cable pelado en masa"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Cortocircuito en bobinado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-026",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Motor no arranca pero zumba - Caso 26",
+      "contexto": "Instalación en estación bombeo con agitador de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 57 meses sin incidencias previas.",
+      "problema": "Motor no arranca pero zumba. El fallo se detectó hace 20 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "4211 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Fase perdida",
+        "Condensador defectuoso",
+        "Rotor bloqueado",
+        "Freno mecánico activado"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Condensador defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-027",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Contactor vibra y hace ruido - Caso 27",
+      "contexto": "Instalación en estación bombeo con ventilador extracción de 3kW alimentado a 110V AC. El equipo lleva operativo 6 meses sin incidencias previas.",
+      "problema": "Contactor vibra y hace ruido. El fallo se detectó hace 26 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "8301 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Tensión baja",
+        "Espira en cortocircuito",
+        "Núcleo oxidado",
+        "Muelle débil"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Espira en cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-028",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Lámpara fluorescente parpadea - Caso 28",
+      "contexto": "Instalación en planta producción con compresor tornillo de 3kW alimentado a 24V DC. El equipo lleva operativo 11 meses sin incidencias previas.",
+      "problema": "Lámpara fluorescente parpadea. El fallo se detectó hace 11 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "1145 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Mal contacto",
+        "Tubo fin de vida",
+        "Balasto defectuoso",
+        "Tensión inestable"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Balasto defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-029",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Disyuntor diferencial salta - Caso 29",
+      "contexto": "Instalación en almacén con cinta transportadora de 15kW alimentado a 48V DC. El equipo lleva operativo 39 meses sin incidencias previas.",
+      "problema": "Disyuntor diferencial salta. El fallo se detectó hace 27 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "5313 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Humedad en instalación",
+        "Receptor defectuoso",
+        "Cable deteriorado",
+        "Derivación a tierra"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Derivación a tierra. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-030",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Motor gira lento - Caso 30",
+      "contexto": "Instalación en sala máquinas con ventilador extracción de 3kW alimentado a 230V AC. El equipo lleva operativo 9 meses sin incidencias previas.",
+      "problema": "Motor gira lento. El fallo se detectó hace 3 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "8426 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Sobrecarga",
+        "Condensador débil",
+        "Tensión baja",
+        "Rodamiento gripado"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-031",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Calentamiento excesivo cable - Caso 31",
+      "contexto": "Instalación en almacén con bomba centrífuga de 1.5kW alimentado a 230V AC. El equipo lleva operativo 49 meses sin incidencias previas.",
+      "problema": "Calentamiento excesivo cable. El fallo se detectó hace 29 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "2227 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Conexión floja",
+        "Sobrecarga",
+        "Sección insuficiente",
+        "Cable defectuoso"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Sección insuficiente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-032",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Interruptor no desconecta - Caso 32",
+      "contexto": "Instalación en área logística con elevador de 7.5kW alimentado a 24V DC. El equipo lleva operativo 56 meses sin incidencias previas.",
+      "problema": "Interruptor no desconecta. El fallo se detectó hace 8 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "1593 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Arco eléctrico",
+        "Mecanismo bloqueado",
+        "Resorte roto",
+        "Contactos soldados"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Contactos soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-033",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Fusible se funde al arrancar motor - Caso 33",
+      "contexto": "Instalación en sala máquinas con agitador de 11kW alimentado a 24V DC. El equipo lleva operativo 6 meses sin incidencias previas.",
+      "problema": "Fusible se funde al arrancar motor. El fallo se detectó hace 9 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "7585 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Cable pelado en masa",
+        "Fusible subdimensionado",
+        "Cortocircuito en bobinado",
+        "Pico normal de arranque"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Cortocircuito en bobinado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-034",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Motor no arranca pero zumba - Caso 34",
+      "contexto": "Instalación en almacén con ventilador extracción de 7.5kW alimentado a 110V AC. El equipo lleva operativo 31 meses sin incidencias previas.",
+      "problema": "Motor no arranca pero zumba. El fallo se detectó hace 21 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "1976 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Rotor bloqueado",
+        "Freno mecánico activado",
+        "Condensador defectuoso",
+        "Fase perdida"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Condensador defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-035",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Contactor vibra y hace ruido - Caso 35",
+      "contexto": "Instalación en sala máquinas con compresor tornillo de 15kW alimentado a 110V AC. El equipo lleva operativo 48 meses sin incidencias previas.",
+      "problema": "Contactor vibra y hace ruido. El fallo se detectó hace 7 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "5786 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Muelle débil",
+        "Espira en cortocircuito",
+        "Núcleo oxidado",
+        "Tensión baja"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Espira en cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-036",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Lámpara fluorescente parpadea - Caso 36",
+      "contexto": "Instalación en estación bombeo con bomba centrífuga de 7.5kW alimentado a 24V DC. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Lámpara fluorescente parpadea. El fallo se detectó hace 27 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "6800 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Balasto defectuoso",
+        "Tubo fin de vida",
+        "Tensión inestable",
+        "Mal contacto"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Balasto defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-037",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Disyuntor diferencial salta - Caso 37",
+      "contexto": "Instalación en almacén con ventilador extracción de 1.5kW alimentado a 230V AC. El equipo lleva operativo 14 meses sin incidencias previas.",
+      "problema": "Disyuntor diferencial salta. El fallo se detectó hace 16 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "8858 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Receptor defectuoso",
+        "Humedad en instalación",
+        "Cable deteriorado",
+        "Derivación a tierra"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Derivación a tierra. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-038",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Motor gira lento - Caso 38",
+      "contexto": "Instalación en almacén con compresor tornillo de 1.5kW alimentado a 230V AC. El equipo lleva operativo 28 meses sin incidencias previas.",
+      "problema": "Motor gira lento. El fallo se detectó hace 3 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "5914 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Condensador débil",
+        "Rodamiento gripado",
+        "Tensión baja",
+        "Sobrecarga"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-039",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Calentamiento excesivo cable - Caso 39",
+      "contexto": "Instalación en estación bombeo con bomba centrífuga de 11kW alimentado a 110V AC. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Calentamiento excesivo cable. El fallo se detectó hace 8 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "5481 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Conexión floja",
+        "Sección insuficiente",
+        "Cable defectuoso",
+        "Sobrecarga"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Sección insuficiente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-040",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Interruptor no desconecta - Caso 40",
+      "contexto": "Instalación en sala máquinas con elevador de 1.5kW alimentado a 48V DC. El equipo lleva operativo 18 meses sin incidencias previas.",
+      "problema": "Interruptor no desconecta. El fallo se detectó hace 20 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7350 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Mecanismo bloqueado",
+        "Resorte roto",
+        "Arco eléctrico",
+        "Contactos soldados"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Contactos soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-041",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Fusible se funde al arrancar motor - Caso 41",
+      "contexto": "Instalación en estación bombeo con bomba centrífuga de 0.75kW alimentado a 230V AC. El equipo lleva operativo 26 meses sin incidencias previas.",
+      "problema": "Fusible se funde al arrancar motor. El fallo se detectó hace 20 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "3622 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Pico normal de arranque",
+        "Fusible subdimensionado",
+        "Cable pelado en masa",
+        "Cortocircuito en bobinado"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cortocircuito en bobinado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-042",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Motor no arranca pero zumba - Caso 42",
+      "contexto": "Instalación en almacén con bomba centrífuga de 11kW alimentado a 400V 3F. El equipo lleva operativo 36 meses sin incidencias previas.",
+      "problema": "Motor no arranca pero zumba. El fallo se detectó hace 12 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "6870 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Rotor bloqueado",
+        "Freno mecánico activado",
+        "Condensador defectuoso",
+        "Fase perdida"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Condensador defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-043",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Contactor vibra y hace ruido - Caso 43",
+      "contexto": "Instalación en línea montaje con compresor tornillo de 1.5kW alimentado a 230V AC. El equipo lleva operativo 13 meses sin incidencias previas.",
+      "problema": "Contactor vibra y hace ruido. El fallo se detectó hace 14 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "5593 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Espira en cortocircuito",
+        "Muelle débil",
+        "Núcleo oxidado",
+        "Tensión baja"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Espira en cortocircuito. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-044",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Lámpara fluorescente parpadea - Caso 44",
+      "contexto": "Instalación en línea montaje con elevador de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Lámpara fluorescente parpadea. El fallo se detectó hace 24 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "5965 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Tensión inestable",
+        "Mal contacto",
+        "Balasto defectuoso",
+        "Tubo fin de vida"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Balasto defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-045",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Disyuntor diferencial salta - Caso 45",
+      "contexto": "Instalación en almacén con cinta transportadora de 3kW alimentado a 230V AC. El equipo lleva operativo 15 meses sin incidencias previas.",
+      "problema": "Disyuntor diferencial salta. El fallo se detectó hace 25 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "8763 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Humedad en instalación",
+        "Receptor defectuoso",
+        "Cable deteriorado",
+        "Derivación a tierra"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Derivación a tierra. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-046",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Motor gira lento - Caso 46",
+      "contexto": "Instalación en sala máquinas con mezcladora de 1.5kW alimentado a 110V AC. El equipo lleva operativo 9 meses sin incidencias previas.",
+      "problema": "Motor gira lento. El fallo se detectó hace 24 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "3060 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Sobrecarga",
+        "Condensador débil",
+        "Tensión baja",
+        "Rodamiento gripado"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-047",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Calentamiento excesivo cable - Caso 47",
+      "contexto": "Instalación en área logística con mezcladora de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 49 meses sin incidencias previas.",
+      "problema": "Calentamiento excesivo cable. El fallo se detectó hace 22 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "6057 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Sobrecarga",
+        "Conexión floja",
+        "Sección insuficiente",
+        "Cable defectuoso"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Sección insuficiente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-048",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Interruptor no desconecta - Caso 48",
+      "contexto": "Instalación en zona envasado con prensa hidráulica de 1.5kW alimentado a 110V AC. El equipo lleva operativo 41 meses sin incidencias previas.",
+      "problema": "Interruptor no desconecta. El fallo se detectó hace 17 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "6456 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Resorte roto",
+        "Arco eléctrico",
+        "Mecanismo bloqueado",
+        "Contactos soldados"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Contactos soldados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-049",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Fusible se funde al arrancar motor - Caso 49",
+      "contexto": "Instalación en estación bombeo con compresor tornillo de 5.5kW alimentado a 48V DC. El equipo lleva operativo 48 meses sin incidencias previas.",
+      "problema": "Fusible se funde al arrancar motor. El fallo se detectó hace 27 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "5323 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Fusible subdimensionado",
+        "Cortocircuito en bobinado",
+        "Pico normal de arranque",
+        "Cable pelado en masa"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cortocircuito en bobinado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-bás-050",
+      "area": "Electricidad Básica",
+      "nivel": "básico",
+      "titulo": "Motor no arranca pero zumba - Caso 50",
+      "contexto": "Instalación en estación bombeo con ventilador extracción de 11kW alimentado a 24V DC. El equipo lleva operativo 18 meses sin incidencias previas.",
+      "problema": "Motor no arranca pero zumba. El fallo se detectó hace 16 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "5035 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Condensador defectuoso",
+        "Fase perdida",
+        "Rotor bloqueado",
+        "Freno mecánico activado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Condensador defectuoso. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-001",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Corriente desbalanceada motor trifásico - Caso 1",
+      "contexto": "Instalación en área logística con compresor tornillo de 1.5kW alimentado a 230V AC. El equipo lleva operativo 40 meses sin incidencias previas.",
+      "problema": "Corriente desbalanceada motor trifásico. El fallo se detectó hace 21 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7166 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Sobrecarga parcial",
+        "Contactos sucios",
+        "Fase débil",
+        "Bobinado asimétrico"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Fase débil. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-002",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Factor de potencia bajo - Caso 2",
+      "contexto": "Instalación en estación bombeo con cinta transportadora de 1.5kW alimentado a 110V AC. El equipo lleva operativo 50 meses sin incidencias previas.",
+      "problema": "Factor de potencia bajo. El fallo se detectó hace 18 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "2588 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Motores en vacío",
+        "Transformador sobredimensionado",
+        "Sin condensadores",
+        "Armónicos"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Sin condensadores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-003",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Motor se calienta excesivamente - Caso 3",
+      "contexto": "Instalación en almacén con agitador de 0.75kW alimentado a 400V 3F. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Motor se calienta excesivamente. El fallo se detectó hace 29 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "6854 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Rodamientos desgastados",
+        "Ventilación obstruida",
+        "Sobrecarga mecánica",
+        "Tensión baja"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-004",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Variador muestra fallo de fase - Caso 4",
+      "contexto": "Instalación en almacén con elevador de 11kW alimentado a 24V DC. El equipo lleva operativo 60 meses sin incidencias previas.",
+      "problema": "Variador muestra fallo de fase. El fallo se detectó hace 10 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "3758 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Cable fase cortado",
+        "Mala conexión",
+        "Fusible fundido",
+        "Fallo red"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cable fase cortado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-005",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Caída de tensión en arranque - Caso 5",
+      "contexto": "Instalación en planta producción con prensa hidráulica de 15kW alimentado a 24V DC. El equipo lleva operativo 19 meses sin incidencias previas.",
+      "problema": "Caída de tensión en arranque. El fallo se detectó hace 4 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "4164 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Conexión floja",
+        "Cable subdimensionado",
+        "Distancia excesiva",
+        "Protección incorrecta"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cable subdimensionado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-006",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Disparos intempestivos diferencial - Caso 6",
+      "contexto": "Instalación en planta producción con cinta transportadora de 15kW alimentado a 110V AC. El equipo lleva operativo 30 meses sin incidencias previas.",
+      "problema": "Disparos intempestivos diferencial. El fallo se detectó hace 11 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "8141 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Diferencial sensible",
+        "Humedad cables",
+        "Corriente fuga",
+        "Pararrayos activo"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Corriente fuga. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-007",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Corriente desbalanceada motor trifásico - Caso 7",
+      "contexto": "Instalación en línea montaje con bomba centrífuga de 7.5kW alimentado a 230V AC. El equipo lleva operativo 19 meses sin incidencias previas.",
+      "problema": "Corriente desbalanceada motor trifásico. El fallo se detectó hace 18 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "3164 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Sobrecarga parcial",
+        "Contactos sucios",
+        "Bobinado asimétrico",
+        "Fase débil"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Fase débil. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-008",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Factor de potencia bajo - Caso 8",
+      "contexto": "Instalación en área logística con agitador de 3kW alimentado a 48V DC. El equipo lleva operativo 40 meses sin incidencias previas.",
+      "problema": "Factor de potencia bajo. El fallo se detectó hace 13 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "1305 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Armónicos",
+        "Transformador sobredimensionado",
+        "Motores en vacío",
+        "Sin condensadores"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Sin condensadores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-009",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Motor se calienta excesivamente - Caso 9",
+      "contexto": "Instalación en sala máquinas con mezcladora de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 35 meses sin incidencias previas.",
+      "problema": "Motor se calienta excesivamente. El fallo se detectó hace 15 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "1823 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Tensión baja",
+        "Rodamientos desgastados",
+        "Ventilación obstruida",
+        "Sobrecarga mecánica"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-010",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Variador muestra fallo de fase - Caso 10",
+      "contexto": "Instalación en planta producción con compresor tornillo de 5.5kW alimentado a 230V AC. El equipo lleva operativo 60 meses sin incidencias previas.",
+      "problema": "Variador muestra fallo de fase. El fallo se detectó hace 10 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "6281 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Cable fase cortado",
+        "Fusible fundido",
+        "Mala conexión",
+        "Fallo red"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cable fase cortado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-011",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Caída de tensión en arranque - Caso 11",
+      "contexto": "Instalación en sala máquinas con elevador de 15kW alimentado a 400V 3F. El equipo lleva operativo 46 meses sin incidencias previas.",
+      "problema": "Caída de tensión en arranque. El fallo se detectó hace 10 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "4706 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Cable subdimensionado",
+        "Conexión floja",
+        "Distancia excesiva",
+        "Protección incorrecta"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cable subdimensionado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-012",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Disparos intempestivos diferencial - Caso 12",
+      "contexto": "Instalación en línea montaje con cinta transportadora de 3kW alimentado a 48V DC. El equipo lleva operativo 15 meses sin incidencias previas.",
+      "problema": "Disparos intempestivos diferencial. El fallo se detectó hace 21 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "7456 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Diferencial sensible",
+        "Pararrayos activo",
+        "Humedad cables",
+        "Corriente fuga"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Corriente fuga. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-013",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Corriente desbalanceada motor trifásico - Caso 13",
+      "contexto": "Instalación en planta producción con agitador de 3kW alimentado a 400V 3F. El equipo lleva operativo 30 meses sin incidencias previas.",
+      "problema": "Corriente desbalanceada motor trifásico. El fallo se detectó hace 25 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "2134 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Fase débil",
+        "Sobrecarga parcial",
+        "Contactos sucios",
+        "Bobinado asimétrico"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Fase débil. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-014",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Factor de potencia bajo - Caso 14",
+      "contexto": "Instalación en zona envasado con agitador de 3kW alimentado a 230V AC. El equipo lleva operativo 7 meses sin incidencias previas.",
+      "problema": "Factor de potencia bajo. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "7048 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Armónicos",
+        "Motores en vacío",
+        "Transformador sobredimensionado",
+        "Sin condensadores"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Sin condensadores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-015",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Motor se calienta excesivamente - Caso 15",
+      "contexto": "Instalación en sala máquinas con agitador de 5.5kW alimentado a 24V DC. El equipo lleva operativo 30 meses sin incidencias previas.",
+      "problema": "Motor se calienta excesivamente. El fallo se detectó hace 1 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "1315 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Tensión baja",
+        "Sobrecarga mecánica",
+        "Rodamientos desgastados",
+        "Ventilación obstruida"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-016",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Variador muestra fallo de fase - Caso 16",
+      "contexto": "Instalación en línea montaje con mezcladora de 5.5kW alimentado a 110V AC. El equipo lleva operativo 23 meses sin incidencias previas.",
+      "problema": "Variador muestra fallo de fase. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "7061 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Cable fase cortado",
+        "Mala conexión",
+        "Fallo red",
+        "Fusible fundido"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cable fase cortado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-017",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Caída de tensión en arranque - Caso 17",
+      "contexto": "Instalación en zona envasado con prensa hidráulica de 11kW alimentado a 24V DC. El equipo lleva operativo 32 meses sin incidencias previas.",
+      "problema": "Caída de tensión en arranque. El fallo se detectó hace 21 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "4711 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Conexión floja",
+        "Distancia excesiva",
+        "Protección incorrecta",
+        "Cable subdimensionado"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cable subdimensionado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-018",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Disparos intempestivos diferencial - Caso 18",
+      "contexto": "Instalación en estación bombeo con cinta transportadora de 15kW alimentado a 24V DC. El equipo lleva operativo 25 meses sin incidencias previas.",
+      "problema": "Disparos intempestivos diferencial. El fallo se detectó hace 2 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "7532 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Humedad cables",
+        "Corriente fuga",
+        "Diferencial sensible",
+        "Pararrayos activo"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Corriente fuga. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-019",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Corriente desbalanceada motor trifásico - Caso 19",
+      "contexto": "Instalación en estación bombeo con ventilador extracción de 11kW alimentado a 230V AC. El equipo lleva operativo 58 meses sin incidencias previas.",
+      "problema": "Corriente desbalanceada motor trifásico. El fallo se detectó hace 26 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "8149 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Fase débil",
+        "Bobinado asimétrico",
+        "Sobrecarga parcial",
+        "Contactos sucios"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Fase débil. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-020",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Factor de potencia bajo - Caso 20",
+      "contexto": "Instalación en estación bombeo con prensa hidráulica de 15kW alimentado a 230V AC. El equipo lleva operativo 8 meses sin incidencias previas.",
+      "problema": "Factor de potencia bajo. El fallo se detectó hace 25 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "4353 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Armónicos",
+        "Motores en vacío",
+        "Sin condensadores",
+        "Transformador sobredimensionado"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Sin condensadores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-021",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Motor se calienta excesivamente - Caso 21",
+      "contexto": "Instalación en línea montaje con elevador de 3kW alimentado a 110V AC. El equipo lleva operativo 47 meses sin incidencias previas.",
+      "problema": "Motor se calienta excesivamente. El fallo se detectó hace 26 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "3788 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Tensión baja",
+        "Ventilación obstruida",
+        "Sobrecarga mecánica",
+        "Rodamientos desgastados"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-022",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Variador muestra fallo de fase - Caso 22",
+      "contexto": "Instalación en línea montaje con mezcladora de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 15 meses sin incidencias previas.",
+      "problema": "Variador muestra fallo de fase. El fallo se detectó hace 15 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "3537 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Fusible fundido",
+        "Cable fase cortado",
+        "Fallo red",
+        "Mala conexión"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cable fase cortado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-023",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Caída de tensión en arranque - Caso 23",
+      "contexto": "Instalación en planta producción con elevador de 5.5kW alimentado a 230V AC. El equipo lleva operativo 23 meses sin incidencias previas.",
+      "problema": "Caída de tensión en arranque. El fallo se detectó hace 18 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "6024 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Conexión floja",
+        "Distancia excesiva",
+        "Cable subdimensionado",
+        "Protección incorrecta"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Cable subdimensionado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-024",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Disparos intempestivos diferencial - Caso 24",
+      "contexto": "Instalación en área logística con ventilador extracción de 1.5kW alimentado a 48V DC. El equipo lleva operativo 8 meses sin incidencias previas.",
+      "problema": "Disparos intempestivos diferencial. El fallo se detectó hace 15 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "6928 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Humedad cables",
+        "Corriente fuga",
+        "Pararrayos activo",
+        "Diferencial sensible"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Corriente fuga. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-025",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Corriente desbalanceada motor trifásico - Caso 25",
+      "contexto": "Instalación en estación bombeo con ventilador extracción de 15kW alimentado a 400V 3F. El equipo lleva operativo 43 meses sin incidencias previas.",
+      "problema": "Corriente desbalanceada motor trifásico. El fallo se detectó hace 18 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "8261 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Contactos sucios",
+        "Sobrecarga parcial",
+        "Bobinado asimétrico",
+        "Fase débil"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Fase débil. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-026",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Factor de potencia bajo - Caso 26",
+      "contexto": "Instalación en área logística con prensa hidráulica de 15kW alimentado a 400V 3F. El equipo lleva operativo 9 meses sin incidencias previas.",
+      "problema": "Factor de potencia bajo. El fallo se detectó hace 28 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "3799 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Motores en vacío",
+        "Sin condensadores",
+        "Transformador sobredimensionado",
+        "Armónicos"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Sin condensadores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-027",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Motor se calienta excesivamente - Caso 27",
+      "contexto": "Instalación en zona envasado con cinta transportadora de 7.5kW alimentado a 110V AC. El equipo lleva operativo 45 meses sin incidencias previas.",
+      "problema": "Motor se calienta excesivamente. El fallo se detectó hace 26 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "8139 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Rodamientos desgastados",
+        "Tensión baja",
+        "Sobrecarga mecánica",
+        "Ventilación obstruida"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-028",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Variador muestra fallo de fase - Caso 28",
+      "contexto": "Instalación en planta producción con bomba centrífuga de 15kW alimentado a 230V AC. El equipo lleva operativo 19 meses sin incidencias previas.",
+      "problema": "Variador muestra fallo de fase. El fallo se detectó hace 19 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "4075 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Fusible fundido",
+        "Fallo red",
+        "Cable fase cortado",
+        "Mala conexión"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Cable fase cortado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-029",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Caída de tensión en arranque - Caso 29",
+      "contexto": "Instalación en zona envasado con cinta transportadora de 0.75kW alimentado a 400V 3F. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Caída de tensión en arranque. El fallo se detectó hace 13 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "4459 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Protección incorrecta",
+        "Conexión floja",
+        "Distancia excesiva",
+        "Cable subdimensionado"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cable subdimensionado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-030",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Disparos intempestivos diferencial - Caso 30",
+      "contexto": "Instalación en zona envasado con elevador de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 45 meses sin incidencias previas.",
+      "problema": "Disparos intempestivos diferencial. El fallo se detectó hace 29 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "8308 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Humedad cables",
+        "Corriente fuga",
+        "Diferencial sensible",
+        "Pararrayos activo"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Corriente fuga. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-031",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Corriente desbalanceada motor trifásico - Caso 31",
+      "contexto": "Instalación en zona envasado con ventilador extracción de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 43 meses sin incidencias previas.",
+      "problema": "Corriente desbalanceada motor trifásico. El fallo se detectó hace 6 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "8153 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Bobinado asimétrico",
+        "Sobrecarga parcial",
+        "Fase débil",
+        "Contactos sucios"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Fase débil. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-032",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Factor de potencia bajo - Caso 32",
+      "contexto": "Instalación en planta producción con bomba centrífuga de 11kW alimentado a 24V DC. El equipo lleva operativo 16 meses sin incidencias previas.",
+      "problema": "Factor de potencia bajo. El fallo se detectó hace 24 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "7757 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Transformador sobredimensionado",
+        "Sin condensadores",
+        "Motores en vacío",
+        "Armónicos"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Sin condensadores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-033",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Motor se calienta excesivamente - Caso 33",
+      "contexto": "Instalación en área logística con prensa hidráulica de 3kW alimentado a 48V DC. El equipo lleva operativo 51 meses sin incidencias previas.",
+      "problema": "Motor se calienta excesivamente. El fallo se detectó hace 18 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "4225 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Sobrecarga mecánica",
+        "Tensión baja",
+        "Ventilación obstruida",
+        "Rodamientos desgastados"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-034",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Variador muestra fallo de fase - Caso 34",
+      "contexto": "Instalación en estación bombeo con cinta transportadora de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 10 meses sin incidencias previas.",
+      "problema": "Variador muestra fallo de fase. El fallo se detectó hace 10 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "3441 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Mala conexión",
+        "Cable fase cortado",
+        "Fallo red",
+        "Fusible fundido"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cable fase cortado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-035",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Caída de tensión en arranque - Caso 35",
+      "contexto": "Instalación en zona envasado con agitador de 5.5kW alimentado a 48V DC. El equipo lleva operativo 28 meses sin incidencias previas.",
+      "problema": "Caída de tensión en arranque. El fallo se detectó hace 22 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "3003 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Distancia excesiva",
+        "Conexión floja",
+        "Protección incorrecta",
+        "Cable subdimensionado"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cable subdimensionado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-036",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Disparos intempestivos diferencial - Caso 36",
+      "contexto": "Instalación en estación bombeo con bomba centrífuga de 3kW alimentado a 24V DC. El equipo lleva operativo 41 meses sin incidencias previas.",
+      "problema": "Disparos intempestivos diferencial. El fallo se detectó hace 19 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "1201 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Diferencial sensible",
+        "Humedad cables",
+        "Pararrayos activo",
+        "Corriente fuga"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Corriente fuga. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-037",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Corriente desbalanceada motor trifásico - Caso 37",
+      "contexto": "Instalación en almacén con ventilador extracción de 7.5kW alimentado a 230V AC. El equipo lleva operativo 32 meses sin incidencias previas.",
+      "problema": "Corriente desbalanceada motor trifásico. El fallo se detectó hace 16 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "7062 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "Contactos sucios",
+        "Bobinado asimétrico",
+        "Fase débil",
+        "Sobrecarga parcial"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Fase débil. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-038",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Factor de potencia bajo - Caso 38",
+      "contexto": "Instalación en zona envasado con compresor tornillo de 15kW alimentado a 110V AC. El equipo lleva operativo 38 meses sin incidencias previas.",
+      "problema": "Factor de potencia bajo. El fallo se detectó hace 23 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "2283 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Transformador sobredimensionado",
+        "Sin condensadores",
+        "Armónicos",
+        "Motores en vacío"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Sin condensadores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-039",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Motor se calienta excesivamente - Caso 39",
+      "contexto": "Instalación en zona envasado con cinta transportadora de 3kW alimentado a 230V AC. El equipo lleva operativo 59 meses sin incidencias previas.",
+      "problema": "Motor se calienta excesivamente. El fallo se detectó hace 16 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "1236 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Sobrecarga mecánica",
+        "Rodamientos desgastados",
+        "Ventilación obstruida",
+        "Tensión baja"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-040",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Variador muestra fallo de fase - Caso 40",
+      "contexto": "Instalación en estación bombeo con bomba centrífuga de 11kW alimentado a 48V DC. El equipo lleva operativo 55 meses sin incidencias previas.",
+      "problema": "Variador muestra fallo de fase. El fallo se detectó hace 20 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "6071 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Mala conexión",
+        "Fusible fundido",
+        "Fallo red",
+        "Cable fase cortado"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cable fase cortado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-041",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Caída de tensión en arranque - Caso 41",
+      "contexto": "Instalación en planta producción con compresor tornillo de 3kW alimentado a 48V DC. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Caída de tensión en arranque. El fallo se detectó hace 21 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "6134 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Distancia excesiva",
+        "Cable subdimensionado",
+        "Conexión floja",
+        "Protección incorrecta"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cable subdimensionado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-042",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Disparos intempestivos diferencial - Caso 42",
+      "contexto": "Instalación en sala máquinas con ventilador extracción de 7.5kW alimentado a 230V AC. El equipo lleva operativo 27 meses sin incidencias previas.",
+      "problema": "Disparos intempestivos diferencial. El fallo se detectó hace 22 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "3512 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Humedad cables",
+        "Diferencial sensible",
+        "Corriente fuga",
+        "Pararrayos activo"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Corriente fuga. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-043",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Corriente desbalanceada motor trifásico - Caso 43",
+      "contexto": "Instalación en planta producción con compresor tornillo de 0.75kW alimentado a 400V 3F. El equipo lleva operativo 52 meses sin incidencias previas.",
+      "problema": "Corriente desbalanceada motor trifásico. El fallo se detectó hace 28 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "5427 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Bobinado asimétrico",
+        "Fase débil",
+        "Sobrecarga parcial",
+        "Contactos sucios"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Fase débil. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-044",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Factor de potencia bajo - Caso 44",
+      "contexto": "Instalación en planta producción con cinta transportadora de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 24 meses sin incidencias previas.",
+      "problema": "Factor de potencia bajo. El fallo se detectó hace 2 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "3739 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Motores en vacío",
+        "Sin condensadores",
+        "Transformador sobredimensionado",
+        "Armónicos"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Sin condensadores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-045",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Motor se calienta excesivamente - Caso 45",
+      "contexto": "Instalación en sala máquinas con bomba centrífuga de 0.75kW alimentado a 230V AC. El equipo lleva operativo 60 meses sin incidencias previas.",
+      "problema": "Motor se calienta excesivamente. El fallo se detectó hace 16 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "6860 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Ventilación obstruida",
+        "Sobrecarga mecánica",
+        "Rodamientos desgastados",
+        "Tensión baja"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Tensión baja. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-046",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Variador muestra fallo de fase - Caso 46",
+      "contexto": "Instalación en planta producción con compresor tornillo de 1.5kW alimentado a 110V AC. El equipo lleva operativo 38 meses sin incidencias previas.",
+      "problema": "Variador muestra fallo de fase. El fallo se detectó hace 29 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7143 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Fusible fundido",
+        "Cable fase cortado",
+        "Mala conexión",
+        "Fallo red"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cable fase cortado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-047",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Caída de tensión en arranque - Caso 47",
+      "contexto": "Instalación en sala máquinas con cinta transportadora de 5.5kW alimentado a 24V DC. El equipo lleva operativo 33 meses sin incidencias previas.",
+      "problema": "Caída de tensión en arranque. El fallo se detectó hace 5 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "4561 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Distancia excesiva",
+        "Cable subdimensionado",
+        "Conexión floja",
+        "Protección incorrecta"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cable subdimensionado. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-048",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Disparos intempestivos diferencial - Caso 48",
+      "contexto": "Instalación en sala máquinas con ventilador extracción de 15kW alimentado a 400V 3F. El equipo lleva operativo 43 meses sin incidencias previas.",
+      "problema": "Disparos intempestivos diferencial. El fallo se detectó hace 15 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "4849 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Humedad cables",
+        "Pararrayos activo",
+        "Corriente fuga",
+        "Diferencial sensible"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Corriente fuga. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-049",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Corriente desbalanceada motor trifásico - Caso 49",
+      "contexto": "Instalación en zona envasado con agitador de 1.5kW alimentado a 230V AC. El equipo lleva operativo 55 meses sin incidencias previas.",
+      "problema": "Corriente desbalanceada motor trifásico. El fallo se detectó hace 4 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "4503 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Contactos sucios",
+        "Sobrecarga parcial",
+        "Bobinado asimétrico",
+        "Fase débil"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Fase débil. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-int-050",
+      "area": "Electricidad Básica",
+      "nivel": "intermedio",
+      "titulo": "Factor de potencia bajo - Caso 50",
+      "contexto": "Instalación en estación bombeo con bomba centrífuga de 11kW alimentado a 48V DC. El equipo lleva operativo 59 meses sin incidencias previas.",
+      "problema": "Factor de potencia bajo. El fallo se detectó hace 15 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "2706 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Armónicos",
+        "Sin condensadores",
+        "Transformador sobredimensionado",
+        "Motores en vacío"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Sin condensadores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-001",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Armónicos elevados en red - Caso 1",
+      "contexto": "Instalación en zona envasado con bomba centrífuga de 15kW alimentado a 48V DC. El equipo lleva operativo 35 meses sin incidencias previas.",
+      "problema": "Armónicos elevados en red. El fallo se detectó hace 14 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "7976 horas",
+        "Última revisión": "hace 12 meses"
+      },
+      "opciones": [
+        "SAI no lineal",
+        "Resonancia capacitiva",
+        "Variadores sin filtro",
+        "Cargas electrónicas"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Variadores sin filtro. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-002",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Resonancia banco condensadores - Caso 2",
+      "contexto": "Instalación en zona envasado con cinta transportadora de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 20 meses sin incidencias previas.",
+      "problema": "Resonancia banco condensadores. El fallo se detectó hace 22 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7222 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Sin reactancias",
+        "Frecuencia coincidente",
+        "THD elevado",
+        "Impedancia incorrecta"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Frecuencia coincidente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-003",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Interferencias EMI - Caso 3",
+      "contexto": "Instalación en almacén con ventilador extracción de 5.5kW alimentado a 110V AC. El equipo lleva operativo 27 meses sin incidencias previas.",
+      "problema": "Interferencias EMI. El fallo se detectó hace 24 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "5267 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Cables no apantallados",
+        "Proximidad potencia",
+        "Tierra deficiente",
+        "Filtros ausentes"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cables no apantallados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-004",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Transitorios dañan equipos - Caso 4",
+      "contexto": "Instalación en estación bombeo con agitador de 0.75kW alimentado a 400V 3F. El equipo lleva operativo 19 meses sin incidencias previas.",
+      "problema": "Transitorios dañan equipos. El fallo se detectó hace 16 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "7121 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Sin varistores",
+        "Descargas atmosféricas",
+        "Maniobras bruscas",
+        "Protección inadecuada"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Sin varistores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-005",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Desbalance trifásico - Caso 5",
+      "contexto": "Instalación en planta producción con elevador de 15kW alimentado a 24V DC. El equipo lleva operativo 11 meses sin incidencias previas.",
+      "problema": "Desbalance trifásico. El fallo se detectó hace 11 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "1741 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Cargas monofásicas asimétricas",
+        "Neutro interrumpido",
+        "Fase con impedancia",
+        "Transformador desequilibrado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cargas monofásicas asimétricas. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-006",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Armónicos elevados en red - Caso 6",
+      "contexto": "Instalación en almacén con elevador de 1.5kW alimentado a 24V DC. El equipo lleva operativo 60 meses sin incidencias previas.",
+      "problema": "Armónicos elevados en red. El fallo se detectó hace 20 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "6076 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Variadores sin filtro",
+        "Cargas electrónicas",
+        "SAI no lineal",
+        "Resonancia capacitiva"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Variadores sin filtro. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-007",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Resonancia banco condensadores - Caso 7",
+      "contexto": "Instalación en sala máquinas con ventilador extracción de 11kW alimentado a 230V AC. El equipo lleva operativo 20 meses sin incidencias previas.",
+      "problema": "Resonancia banco condensadores. El fallo se detectó hace 27 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "8286 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Impedancia incorrecta",
+        "Sin reactancias",
+        "Frecuencia coincidente",
+        "THD elevado"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Frecuencia coincidente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-008",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Interferencias EMI - Caso 8",
+      "contexto": "Instalación en estación bombeo con cinta transportadora de 11kW alimentado a 24V DC. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Interferencias EMI. El fallo se detectó hace 3 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "5824 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Tierra deficiente",
+        "Filtros ausentes",
+        "Proximidad potencia",
+        "Cables no apantallados"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cables no apantallados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-009",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Transitorios dañan equipos - Caso 9",
+      "contexto": "Instalación en área logística con prensa hidráulica de 15kW alimentado a 24V DC. El equipo lleva operativo 36 meses sin incidencias previas.",
+      "problema": "Transitorios dañan equipos. El fallo se detectó hace 7 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "8550 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Maniobras bruscas",
+        "Sin varistores",
+        "Descargas atmosféricas",
+        "Protección inadecuada"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Sin varistores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-010",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Desbalance trifásico - Caso 10",
+      "contexto": "Instalación en zona envasado con agitador de 1.5kW alimentado a 48V DC. El equipo lleva operativo 15 meses sin incidencias previas.",
+      "problema": "Desbalance trifásico. El fallo se detectó hace 19 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "1553 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Fase con impedancia",
+        "Transformador desequilibrado",
+        "Cargas monofásicas asimétricas",
+        "Neutro interrumpido"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Cargas monofásicas asimétricas. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-011",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Armónicos elevados en red - Caso 11",
+      "contexto": "Instalación en planta producción con cinta transportadora de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 17 meses sin incidencias previas.",
+      "problema": "Armónicos elevados en red. El fallo se detectó hace 8 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "1838 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "SAI no lineal",
+        "Variadores sin filtro",
+        "Resonancia capacitiva",
+        "Cargas electrónicas"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Variadores sin filtro. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-012",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Resonancia banco condensadores - Caso 12",
+      "contexto": "Instalación en zona envasado con mezcladora de 5.5kW alimentado a 48V DC. El equipo lleva operativo 34 meses sin incidencias previas.",
+      "problema": "Resonancia banco condensadores. El fallo se detectó hace 22 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "7116 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Sin reactancias",
+        "Frecuencia coincidente",
+        "THD elevado",
+        "Impedancia incorrecta"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Frecuencia coincidente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-013",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Interferencias EMI - Caso 13",
+      "contexto": "Instalación en área logística con agitador de 7.5kW alimentado a 48V DC. El equipo lleva operativo 45 meses sin incidencias previas.",
+      "problema": "Interferencias EMI. El fallo se detectó hace 12 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "8742 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Cables no apantallados",
+        "Tierra deficiente",
+        "Filtros ausentes",
+        "Proximidad potencia"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cables no apantallados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-014",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Transitorios dañan equipos - Caso 14",
+      "contexto": "Instalación en planta producción con mezcladora de 3kW alimentado a 400V 3F. El equipo lleva operativo 31 meses sin incidencias previas.",
+      "problema": "Transitorios dañan equipos. El fallo se detectó hace 15 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "6148 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Protección inadecuada",
+        "Sin varistores",
+        "Descargas atmosféricas",
+        "Maniobras bruscas"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Sin varistores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-015",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Desbalance trifásico - Caso 15",
+      "contexto": "Instalación en sala máquinas con bomba centrífuga de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 21 meses sin incidencias previas.",
+      "problema": "Desbalance trifásico. El fallo se detectó hace 1 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "4099 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Cargas monofásicas asimétricas",
+        "Neutro interrumpido",
+        "Transformador desequilibrado",
+        "Fase con impedancia"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cargas monofásicas asimétricas. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-016",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Armónicos elevados en red - Caso 16",
+      "contexto": "Instalación en sala máquinas con prensa hidráulica de 5.5kW alimentado a 24V DC. El equipo lleva operativo 25 meses sin incidencias previas.",
+      "problema": "Armónicos elevados en red. El fallo se detectó hace 27 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "1387 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Resonancia capacitiva",
+        "SAI no lineal",
+        "Variadores sin filtro",
+        "Cargas electrónicas"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Variadores sin filtro. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-017",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Resonancia banco condensadores - Caso 17",
+      "contexto": "Instalación en planta producción con ventilador extracción de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 11 meses sin incidencias previas.",
+      "problema": "Resonancia banco condensadores. El fallo se detectó hace 4 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "6692 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Frecuencia coincidente",
+        "Sin reactancias",
+        "THD elevado",
+        "Impedancia incorrecta"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Frecuencia coincidente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-018",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Interferencias EMI - Caso 18",
+      "contexto": "Instalación en planta producción con cinta transportadora de 0.75kW alimentado a 110V AC. El equipo lleva operativo 42 meses sin incidencias previas.",
+      "problema": "Interferencias EMI. El fallo se detectó hace 6 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "5841 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Filtros ausentes",
+        "Proximidad potencia",
+        "Cables no apantallados",
+        "Tierra deficiente"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Cables no apantallados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-019",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Transitorios dañan equipos - Caso 19",
+      "contexto": "Instalación en planta producción con agitador de 7.5kW alimentado a 110V AC. El equipo lleva operativo 39 meses sin incidencias previas.",
+      "problema": "Transitorios dañan equipos. El fallo se detectó hace 27 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "8322 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Descargas atmosféricas",
+        "Protección inadecuada",
+        "Sin varistores",
+        "Maniobras bruscas"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Sin varistores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-020",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Desbalance trifásico - Caso 20",
+      "contexto": "Instalación en estación bombeo con elevador de 5.5kW alimentado a 400V 3F. El equipo lleva operativo 53 meses sin incidencias previas.",
+      "problema": "Desbalance trifásico. El fallo se detectó hace 4 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "4627 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Neutro interrumpido",
+        "Cargas monofásicas asimétricas",
+        "Transformador desequilibrado",
+        "Fase con impedancia"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cargas monofásicas asimétricas. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-021",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Armónicos elevados en red - Caso 21",
+      "contexto": "Instalación en planta producción con cinta transportadora de 5.5kW alimentado a 230V AC. El equipo lleva operativo 9 meses sin incidencias previas.",
+      "problema": "Armónicos elevados en red. El fallo se detectó hace 15 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "5003 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "SAI no lineal",
+        "Cargas electrónicas",
+        "Variadores sin filtro",
+        "Resonancia capacitiva"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Variadores sin filtro. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-022",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Resonancia banco condensadores - Caso 22",
+      "contexto": "Instalación en zona envasado con elevador de 11kW alimentado a 230V AC. El equipo lleva operativo 11 meses sin incidencias previas.",
+      "problema": "Resonancia banco condensadores. El fallo se detectó hace 18 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "5587 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Impedancia incorrecta",
+        "Frecuencia coincidente",
+        "Sin reactancias",
+        "THD elevado"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Frecuencia coincidente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-023",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Interferencias EMI - Caso 23",
+      "contexto": "Instalación en planta producción con elevador de 3kW alimentado a 24V DC. El equipo lleva operativo 14 meses sin incidencias previas.",
+      "problema": "Interferencias EMI. El fallo se detectó hace 18 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "1223 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "Proximidad potencia",
+        "Tierra deficiente",
+        "Cables no apantallados",
+        "Filtros ausentes"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Cables no apantallados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-024",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Transitorios dañan equipos - Caso 24",
+      "contexto": "Instalación en estación bombeo con agitador de 7.5kW alimentado a 400V 3F. El equipo lleva operativo 34 meses sin incidencias previas.",
+      "problema": "Transitorios dañan equipos. El fallo se detectó hace 12 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "7607 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Sin varistores",
+        "Protección inadecuada",
+        "Maniobras bruscas",
+        "Descargas atmosféricas"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Sin varistores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-025",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Desbalance trifásico - Caso 25",
+      "contexto": "Instalación en línea montaje con elevador de 11kW alimentado a 110V AC. El equipo lleva operativo 35 meses sin incidencias previas.",
+      "problema": "Desbalance trifásico. El fallo se detectó hace 17 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "3800 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Transformador desequilibrado",
+        "Fase con impedancia",
+        "Neutro interrumpido",
+        "Cargas monofásicas asimétricas"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cargas monofásicas asimétricas. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-026",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Armónicos elevados en red - Caso 26",
+      "contexto": "Instalación en almacén con bomba centrífuga de 15kW alimentado a 110V AC. El equipo lleva operativo 11 meses sin incidencias previas.",
+      "problema": "Armónicos elevados en red. El fallo se detectó hace 30 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "4318 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Variadores sin filtro",
+        "SAI no lineal",
+        "Resonancia capacitiva",
+        "Cargas electrónicas"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Variadores sin filtro. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-027",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Resonancia banco condensadores - Caso 27",
+      "contexto": "Instalación en sala máquinas con compresor tornillo de 1.5kW alimentado a 48V DC. El equipo lleva operativo 30 meses sin incidencias previas.",
+      "problema": "Resonancia banco condensadores. El fallo se detectó hace 1 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "2083 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Frecuencia coincidente",
+        "THD elevado",
+        "Impedancia incorrecta",
+        "Sin reactancias"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Frecuencia coincidente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-028",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Interferencias EMI - Caso 28",
+      "contexto": "Instalación en planta producción con ventilador extracción de 7.5kW alimentado a 230V AC. El equipo lleva operativo 49 meses sin incidencias previas.",
+      "problema": "Interferencias EMI. El fallo se detectó hace 21 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "5760 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Proximidad potencia",
+        "Filtros ausentes",
+        "Tierra deficiente",
+        "Cables no apantallados"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cables no apantallados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-029",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Transitorios dañan equipos - Caso 29",
+      "contexto": "Instalación en línea montaje con ventilador extracción de 5.5kW alimentado a 230V AC. El equipo lleva operativo 7 meses sin incidencias previas.",
+      "problema": "Transitorios dañan equipos. El fallo se detectó hace 11 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "6920 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Sin varistores",
+        "Protección inadecuada",
+        "Maniobras bruscas",
+        "Descargas atmosféricas"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Sin varistores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-030",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Desbalance trifásico - Caso 30",
+      "contexto": "Instalación en sala máquinas con mezcladora de 0.75kW alimentado a 110V AC. El equipo lleva operativo 10 meses sin incidencias previas.",
+      "problema": "Desbalance trifásico. El fallo se detectó hace 1 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "4029 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Transformador desequilibrado",
+        "Cargas monofásicas asimétricas",
+        "Neutro interrumpido",
+        "Fase con impedancia"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cargas monofásicas asimétricas. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-031",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Armónicos elevados en red - Caso 31",
+      "contexto": "Instalación en sala máquinas con prensa hidráulica de 1.5kW alimentado a 110V AC. El equipo lleva operativo 60 meses sin incidencias previas.",
+      "problema": "Armónicos elevados en red. El fallo se detectó hace 26 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "7582 horas",
+        "Última revisión": "hace 7 meses"
+      },
+      "opciones": [
+        "SAI no lineal",
+        "Cargas electrónicas",
+        "Resonancia capacitiva",
+        "Variadores sin filtro"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Variadores sin filtro. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-032",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Resonancia banco condensadores - Caso 32",
+      "contexto": "Instalación en estación bombeo con elevador de 1.5kW alimentado a 110V AC. El equipo lleva operativo 48 meses sin incidencias previas.",
+      "problema": "Resonancia banco condensadores. El fallo se detectó hace 18 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "5079 horas",
+        "Última revisión": "hace 6 meses"
+      },
+      "opciones": [
+        "Sin reactancias",
+        "Impedancia incorrecta",
+        "Frecuencia coincidente",
+        "THD elevado"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Frecuencia coincidente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-033",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Interferencias EMI - Caso 33",
+      "contexto": "Instalación en estación bombeo con agitador de 15kW alimentado a 48V DC. El equipo lleva operativo 50 meses sin incidencias previas.",
+      "problema": "Interferencias EMI. El fallo se detectó hace 21 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "1163 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Cables no apantallados",
+        "Tierra deficiente",
+        "Proximidad potencia",
+        "Filtros ausentes"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cables no apantallados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-034",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Transitorios dañan equipos - Caso 34",
+      "contexto": "Instalación en sala máquinas con elevador de 3kW alimentado a 110V AC. El equipo lleva operativo 27 meses sin incidencias previas.",
+      "problema": "Transitorios dañan equipos. El fallo se detectó hace 9 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "8372 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Maniobras bruscas",
+        "Protección inadecuada",
+        "Sin varistores",
+        "Descargas atmosféricas"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Sin varistores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-035",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Desbalance trifásico - Caso 35",
+      "contexto": "Instalación en almacén con mezcladora de 7.5kW alimentado a 24V DC. El equipo lleva operativo 53 meses sin incidencias previas.",
+      "problema": "Desbalance trifásico. El fallo se detectó hace 14 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "7205 horas",
+        "Última revisión": "hace 4 meses"
+      },
+      "opciones": [
+        "Fase con impedancia",
+        "Cargas monofásicas asimétricas",
+        "Transformador desequilibrado",
+        "Neutro interrumpido"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cargas monofásicas asimétricas. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-036",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Armónicos elevados en red - Caso 36",
+      "contexto": "Instalación en área logística con agitador de 7.5kW alimentado a 48V DC. El equipo lleva operativo 13 meses sin incidencias previas.",
+      "problema": "Armónicos elevados en red. El fallo se detectó hace 25 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "5618 horas",
+        "Última revisión": "hace 1 meses"
+      },
+      "opciones": [
+        "Cargas electrónicas",
+        "Resonancia capacitiva",
+        "SAI no lineal",
+        "Variadores sin filtro"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Variadores sin filtro. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-037",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Resonancia banco condensadores - Caso 37",
+      "contexto": "Instalación en almacén con ventilador extracción de 1.5kW alimentado a 230V AC. El equipo lleva operativo 50 meses sin incidencias previas.",
+      "problema": "Resonancia banco condensadores. El fallo se detectó hace 28 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "4172 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Frecuencia coincidente",
+        "THD elevado",
+        "Impedancia incorrecta",
+        "Sin reactancias"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Frecuencia coincidente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-038",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Interferencias EMI - Caso 38",
+      "contexto": "Instalación en zona envasado con bomba centrífuga de 5.5kW alimentado a 230V AC. El equipo lleva operativo 41 meses sin incidencias previas.",
+      "problema": "Interferencias EMI. El fallo se detectó hace 5 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "5.5kW",
+        "Tiempo operación": "5534 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Proximidad potencia",
+        "Tierra deficiente",
+        "Filtros ausentes",
+        "Cables no apantallados"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Cables no apantallados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-039",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Transitorios dañan equipos - Caso 39",
+      "contexto": "Instalación en zona envasado con cinta transportadora de 11kW alimentado a 24V DC. El equipo lleva operativo 44 meses sin incidencias previas.",
+      "problema": "Transitorios dañan equipos. El fallo se detectó hace 1 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "1273 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Descargas atmosféricas",
+        "Protección inadecuada",
+        "Maniobras bruscas",
+        "Sin varistores"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Sin varistores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-040",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Desbalance trifásico - Caso 40",
+      "contexto": "Instalación en zona envasado con agitador de 3kW alimentado a 400V 3F. El equipo lleva operativo 53 meses sin incidencias previas.",
+      "problema": "Desbalance trifásico. El fallo se detectó hace 22 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "6261 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Cargas monofásicas asimétricas",
+        "Fase con impedancia",
+        "Neutro interrumpido",
+        "Transformador desequilibrado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cargas monofásicas asimétricas. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-041",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Armónicos elevados en red - Caso 41",
+      "contexto": "Instalación en almacén con cinta transportadora de 1.5kW alimentado a 400V 3F. El equipo lleva operativo 14 meses sin incidencias previas.",
+      "problema": "Armónicos elevados en red. El fallo se detectó hace 20 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "1.5kW",
+        "Tiempo operación": "4641 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Variadores sin filtro",
+        "Cargas electrónicas",
+        "Resonancia capacitiva",
+        "SAI no lineal"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Variadores sin filtro. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-042",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Resonancia banco condensadores - Caso 42",
+      "contexto": "Instalación en zona envasado con ventilador extracción de 11kW alimentado a 400V 3F. El equipo lleva operativo 25 meses sin incidencias previas.",
+      "problema": "Resonancia banco condensadores. El fallo se detectó hace 20 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "5760 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "Sin reactancias",
+        "Impedancia incorrecta",
+        "Frecuencia coincidente",
+        "THD elevado"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Frecuencia coincidente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-043",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Interferencias EMI - Caso 43",
+      "contexto": "Instalación en línea montaje con bomba centrífuga de 15kW alimentado a 400V 3F. El equipo lleva operativo 52 meses sin incidencias previas.",
+      "problema": "Interferencias EMI. El fallo se detectó hace 27 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "1413 horas",
+        "Última revisión": "hace 8 meses"
+      },
+      "opciones": [
+        "Proximidad potencia",
+        "Cables no apantallados",
+        "Filtros ausentes",
+        "Tierra deficiente"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cables no apantallados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-044",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Transitorios dañan equipos - Caso 44",
+      "contexto": "Instalación en zona envasado con cinta transportadora de 11kW alimentado a 48V DC. El equipo lleva operativo 15 meses sin incidencias previas.",
+      "problema": "Transitorios dañan equipos. El fallo se detectó hace 3 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "11kW",
+        "Tiempo operación": "5198 horas",
+        "Última revisión": "hace 2 meses"
+      },
+      "opciones": [
+        "Protección inadecuada",
+        "Descargas atmosféricas",
+        "Sin varistores",
+        "Maniobras bruscas"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Sin varistores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-045",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Desbalance trifásico - Caso 45",
+      "contexto": "Instalación en almacén con compresor tornillo de 7.5kW alimentado a 230V AC. El equipo lleva operativo 10 meses sin incidencias previas.",
+      "problema": "Desbalance trifásico. El fallo se detectó hace 30 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "230V AC",
+        "Potencia instalada": "7.5kW",
+        "Tiempo operación": "5735 horas",
+        "Última revisión": "hace 3 meses"
+      },
+      "opciones": [
+        "Cargas monofásicas asimétricas",
+        "Fase con impedancia",
+        "Neutro interrumpido",
+        "Transformador desequilibrado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cargas monofásicas asimétricas. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-046",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Armónicos elevados en red - Caso 46",
+      "contexto": "Instalación en planta producción con compresor tornillo de 15kW alimentado a 24V DC. El equipo lleva operativo 10 meses sin incidencias previas.",
+      "problema": "Armónicos elevados en red. El fallo se detectó hace 17 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "24V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "6378 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Resonancia capacitiva",
+        "Cargas electrónicas",
+        "Variadores sin filtro",
+        "SAI no lineal"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Diagnóstico: Variadores sin filtro. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-047",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Resonancia banco condensadores - Caso 47",
+      "contexto": "Instalación en planta producción con compresor tornillo de 0.75kW alimentado a 110V AC. El equipo lleva operativo 26 meses sin incidencias previas.",
+      "problema": "Resonancia banco condensadores. El fallo se detectó hace 6 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "4077 horas",
+        "Última revisión": "hace 10 meses"
+      },
+      "opciones": [
+        "THD elevado",
+        "Impedancia incorrecta",
+        "Sin reactancias",
+        "Frecuencia coincidente"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Diagnóstico: Frecuencia coincidente. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-048",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Interferencias EMI - Caso 48",
+      "contexto": "Instalación en planta producción con elevador de 0.75kW alimentado a 400V 3F. El equipo lleva operativo 21 meses sin incidencias previas.",
+      "problema": "Interferencias EMI. El fallo se detectó hace 23 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "400V 3F",
+        "Potencia instalada": "0.75kW",
+        "Tiempo operación": "2665 horas",
+        "Última revisión": "hace 9 meses"
+      },
+      "opciones": [
+        "Cables no apantallados",
+        "Filtros ausentes",
+        "Tierra deficiente",
+        "Proximidad potencia"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Diagnóstico: Cables no apantallados. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-049",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Transitorios dañan equipos - Caso 49",
+      "contexto": "Instalación en línea montaje con compresor tornillo de 15kW alimentado a 48V DC. El equipo lleva operativo 45 meses sin incidencias previas.",
+      "problema": "Transitorios dañan equipos. El fallo se detectó hace 19 días. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Tensión nominal": "48V DC",
+        "Potencia instalada": "15kW",
+        "Tiempo operación": "8906 horas",
+        "Última revisión": "hace 5 meses"
+      },
+      "opciones": [
+        "Descargas atmosféricas",
+        "Sin varistores",
+        "Maniobras bruscas",
+        "Protección inadecuada"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Sin varistores. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    },
+    {
+      "id": "elec-ava-050",
+      "area": "Electricidad Básica",
+      "nivel": "avanzado",
+      "titulo": "Desbalance trifásico - Caso 50",
+      "contexto": "Instalación en zona envasado con mezcladora de 3kW alimentado a 110V AC. El equipo lleva operativo 35 meses sin incidencias previas.",
+      "problema": "Desbalance trifásico. El fallo se detectó hace 11 días. El problema es constante.",
+      "datos_tecnicos": {
+        "Tensión nominal": "110V AC",
+        "Potencia instalada": "3kW",
+        "Tiempo operación": "4745 horas",
+        "Última revisión": "hace 11 meses"
+      },
+      "opciones": [
+        "Transformador desequilibrado",
+        "Cargas monofásicas asimétricas",
+        "Fase con impedancia",
+        "Neutro interrumpido"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Diagnóstico: Cargas monofásicas asimétricas. Solución: verificar y reemplazar componente defectuoso. Realizar mediciones para confirmar reparación."
+    }
+  ]
+}
