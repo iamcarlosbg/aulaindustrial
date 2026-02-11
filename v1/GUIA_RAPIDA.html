@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndusTrain - Guía Rápida de Inicio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0e1a 0%, #1a2234 100%);
+            color: #f8fafc;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1e293b;
+            border-radius: 16px;
+            padding: 3rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #00d4ff;
+            margin-bottom: 0.5rem;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #94a3b8;
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+        .section {
+            background: #0a0e1a;
+            border-left: 4px solid #00d4ff;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #00d4ff;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .icon {
+            font-size: 1.8rem;
+        }
+        .step {
+            background: #1a2234;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            border: 1px solid #334155;
+        }
+        .step-number {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: #00d4ff;
+            color: #0a0e1a;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+        code {
+            background: #0a0e1a;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #fbbf24;
+        }
+        .highlight {
+            background: rgba(0, 212, 255, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid #00d4ff;
+            margin-top: 1rem;
+        }
+        .warning {
+            background: rgba(251, 191, 36, 0.1);
+            border-color: #fbbf24;
+            color: #fbbf24;
+        }
+        ul {
+            list-style: none;
+            padding-left: 1rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        li:before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: #00d4ff;
+        }
+        .btn {
+            display: inline-block;
+            background: #00d4ff;
+            color: #0a0e1a;
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background: #ffffff;
+            transform: scale(1.05);
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #1a2234, #0a0e1a);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid #334155;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            color: #00d4ff;
+            font-weight: bold;
+        }
+        .stat-label {
+            color: #94a3b8;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏭 INDUSTRAIN</h1>
+        <p class="subtitle">Plataforma de Formación Industrial Práctica</p>
+
+        <div class="section">
+            <h2><span class="icon">🚀</span> Inicio Rápido en 3 Pasos</h2>
+            
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>Descarga el ZIP</strong><br>
+                Extrae <code>IndusTrain_Platform.zip</code> en tu ordenador
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>Abre index.html</strong><br>
+                Haz doble clic en <code>index.html</code> - se abrirá en tu navegador
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>¡Empieza a aprender!</strong><br>
+                Selecciona un área formativa y resuelve ejercicios reales
+            </div>
+        </div>
+
+        <div class="section">
+            <h2><span class="icon">📊</span> Contenido de la Plataforma</h2>
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number">20</div>
+                    <div class="stat-label">Ejercicios</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Áreas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Niveles</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2><span class="icon">⚡</span> Áreas Formativas</h2>
+            <ul>
+                <li><strong>Electricidad Básica</strong> - Circuitos trifásicos, protecciones, fusibles</li>
+                <li><strong>Maniobra y Potencia</strong> - Arranque motores, contactores, inversión giro</li>
+                <li><strong>PLC Siemens</strong> - S7-1200/1500, TIA Portal, PROFINET</li>
+                <li><strong>Diagnóstico Industrial</strong> - Resolución de fallos complejos, EMI, buses</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><span class="icon">➕</span> Añadir Nuevos Ejercicios</h2>
+            <p>¡Es muy fácil! No necesitas tocar el código:</p>
+            
+            <div class="step">
+                <span class="step-number">1</span>
+                Abre cualquier archivo JSON en la carpeta <code>data/</code>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                Copia el formato de un ejercicio existente
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                Modifica con tu nuevo caso: id, título, problema, opciones, explicación
+            </div>
+            
+            <div class="step">
+                <span class="step-number">4</span>
+                ¡Guarda y recarga! El ejercicio aparecerá automáticamente
+            </div>
+
+            <div class="highlight warning">
+                <strong>⚠️ Importante:</strong> El campo <code>nivel</code> debe ser exactamente: 
+                "básico", "intermedio" o "avanzado" (minúsculas, con tilde en básico)
+            </div>
+        </div>
+
+        <div class="section">
+            <h2><span class="icon">🎯</span> Estructura de un Ejercicio</h2>
+            <p>Cada ejercicio en JSON tiene estos campos:</p>
+            <ul>
+                <li><code>id</code> - Identificador único (ej: "plc-007")</li>
+                <li><code>area</code> - Área formativa</li>
+                <li><code>nivel</code> - básico | intermedio | avanzado</li>
+                <li><code>titulo</code> - Nombre del problema</li>
+                <li><code>contexto</code> - Situación industrial</li>
+                <li><code>problema</code> - Síntomas del fallo</li>
+                <li><code>datos_tecnicos</code> - Información técnica</li>
+                <li><code>opciones</code> - Array de posibles diagnósticos</li>
+                <li><code>respuesta_correcta</code> - Índice de la opción correcta (empieza en 0)</li>
+                <li><code>explicacion</code> - Solución técnica detallada</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><span class="icon">📁</span> Estructura de Archivos</h2>
+            <ul>
+                <li><code>index.html</code> - Página principal</li>
+                <li><code>css/style.css</code> - Estilos de la aplicación</li>
+                <li><code>js/loader.js</code> - Carga de ejercicios desde JSON</li>
+                <li><code>js/app.js</code> - Lógica de la aplicación</li>
+                <li><code>data/</code> - Carpeta con ejercicios en JSON</li>
+                <li><code>README.md</code> - Documentación completa</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><span class="icon">💡</span> Consejos para Formadores</h2>
+            <ul>
+                <li>Usa ejercicios básicos para evaluación diagnóstica</li>
+                <li>Crea ejercicios progresivos: básico → intermedio → avanzado</li>
+                <li>Basa los ejercicios en casos reales de tu experiencia</li>
+                <li>Las explicaciones deben ser técnicas y profesionales</li>
+                <li>Incluye datos técnicos precisos (modelos, tensiones, etc.)</li>
+            </ul>
+
+            <div class="highlight">
+                <strong>💾 Sistema de Progreso:</strong> La plataforma guarda automáticamente 
+                los ejercicios completados en el navegador (localStorage). No se pierden al cerrar.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2><span class="icon">🎨</span> Personalización</h2>
+            <p>Puedes personalizar fácilmente:</p>
+            <ul>
+                <li><strong>Colores:</strong> Edita variables CSS en <code>style.css</code></li>
+                <li><strong>Áreas:</strong> Crea nuevos archivos JSON en <code>data/</code></li>
+                <li><strong>Ejercicios:</strong> Añade, modifica o elimina en los JSON</li>
+                <li><strong>Niveles:</strong> Mantén los 3 niveles estándar</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><span class="icon">🔧</span> Soporte Técnico</h2>
+            <p><strong>¿Problemas?</strong></p>
+            <ul>
+                <li>Abre la consola del navegador (F12) para ver errores</li>
+                <li>Verifica que los JSON tengan sintaxis correcta</li>
+                <li>Comprueba que las rutas de archivos sean correctas</li>
+                <li>Lee el README.md para solución de problemas comunes</li>
+            </ul>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 2px solid #334155;">
+            <p style="color: #94a3b8; font-size: 0.9rem;">
+                ⚡ Desarrollado para formación técnica industrial<br>
+                🏭 Casos reales • Feedback profesional • Totalmente offline
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+{
+  "exercises": [
+    {
+      "id": "man-003",
+      "area": "Maniobra y Potencia",
+      "nivel": "básico",
+      "titulo": "Contactor con contactos pegados",
+      "contexto": "Bomba de agua controlada por nivel mediante contactores. Sistema de control automático con electrodo de nivel y contactor KM1 para el motor de la bomba.",
+      "problema": "La bomba no se detiene cuando el depósito alcanza el nivel alto. El pulsador de paro manual tampoco funciona. El motor sigue funcionando continuamente.",
+      "datos_tecnicos": {
+        "Motor bomba": "3kW 400V",
+        "Contactor": "KM1 16A",
+        "Control": "Electrodo de nivel + relé auxiliar",
+        "Síntoma": "Bobina desenergizada pero motor sigue girando"
+      },
+      "opciones": [
+        "Electrodo de nivel defectuoso",
+        "Contactos principales del contactor soldados",
+        "Relé auxiliar no conmuta",
+        "Sobretensión en la red"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Los contactos principales del contactor están soldados (pegados). Esto ocurre típicamente por: arranques con corrientes muy altas, arco eléctrico prolongado, suciedad o desgaste de contactos. Aunque la bobina del contactor esté desenergizada (se puede verificar que no vibra/zumba), los contactos permanecen cerrados mecánicamente. El pulsador de paro no funciona porque actúa sobre la bobina, no sobre los contactos principales. Solución inmediata: Desenergizar desde el interruptor principal. Solución permanente: Reemplazar el contactor completo. Investigar causa raíz: verificar corriente de arranque del motor, estado del circuito de potencia, posible cortocircuito aguas abajo."
+    },
+    {
+      "id": "man-004",
+      "area": "Maniobra y Potencia",
+      "nivel": "intermedio",
+      "titulo": "Inversión de giro con enclavamiento fallido",
+      "contexto": "Puente grúa con motor trifásico reversible mediante dos contactores (KM1-adelante, KM2-atrás) con enclavamiento mecánico y eléctrico. El sistema tiene años de operación sin incidencias.",
+      "problema": "Ocasionalmente, al cambiar el sentido de giro rápidamente, se produce un disparo del magnetotérmico principal con chispa visible en el contactor. El problema es intermitente.",
+      "datos_tecnicos": {
+        "Motor": "5.5kW 400V",
+        "Contactores": "KM1 y KM2 con enclavamiento mecánico",
+        "Enclavamiento eléctrico": "Contactos NC cruzados",
+        "Observación": "Fallo solo en cambios rápidos de sentido"
+      },
+      "opciones": [
+        "Enclavamiento mecánico desgastado o roto",
+        "Pulsadores de mando con mal contacto",
+        "Motor con rotor desequilibrado",
+        "Magnetotérmico con curva inadecuada"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El enclavamiento mecánico entre KM1 y KM2 está desgastado o roto, permitiendo que ambos contactores se activen simultáneamente durante un breve instante. Esto provoca un cortocircuito directo entre fases (inversión de dos fases), generando una corriente de cortocircuito que dispara el magnetotérmico. El enclavamiento eléctrico (contactos NC) no es suficientemente rápido para evitar el cierre simultáneo si el operador actúa muy rápido o si hay rebotes en los contactos. El problema es intermitente porque depende del tiempo de respuesta y sincronización. Solución: 1) Verificar y reemplazar el enclavamiento mecánico, 2) Añadir retardo neumático o electrónico entre inversiones, 3) Implementar bloqueo por software si hay PLC, 4) Capacitar al operador sobre tiempo mínimo entre cambios de sentido."
+    },
+    {
+      "id": "man-005",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Arranque suave con fallo de by-pass",
+      "contexto": "Motor trifásico de 22kW con arrancador suave electrónico (soft-starter) y contactor de by-pass. Tras el arranque progresivo, el contactor de by-pass debe cerrar para que el motor trabaje directamente en red.",
+      "problema": "El motor arranca correctamente con rampa suave, pero después de 10 segundos el soft-starter se pone en fallo y el motor se detiene. No activa el contactor de by-pass.",
+      "datos_tecnicos": {
+        "Motor": "22kW 400V Δ",
+        "Soft-starter": "45A con by-pass integrado",
+        "Rampa programada": "8 segundos",
+        "Señal de fallo": "Código E07 - Fallo by-pass",
+        "Temperatura SSR": "Alta (medido con termómetro IR)"
+      },
+      "opciones": [
+        "Contactor de by-pass defectuoso",
+        "Soft-starter sin detectar fin de rampa correctamente",
+        "Tiristores del soft-starter en cortocircuito no permiten apertura",
+        "Motor con corriente nominal superior a la esperada"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Uno o más tiristores del soft-starter están en cortocircuito permanente (no se pueden bloquear). Cuando finaliza la rampa de arranque, el soft-starter intenta bloquear los tiristores para transferir la corriente al contactor de by-pass. Si un tiristor queda en conducción permanente, el sistema detecta que sigue circulando corriente por el soft-starter cuando debería estar bloqueado, generando el código de error E07. La alta temperatura medida en los semiconductores confirma que están conduciendo continuamente, disipando potencia cuando deberían estar bloqueados. Solución: Reemplazar la tarjeta de potencia del soft-starter. Investigar causa: posible sobretensión transitoria, corriente excesiva durante arranques previos, o envejecimiento de los semiconductores de potencia. Verificar también la calidad de la alimentación (armónicos, transitorios)."
+    },
+    {
+      "id": "man-006",
+      "area": "Maniobra y Potencia",
+      "nivel": "avanzado",
+      "titulo": "Factor de potencia bajo con compensación activa",
+      "contexto": "Nave industrial con batería de condensadores automática de 100kVAr (5 escalones de 20kVAr). Regulador de factor de potencia instalado para mantener cosφ > 0.95. La instalación tiene cargas variadas: motores, iluminación y equipos electrónicos.",
+      "problema": "El regulador indica factor de potencia de 0.78 y no conecta ningún escalón de condensadores. La compañía eléctrica ha enviado penalización por energía reactiva. El display del regulador muestra 'cos φ=0.78 capacitivo'.",
+      "datos_tecnics": {
+        "Batería condensadores": "5x20kVAr automática",
+        "Regulador": "12 escalones programable",
+        "Cosφ medido": "0.78 capacitivo",
+        "Cargas predominantes": "Variadores de frecuencia, SAI, LED drivers"
+      },
+      "opciones": [
+        "Regulador de reactiva descalibrado o defectuoso",
+        "Batería de condensadores con escalones en cortocircuito permanente",
+        "Exceso de armónicos generados por cargas electrónicas",
+        "Condensadores envejecidos con capacidad reducida"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Las cargas electrónicas (variadores, SAI, drivers LED) generan corrientes armónicas que distorsionan la onda de corriente. Los condensadores convencionales tienen impedancia inversamente proporcional a la frecuencia, por lo que presentan baja impedancia a los armónicos de alta frecuencia. Esto causa: 1) Sobrecompensación aparente (cosφ capacitivo), 2) Circulación de corrientes armónicas a través de los condensadores, creando resonancias, 3) El regulador detecta adelanto de corriente y no conecta más condensadores (correctamente, para evitar agravar). La medición 'capacitivo' indica que los condensadores ya instalados están amplificando armónicos. Solución: 1) Analizar espectro armónico con analizador de redes, 2) Reemplazar batería pasiva por filtro activo de armónicos (APF) o reactancias antirresonantes, 3) Instalar inductancias en serie con condensadores (reactor antiresonante 7%) si THD < 25%, 4) Valorar filtros pasivos sintonizados para 5ª y 7ª armónica. La compensación pasiva tradicional NO es adecuada para instalaciones con alta carga electrónica."
+    }
+  ]
+}
