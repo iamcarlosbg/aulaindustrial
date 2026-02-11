@@ -46,7 +46,7 @@ git push
 **Opción B - Probar local:**
 ```bash
 python -m http.server 8000
-# Abre: http://localhost:8000/app.html
+# Abre: http://localhost:8000/index.html
 ```
 
 ---
@@ -108,8 +108,8 @@ navigator.clipboard.writeText(lista);
 
 ## 🔧 PERSONALIZAR
 
-**Redes sociales** → `app.html` líneas 113-143  
-**Email contacto** → `app.html` línea 147  
+**Redes sociales** → `index.html` líneas 113-143  
+**Email contacto** → `index.html` línea 147  
 **Nada más!** El resto ya está configurado.
 
 ---
@@ -136,7 +136,7 @@ navigator.clipboard.writeText(lista);
 ```
 aula-industrial-final/
 ├── README.md          ← Guía completa
-├── app.html           ← Página principal
+├── index.html           ← Página principal
 ├── js/
 │   ├── firebase-config.js    ← TU Firebase ✅
 │   ├── social-share.js       ← Compartir ✅

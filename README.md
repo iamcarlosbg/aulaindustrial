@@ -96,7 +96,7 @@ git push -u origin main
 python -m http.server 8000
 
 # Abre navegador
-http://localhost:8000/app.html
+http://localhost:8000/index.html
 ```
 
 ---
@@ -187,7 +187,7 @@ Los usuarios pueden compartir su progreso desde su perfil:
 
 ### Cambiar URLs de redes sociales:
 
-Edita `app.html` (líneas ~113-143):
+Edita `index.html` (líneas ~113-143):
 
 ```html
 <a href="https://facebook.com/TUPAGINA" ...>
@@ -197,7 +197,7 @@ Edita `app.html` (líneas ~113-143):
 
 ### Cambiar email de contacto:
 
-Edita `app.html` (línea ~147):
+Edita `index.html` (línea ~147):
 
 ```html
 <a href="mailto:TU-EMAIL@example.com">
@@ -236,7 +236,7 @@ Edita `app.html` (línea ~147):
 
 ```
 aula-industrial/
-├── app.html                    ← Página principal
+├── index.html                    ← Página principal
 ├── css/
 │   └── style.css              ← Estilos + responsive
 ├── js/
