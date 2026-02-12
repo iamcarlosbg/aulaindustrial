@@ -1,0 +1,171 @@
+{
+  "ejercicios": [
+    {
+      "id": "ej001",
+      "titulo": "Introducción a Programación Ladder",
+      "categoria": "PLC Básico",
+      "dificultad": "facil",
+      "tiempo_estimado": 15,
+      "descripcion": "Aprende los conceptos básicos de programación ladder con contactos y bobinas",
+      "contenido": {
+        "teoria": "El lenguaje Ladder es un lenguaje de programación gráfico utilizado en PLCs...",
+        "elementos": [
+          { "tipo": "contacto_na", "nombre": "I0.0" },
+          { "tipo": "contacto_nc", "nombre": "I0.1" },
+          { "tipo": "bobina", "nombre": "Q0.0" }
+        ]
+      }
+    },
+    {
+      "id": "ej002",
+      "titulo": "Circuito de Enclavamiento",
+      "categoria": "PLC Básico",
+      "dificultad": "medio",
+      "tiempo_estimado": 20,
+      "descripcion": "Programa un circuito de enclavamiento (set/reset) usando lógica ladder",
+      "contenido": {
+        "teoria": "El enclavamiento permite mantener una salida activa incluso después de soltar el botón...",
+        "elementos": [
+          { "tipo": "contacto_na", "nombre": "I0.0" },
+          { "tipo": "contacto_na", "nombre": "Q0.0" },
+          { "tipo": "contacto_nc", "nombre": "I0.1" },
+          { "tipo": "bobina", "nombre": "Q0.0" }
+        ]
+      }
+    },
+    {
+      "id": "ej003",
+      "titulo": "Temporizadores TON",
+      "categoria": "Temporizadores",
+      "dificultad": "medio",
+      "tiempo_estimado": 25,
+      "descripcion": "Aprende a usar temporizadores TON para retardos a la conexión",
+      "contenido": {
+        "teoria": "Los temporizadores TON generan un retardo desde que se activa la entrada...",
+        "elementos": [
+          { "tipo": "contacto_na", "nombre": "I0.0" },
+          { "tipo": "temporizador", "nombre": "T1", "preset": "5s" },
+          { "tipo": "bobina", "nombre": "Q0.0" }
+        ]
+      }
+    },
+    {
+      "id": "ej004",
+      "titulo": "Contador Ascendente",
+      "categoria": "Contadores",
+      "dificultad": "medio",
+      "tiempo_estimado": 20,
+      "descripcion": "Implementa un contador que cuenta pulsos hasta un valor preset",
+      "contenido": {
+        "teoria": "Los contadores CTU incrementan su valor con cada flanco ascendente...",
+        "elementos": [
+          { "tipo": "contacto_na", "nombre": "I0.0" },
+          { "tipo": "contador", "nombre": "C1", "preset": "10" },
+          { "tipo": "bobina", "nombre": "Q0.0" }
+        ]
+      }
+    },
+    {
+      "id": "ej005",
+      "titulo": "Semáforo Simple",
+      "categoria": "Proyectos",
+      "dificultad": "dificil",
+      "tiempo_estimado": 40,
+      "descripcion": "Programa un semáforo de 3 luces con secuencia temporal",
+      "contenido": {
+        "teoria": "Un semáforo requiere coordinar temporizadores para gestionar la secuencia...",
+        "elementos": [
+          { "tipo": "temporizador", "nombre": "T1", "preset": "10s" },
+          { "tipo": "temporizador", "nombre": "T2", "preset": "3s" },
+          { "tipo": "temporizador", "nombre": "T3", "preset": "10s" },
+          { "tipo": "bobina", "nombre": "Q0.0" },
+          { "tipo": "bobina", "nombre": "Q0.1" },
+          { "tipo": "bobina", "nombre": "Q0.2" }
+        ]
+      }
+    },
+    {
+      "id": "ej006",
+      "titulo": "Flanco Positivo",
+      "categoria": "Detección de Flancos",
+      "dificultad": "facil",
+      "tiempo_estimado": 15,
+      "descripcion": "Detecta el cambio de 0 a 1 en una entrada digital",
+      "contenido": {
+        "teoria": "La detección de flancos permite ejecutar código solo en el momento del cambio...",
+        "elementos": [
+          { "tipo": "contacto_na", "nombre": "I0.0" },
+          { "tipo": "flanco_positivo", "nombre": "M0.0" },
+          { "tipo": "bobina", "nombre": "Q0.0" }
+        ]
+      }
+    },
+    {
+      "id": "ej007",
+      "titulo": "Intermitencia con Temporizadores",
+      "categoria": "Temporizadores",
+      "dificultad": "medio",
+      "tiempo_estimado": 25,
+      "descripcion": "Crea una señal intermitente usando temporizadores TON y TOF",
+      "contenido": {
+        "teoria": "La intermitencia se logra alternando dos temporizadores...",
+        "elementos": [
+          { "tipo": "temporizador", "nombre": "T1", "preset": "1s" },
+          { "tipo": "temporizador", "nombre": "T2", "preset": "1s" },
+          { "tipo": "bobina", "nombre": "Q0.0" }
+        ]
+      }
+    },
+    {
+      "id": "ej008",
+      "titulo": "Control de Cinta Transportadora",
+      "categoria": "Proyectos",
+      "dificultad": "dificil",
+      "tiempo_estimado": 45,
+      "descripcion": "Sistema completo de control para una cinta transportadora con sensores",
+      "contenido": {
+        "teoria": "El control de cintas requiere gestionar arranque, paro, seguridad y emergencia...",
+        "elementos": [
+          { "tipo": "contacto_na", "nombre": "I0.0" },
+          { "tipo": "contacto_nc", "nombre": "I0.1" },
+          { "tipo": "contacto_nc", "nombre": "I0.2" },
+          { "tipo": "temporizador", "nombre": "T1", "preset": "3s" },
+          { "tipo": "bobina", "nombre": "Q0.0" }
+        ]
+      }
+    },
+    {
+      "id": "ej009",
+      "titulo": "Comparadores Analógicos",
+      "categoria": "Señales Analógicas",
+      "dificultad": "medio",
+      "tiempo_estimado": 30,
+      "descripcion": "Usa comparadores para activar salidas según valores analógicos",
+      "contenido": {
+        "teoria": "Los comparadores permiten tomar decisiones basadas en valores analógicos...",
+        "elementos": [
+          { "tipo": "comparador", "nombre": "CMP", "operador": ">" },
+          { "tipo": "entrada_analogica", "nombre": "AI0" },
+          { "tipo": "bobina", "nombre": "Q0.0" }
+        ]
+      }
+    },
+    {
+      "id": "ej010",
+      "titulo": "Sistema Start/Stop con Memoria",
+      "categoria": "PLC Básico",
+      "dificultad": "facil",
+      "tiempo_estimado": 15,
+      "descripcion": "Implementa un sistema de arranque y paro con memoria interna",
+      "contenido": {
+        "teoria": "Las marcas de memoria permiten almacenar estados temporales...",
+        "elementos": [
+          { "tipo": "contacto_na", "nombre": "I0.0" },
+          { "tipo": "contacto_nc", "nombre": "I0.1" },
+          { "tipo": "marca", "nombre": "M0.0" },
+          { "tipo": "bobina", "nombre": "Q0.0" }
+        ]
+      }
+    }
+  ]
+}
